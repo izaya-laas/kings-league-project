@@ -1,110 +1,266 @@
 [
   {
-    "team": "El Barrio",
     "wins": 1,
     "loses": 0,
     "goalsScored": 0,
     "goalsConceded": 0,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "../static/el-barrio.svg",
+      "url": "https://kingsleague.pro/team/el-barrio/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Ultimate Móstoles",
     "wins": 1,
     "loses": 0,
     "goalsScored": 0,
     "goalsConceded": 1,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "../static/ultimate-mostoles.svg",
+      "url": "https://kingsleague.pro/team/ultimate-mostoles/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Los Troncos FC",
     "wins": 1,
     "loses": 0,
     "goalsScored": 0,
     "goalsConceded": 3,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "../static/los-troncos.webp",
+      "url": "https://kingsleague.pro/team/los-troncos-fc/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "1K FC",
     "wins": 1,
     "loses": 0,
     "goalsScored": 0,
     "goalsConceded": 2,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "1k",
+      "name": "1K FC",
+      "image": "../static/1k-inverse.svg",
+      "url": "https://kingsleague.pro/team/1k/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Saiyans FC",
     "wins": 1,
     "loses": 0,
     "goalsScored": 0,
     "goalsConceded": 2,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "../static/saiyans-fc.svg",
+      "url": "https://kingsleague.pro/team/saiyans-fc/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Kunisports",
     "wins": 1,
     "loses": 0,
     "goalsScored": 0,
     "goalsConceded": 1,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "../static/kunisports.svg",
+      "url": "https://kingsleague.pro/team/kunisports/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Jijantes FC",
     "wins": 0,
     "loses": 1,
     "goalsScored": 1,
     "goalsConceded": 2,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "../static/jijantes-fc.svg",
+      "url": "https://kingsleague.pro/team/jijantes-fc/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Porcinos FC",
     "wins": 0,
     "loses": 1,
     "goalsScored": 1,
     "goalsConceded": 4,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "../static/porcinos-fc.svg",
+      "url": "https://kingsleague.pro/team/porcinos-fc/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Rayo de Barcelona",
     "wins": 0,
     "loses": 1,
     "goalsScored": 1,
     "goalsConceded": 4,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "../static/rayo-barcelona.svg",
+      "url": "https://kingsleague.pro/team/rayo-barcelona/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "XBUYER TEAM",
     "wins": 0,
     "loses": 1,
     "goalsScored": 1,
     "goalsConceded": 5,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "../static/xbuyer-team.svg",
+      "url": "https://kingsleague.pro/team/xbuyer-team/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "Aniquiladores FC",
     "wins": 0,
     "loses": 1,
     "goalsScored": 1,
     "goalsConceded": 5,
     "yellowCards": 0,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "../static/aniquiladores.svg",
+      "url": "https://kingsleague.pro/team/aniquiladores-fc/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   },
   {
-    "team": "PIO FC",
     "wins": 0,
     "loses": 1,
     "goalsScored": 1,
     "goalsConceded": 5,
     "yellowCards": 1,
-    "redCards": 0
+    "redCards": 0,
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "../static/pio-fc.svg",
+      "url": "https://kingsleague.pro/team/pio-fc/",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
   }
 ]
