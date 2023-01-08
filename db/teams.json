@@ -3,7 +3,7 @@
     "id":"el-barrio",
     "name": "El Barrio",
     "image":"../static/el-barrio.svg",
-    "url":"https://kingsleague.pro/team/el-barrio/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -17,7 +17,7 @@
     "id":"ultimate-mostoles",
     "name": "Ultimate Móstoles",
     "image":"../static/ultimate-mostoles.svg",
-    "url":"https://kingsleague.pro/team/ultimate-mostoles/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -31,7 +31,7 @@
     "id":"los-troncos-fc",
     "name": "Los Troncos FC",
     "image":"../static/los-troncos.webp",
-    "url":"https://kingsleague.pro/team/los-troncos-fc/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -45,7 +45,7 @@
     "id":"1k",
     "name": "1K FC",
     "image":"../static/1k-inverse.svg",
-    "url":"https://kingsleague.pro/team/1k/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -59,7 +59,7 @@
     "id":"saiyans-fc",
     "name": "Saiyans FC",
     "image":"../static/saiyans-fc.svg",
-    "url":"https://kingsleague.pro/team/saiyans-fc/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -73,7 +73,7 @@
     "id":"kunisports",
     "name": "Kunisports",
     "image":"../static/kunisports.svg",
-    "url":"https://kingsleague.pro/team/kunisports/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -87,7 +87,7 @@
     "id":"jijantes-fc",
     "name": "Jijantes FC",
     "image":"../static/jijantes-fc.svg",
-    "url":"https://kingsleague.pro/team/jijantes-fc/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -101,7 +101,7 @@
     "id":"porcinos-fc",
     "name": "Porcinos FC",
     "image":"../static/porcinos-fc.svg",
-    "url":"https://kingsleague.pro/team/porcinos-fc/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -115,7 +115,7 @@
     "id":"rayo-barcelona",
     "name": "Rayo de Barcelona",
     "image":"../static/rayo-barcelona.svg",
-    "url":"https://kingsleague.pro/team/rayo-barcelona/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -129,7 +129,7 @@
     "id":"xbuyer-team",
     "name": "XBUYER TEAM",
     "image":"../static/xbuyer-team.svg",
-    "url":"https://kingsleague.pro/team/xbuyer-team/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -143,7 +143,7 @@
     "id":"aniquiladores-fc",
     "name": "Aniquiladores FC",
     "image":"../static/aniquiladores.svg",
-    "url":"https://kingsleague.pro/team/aniquiladores-fc/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -157,7 +157,7 @@
     "id":"pio-fc",
     "name": "PIO FC",
     "image":"../static/pio-fc.svg",
-    "url":"https://kingsleague.pro/team/pio-fc/",
+    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc",
     "coach":"",
     "channel":"",
     "socialNetworks":[
