@@ -4,6 +4,7 @@
     "name": "El Barrio",
     "image":"../static/el-barrio.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
+    "presidentId":"adri-contreras",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -18,6 +19,7 @@
     "name": "Ultimate Móstoles",
     "image":"../static/ultimate-mostoles.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+    "presidentId":"djmariio",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -32,6 +34,7 @@
     "name": "Los Troncos FC",
     "image":"../static/los-troncos.webp",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc",
+    "presidentId":"perxitaa",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -46,6 +49,7 @@
     "name": "1K FC",
     "image":"../static/1k-inverse.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k",
+    "presidentId":"iker-casillas",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -60,6 +64,7 @@
     "name": "Saiyans FC",
     "image":"../static/saiyans-fc.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc",
+    "presidentId":"thegrefg",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -74,6 +79,7 @@
     "name": "Kunisports",
     "image":"../static/kunisports.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports",
+    "presidentId":"kun-aguero",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -88,6 +94,7 @@
     "name": "Jijantes FC",
     "image":"../static/jijantes-fc.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc",
+    "presidentId":"gerard-romero",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -102,6 +109,7 @@
     "name": "Porcinos FC",
     "image":"../static/porcinos-fc.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc",
+    "presidentId":"ibai-llanos",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -116,6 +124,7 @@
     "name": "Rayo de Barcelona",
     "image":"../static/rayo-barcelona.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona",
+    "presidentId":"spursito",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -130,6 +139,7 @@
     "name": "XBUYER TEAM",
     "image":"../static/xbuyer-team.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team",
+    "presidentId":"hnos-buyer",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -144,6 +154,7 @@
     "name": "Aniquiladores FC",
     "image":"../static/aniquiladores.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc",
+    "presidentId":"juan-guarnizo",
     "coach":"",
     "channel":"",
     "socialNetworks":[
@@ -158,6 +169,7 @@
     "name": "PIO FC",
     "image":"../static/pio-fc.svg",
     "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc",
+    "presidentId":"rivers",
     "coach":"",
     "channel":"",
     "socialNetworks":[
