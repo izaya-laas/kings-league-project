@@ -1,3 +1,3 @@
-export function cleanText (text) {
+export function cleanText(text) {
   return text.split(':')[1].trim()
 }

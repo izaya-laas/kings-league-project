@@ -7,14 +7,14 @@ const URLS = {
   leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
 }
 
-async function scrape (url) {
+async function scrape(url) {
   const res = await fetch(url)
   const html = await res.text()
 
   return cheerio.load(html)
 }
 
-async function getLeaderBoard () {
+async function getLeaderBoard() {
   const $ = await scrape(URLS.leaderboard)
   const $rows = $('table tbody tr')
   const leaderboard = []
@@ -28,7 +28,6 @@ async function getLeaderBoard () {
       selector: '.fs-table-text_4',
       type: 'number',
       cleaned: false
-
     },
     loses: {
       selector: '.fs-table-text_5',
@@ -55,13 +54,16 @@ async function getLeaderBoard () {
       type: 'number',
       cleaned: false
     }
-
   }
 
   const getTeamFrom = (name) => {
-    const { presidentId, ...restOfTeam } = TEAMS.find((team) => team.name === name)
+    const { presidentId, ...restOfTeam } = TEAMS.find(
+      (team) => team.name === name
+    )
 
-    const president = PRESIDENTS.find(president => president.id === presidentId)
+    const president = PRESIDENTS.find(
+      (president) => president.id === presidentId
+    )
 
     return { ...restOfTeam, president }
   }
@@ -71,16 +73,19 @@ async function getLeaderBoard () {
 
     const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
 
-    const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, type, cleaned }]) => {
-      const rawValue = $el.find(selector).text()
-      let value = cleaned ? rawValue.trim() : cleanText(rawValue)
+    const leaderBoardEntries = leaderBoardSelectorEntries.map(
+      ([key, { selector, type, cleaned }]) => {
+        const rawValue = $el.find(selector).text()
+        let value = cleaned ? rawValue.trim() : cleanText(rawValue)
 
-      if (type === 'number') value = Number(value)
+        if (type === 'number') value = Number(value)
 
-      return [key, value]
-    })
+        return [key, value]
+      }
+    )
 
-    const { team: teamName, ...leaderBoardTeam } = Object.fromEntries(leaderBoardEntries)
+    const { team: teamName, ...leaderBoardTeam } =
+      Object.fromEntries(leaderBoardEntries)
 
     const team = getTeamFrom(teamName)
 

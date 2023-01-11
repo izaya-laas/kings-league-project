@@ -1,182 +1,122 @@
 [
   {
-    "id":"el-barrio",
+    "id": "el-barrio",
     "name": "El Barrio",
-    "image":"../static/el-barrio.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
-    "presidentId":"adri-contreras",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/el-barrio.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
+    "presidentId": "adri-contreras",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"ultimate-mostoles",
+    "id": "ultimate-mostoles",
     "name": "Ultimate Móstoles",
-    "image":"../static/ultimate-mostoles.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
-    "presidentId":"djmariio",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/ultimate-mostoles.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+    "presidentId": "djmariio",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"los-troncos-fc",
+    "id": "los-troncos-fc",
     "name": "Los Troncos FC",
-    "image":"../static/los-troncos.webp",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc",
-    "presidentId":"perxitaa",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/los-troncos.webp",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc",
+    "presidentId": "perxitaa",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"1k",
+    "id": "1k",
     "name": "1K FC",
-    "image":"../static/1k-inverse.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k",
-    "presidentId":"iker-casillas",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/1k-inverse.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k",
+    "presidentId": "iker-casillas",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"saiyans-fc",
+    "id": "saiyans-fc",
     "name": "Saiyans FC",
-    "image":"../static/saiyans-fc.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc",
-    "presidentId":"thegrefg",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/saiyans-fc.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc",
+    "presidentId": "thegrefg",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"kunisports",
+    "id": "kunisports",
     "name": "Kunisports",
-    "image":"../static/kunisports.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports",
-    "presidentId":"kun-aguero",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/kunisports.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports",
+    "presidentId": "kun-aguero",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"jijantes-fc",
+    "id": "jijantes-fc",
     "name": "Jijantes FC",
-    "image":"../static/jijantes-fc.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc",
-    "presidentId":"gerard-romero",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/jijantes-fc.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc",
+    "presidentId": "gerard-romero",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"porcinos-fc",
+    "id": "porcinos-fc",
     "name": "Porcinos FC",
-    "image":"../static/porcinos-fc.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc",
-    "presidentId":"ibai-llanos",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/porcinos-fc.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc",
+    "presidentId": "ibai-llanos",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"rayo-barcelona",
+    "id": "rayo-barcelona",
     "name": "Rayo de Barcelona",
-    "image":"../static/rayo-barcelona.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona",
-    "presidentId":"spursito",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/rayo-barcelona.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona",
+    "presidentId": "spursito",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"xbuyer-team",
+    "id": "xbuyer-team",
     "name": "XBUYER TEAM",
-    "image":"../static/xbuyer-team.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team",
-    "presidentId":"hnos-buyer",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/xbuyer-team.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team",
+    "presidentId": "hnos-buyer",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"aniquiladores-fc",
+    "id": "aniquiladores-fc",
     "name": "Aniquiladores FC",
-    "image":"../static/aniquiladores.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc",
-    "presidentId":"juan-guarnizo",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/aniquiladores.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc",
+    "presidentId": "juan-guarnizo",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   },
   {
-    "id":"pio-fc",
+    "id": "pio-fc",
     "name": "PIO FC",
-    "image":"../static/pio-fc.svg",
-    "url":"https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc",
-    "presidentId":"rivers",
-    "coach":"",
-    "channel":"",
-    "socialNetworks":[
-      "",
-      "",
-      "",
-      ""
-    ]
+    "image": "../static/pio-fc.svg",
+    "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc",
+    "presidentId": "rivers",
+    "coach": "",
+    "channel": "",
+    "socialNetworks": ["", "", "", ""]
   }
 ]

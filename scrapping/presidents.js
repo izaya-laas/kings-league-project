@@ -4,7 +4,10 @@ import fetch from 'node-fetch'
 
 const STATIC_PATH = path.join(process.cwd(), 'assets/static/presidents')
 const DB_PATH = path.join(process.cwd(), './db/')
-const RAW_PRESIDENTS = await readFile(`${DB_PATH}/raw-presidents.json`, 'utf-8').then(JSON.parse)
+const RAW_PRESIDENTS = await readFile(
+  `${DB_PATH}/raw-presidents.json`,
+  'utf-8'
+).then(JSON.parse)
 
 const promises = RAW_PRESIDENTS.map(async (presidentsInfo) => {
   const { slug: id, title, _links } = presidentsInfo
@@ -16,7 +19,9 @@ const promises = RAW_PRESIDENTS.map(async (presidentsInfo) => {
   const responseImageEndpoint = await fetch(imageEndpoint)
   const data = await responseImageEndpoint.json()
   const [imageInfo] = data
-  const { guid: { rendered: imageUrl } } = imageInfo
+  const {
+    guid: { rendered: imageUrl }
+  } = imageInfo
 
   const imageExtension = imageUrl.split('.').at(-1)
 
