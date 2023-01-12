@@ -19,5 +19,6 @@ jobs:
         name: publish
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: '2.6.2'
           workingDirectory: api
