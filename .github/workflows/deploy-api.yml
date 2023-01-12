@@ -20,7 +20,7 @@ jobs:
           run_install: true
       -uses: cloudflare/wrangler-action@2.0.0
         with: 
-          apiToken: ${{}}
+          apiToken: ${{ secrets.CF_API_TOKEN }}
 
 
       
