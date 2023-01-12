@@ -27,7 +27,8 @@ jobs:
           run_install: true
       - run: pnpm run scrape
           git config user.name kings-league-bot
-          git commit -am "[bot] update Kings League database"
+          git add .
+          git commit -m "[bot] update Kings League database"
           git push origin main
       
   
