@@ -13,7 +13,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "djmariio",
         "name": "DjMaRiiO",
@@ -36,7 +41,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "iker-casillas",
         "name": "Iker Casillas",
@@ -59,7 +69,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "thegrefg",
         "name": "TheGrefg",
@@ -82,7 +97,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "kun-aguero",
         "name": "Kun Agüero",
@@ -105,7 +125,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "adri-contreras",
         "name": "Adri Contreras",
@@ -128,7 +153,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "perxitaa",
         "name": "Perxitaa",
@@ -151,7 +181,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "ibai-llanos",
         "name": "Ibai Llanos",
@@ -174,7 +209,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "spursito",
         "name": "Spursito",
@@ -197,7 +237,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "gerard-romero",
         "name": "Gerard Romero",
@@ -220,7 +265,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "hnos-buyer",
         "name": "Hnos. Buyer",
@@ -243,7 +293,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "juan-guarnizo",
         "name": "Juan Guarnizo",
@@ -266,7 +321,12 @@
       "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc",
       "coach": "",
       "channel": "",
-      "socialNetworks": ["", "", "", ""],
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
       "president": {
         "id": "rivers",
         "name": "Rivers",
