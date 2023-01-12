@@ -11,11 +11,11 @@ on:
       - webhook
 
   schedule:
-     - cron: '0 */1 * * 0'
-     
+    - cron: '0 */1 * * 0'
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -25,11 +25,8 @@ jobs:
         with:
           version: 7.18.2
           run_install: true
-      - run: 
-          npm run scrape
+      - run: npm run scrape
           git config user.name kings-league-bot
           git add .
           git commit -m "[bot] update Kings League database"
           git push origin main
-      
-  
