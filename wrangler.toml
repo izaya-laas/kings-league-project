@@ -1,6 +1,10 @@
 name = "kings-league-api"
 main = "api/index.js"
 compatibility_date = "2023-01-05"
+account_id = "bceb92da33c499f5682918b685092e68"
 
 [site]
 bucket = "./assets"
+
+[vars]
+CLOUDFLARE_API_TOKEN=4_1qT8ihejzShd7CD5Cavuu94c2jZL0U7Ko7y5dl
