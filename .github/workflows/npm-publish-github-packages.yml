@@ -23,9 +23,10 @@ jobs:
           node-version: 16.8
       - uses: pnpm/action-setup@v2
         with:
-          version: 6.0.2
+          version: 7.18.2
           run_install: true
-      - run: pnpm run scrape
+      - run: 
+          npm run scrape
           git config user.name kings-league-bot
           git add .
           git commit -m "[bot] update Kings League database"
