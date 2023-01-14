@@ -104,7 +104,7 @@
     "name": "Aniquiladores FC",
     "image": "../static/aniquiladores.svg",
     "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores.svg",
-    "presidentId": "juan-guarnizo",
+     "presidentId": "juan-guarnizo",
     "coach": "",
     "channel": "",
     "socialNetworks": ["", "", "", ""]
