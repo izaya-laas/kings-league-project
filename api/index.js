@@ -9,15 +9,15 @@ const app = new Hono()
 app.get('/', (ctx) =>
   ctx.json([
     {
-      endpoint: '/leaderboard',
+      endpoint: '/leaderboard\\/?',
       description: 'Returns the leaderboard'
     },
     {
-      endpoint: '/presidents',
+      endpoint: '/presidents\\/?',
       description: 'Returns the presidents of kings league'
     },
     {
-      endpoint: '/teams',
+      endpoint: '/teams\\/?',
       description: 'Returns teams of kings league'
     }
   ])
@@ -56,3 +56,4 @@ app.get('/teams', (ctx) => {
 app.get('/static/*', serveStatic({ root: './' }))
 
 export default app
+// 
