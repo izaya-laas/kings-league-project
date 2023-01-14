@@ -1,0 +1,23 @@
+{
+    "extends": [
+      "plugin:astro/recommended",
+      "standard"
+    ],
+    "rules": {
+      "space-before-function-paren": "off",
+			"no-tabs": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.astro"
+        ],
+        "parser": "astro-eslint-parser",
+        "parserOptions": {
+          "extraFileExtensions": [
+            ".astro"
+          ]
+        }
+      }
+    ]
+  }
