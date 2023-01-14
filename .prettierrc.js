@@ -3,15 +3,16 @@ export default {
   "singleQuote": true,
   "trailingComma": "none",
   printWidth: 100,
-  jsxSingleQuote: true,
+	jsxSingleQuote: true,
   useTabs: false,
   overrides: [
     {
-      files: ["*.json", "~.md", "*.toml", "*.yml"],
+      files: ["*.json", "~.md", "*.toml", "*.yml", "*.astro"],
       options: {
         useTabs: false
       }
     }
   ],
-  endOfLine: "lf"
+  endOfLine: "lf",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
