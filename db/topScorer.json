@@ -1,0 +1,268 @@
+[
+  {
+    "ranking": 1,
+    "name": "El Barrio",
+    "player": "Ubón",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 2,
+    "name": "Saiyans FC",
+    "player": "R. Carbó",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 3,
+    "name": "Los Troncos FC",
+    "player": "S. Sánchez «Drago»",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 4,
+    "name": "Rayo de Barcelona",
+    "player": "Pelaz",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 5,
+    "name": "Rayo de Barcelona",
+    "player": "Guillem ZZ",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 6,
+    "name": "Ultimate Móstoles",
+    "player": "Arché",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 7,
+    "name": "Ultimate Móstoles",
+    "player": "Juanma Glez",
+    "gamesPlayed": 2,
+    "MVPS": 3
+  },
+  {
+    "ranking": 8,
+    "name": "El Barrio",
+    "player": "Jacobo",
+    "gamesPlayed": 2,
+    "MVPS": 2
+  },
+  {
+    "ranking": 9,
+    "name": "Los Troncos FC",
+    "player": "J. Verdú «Gingko»",
+    "gamesPlayed": 1,
+    "MVPS": 2
+  },
+  {
+    "ranking": 10,
+    "name": "XBUYER TEAM",
+    "player": "C. Castro",
+    "gamesPlayed": 2,
+    "MVPS": 2
+  },
+  {
+    "ranking": 11,
+    "name": "Kunisports",
+    "player": "Torrentbó",
+    "gamesPlayed": 2,
+    "MVPS": 2
+  },
+  {
+    "ranking": 12,
+    "name": "1K FC",
+    "player": "Sorroche",
+    "gamesPlayed": 2,
+    "MVPS": 2
+  },
+  {
+    "ranking": 13,
+    "name": "1K FC",
+    "player": "Rivero",
+    "gamesPlayed": 2,
+    "MVPS": 2
+  },
+  {
+    "ranking": 14,
+    "name": "1K FC",
+    "player": "A. Bueno",
+    "gamesPlayed": 2,
+    "MVPS": 2
+  },
+  {
+    "ranking": 15,
+    "name": "Porcinos FC",
+    "player": "Lao",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 16,
+    "name": "Porcinos FC",
+    "player": "G. Cichero",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 17,
+    "name": "Porcinos FC",
+    "player": "Kilian",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 18,
+    "name": "Porcinos FC",
+    "player": "J. Blanco",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 19,
+    "name": "Porcinos FC",
+    "player": "Tamudo",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  },
+  {
+    "ranking": 20,
+    "name": "Saiyans FC",
+    "player": "Feliu",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 21,
+    "name": "Saiyans FC",
+    "player": "Capdevila",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 22,
+    "name": "Aniquiladores FC",
+    "player": "Bernat",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 23,
+    "name": "El Barrio",
+    "player": "O. Boada",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 24,
+    "name": "Jijantes FC",
+    "player": "Maca",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 25,
+    "name": "Jijantes FC",
+    "player": "Soriano",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 26,
+    "name": "Los Troncos FC",
+    "player": "E. Álvaro «Roble»",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 27,
+    "name": "Los Troncos FC",
+    "player": "X. Molas «Mimosa»",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 28,
+    "name": "Rayo de Barcelona",
+    "player": "M. Reyes",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 29,
+    "name": "Ultimate Móstoles",
+    "player": "Aleix",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 30,
+    "name": "Ultimate Móstoles",
+    "player": "Iker",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 31,
+    "name": "Kunisports",
+    "player": "Coro",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 32,
+    "name": "1K FC",
+    "player": "Marino",
+    "gamesPlayed": 2,
+    "MVPS": 1
+  },
+  {
+    "ranking": 33,
+    "name": "Jijantes FC",
+    "player": "Nando",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  },
+  {
+    "ranking": 34,
+    "name": "Porcinos FC",
+    "player": "Espinosa",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  },
+  {
+    "ranking": 35,
+    "name": "Jijantes FC",
+    "player": "Ibai",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  },
+  {
+    "ranking": 36,
+    "name": "PIO FC",
+    "player": "J. Márquez",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  },
+  {
+    "ranking": 37,
+    "name": "Aniquiladores FC",
+    "player": "F. Hernández",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  },
+  {
+    "ranking": 38,
+    "name": "Porcinos FC",
+    "player": "H. Fraile",
+    "gamesPlayed": 1,
+    "MVPS": 1
+  }
+]
