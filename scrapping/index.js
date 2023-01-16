@@ -1,17 +1,8 @@
-import { cleanText } from '../helper/cleanText.js'
-import * as cheerio from 'cheerio'
-import fetch from 'node-fetch'
+import { scrape } from './utils.js'
 import { writeDBFile, TEAMS, PRESIDENTS } from '../db/index.js'
 
 const URLS = {
   leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
-}
-
-async function scrape(url) {
-  const res = await fetch(url)
-  const html = await res.text()
-
-  return cheerio.load(html)
 }
 
 async function getLeaderBoard() {
@@ -21,38 +12,31 @@ async function getLeaderBoard() {
   const LEADERBOARD_SELECTORS = {
     team: {
       selector: '.fs-table-text_3',
-      type: 'string',
-      cleaned: true
+      type: 'string'
     },
     wins: {
       selector: '.fs-table-text_4',
-      type: 'number',
-      cleaned: false
+      type: 'number'
     },
     loses: {
       selector: '.fs-table-text_5',
-      type: 'number',
-      cleaned: false
+      type: 'number'
     },
     goalsScored: {
       selector: '.fs-table-text_5',
-      type: 'number',
-      cleaned: false
+      type: 'number'
     },
     goalsConceded: {
       selector: '.fs-table-text_7',
-      type: 'number',
-      cleaned: false
+      type: 'number'
     },
     yellowCards: {
       selector: '.fs-table-text_8',
-      type: 'number',
-      cleaned: false
+      type: 'number'
     },
     redCards: {
       selector: '.fs-table-text_9',
-      type: 'number',
-      cleaned: false
+      type: 'number'
     }
   }
 
@@ -74,9 +58,9 @@ async function getLeaderBoard() {
     const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
 
     const leaderBoardEntries = leaderBoardSelectorEntries.map(
-      ([key, { selector, type, cleaned }]) => {
+      ([key, { selector, type }]) => {
         const rawValue = $el.find(selector).text()
-        let value = cleaned ? rawValue.trim() : cleanText(rawValue)
+        let value = rawValue.trim()
 
         if (type === 'number') value = Number(value)
 

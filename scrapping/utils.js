@@ -8,40 +8,18 @@ export async function scrape (url) {
   return cheerio.load(html)
 }
 
-export async function getBasicStats (url) {
+export async function getStats (url, statsSelectors) {
   const $ = await scrape(url)
 
   const $rows = $('tbody tr')
-  const basicStats = []
-  const basicStatsSelectors = {
-    ranking: {
-      selector: '.el-text-1',
-      type: 'number'
-    },
-    name: {
-      selector: '.el-text-3',
-      type: 'string'
-    },
-    player: {
-      selector: '.el-text-4',
-      type: 'string'
-    },
-    gamesPlayed: {
-      selector: '.el-text-5',
-      type: 'number'
-    },
-    MVPS: {
-      selector: '.el-text-6',
-      type: 'number'
-    }
-  }
+  const stats = []
 
   $rows.each((index, el) => {
     const $el = $(el)
 
-    const basicStatsSelectorsEntries = Object.entries(basicStatsSelectors)
+    const statsSelectorsEntries = Object.entries(statsSelectors)
 
-    const basicStatsEntries = basicStatsSelectorsEntries.map(([key, { selector, type }]) => {
+    const statsEntries = statsSelectorsEntries.map(([key, { selector, type }]) => {
       const rawValue = $el.find(selector).text()
       let value = rawValue.trim()
 
@@ -51,9 +29,9 @@ export async function getBasicStats (url) {
       return [key, value]
     })
 
-    const currentStat = Object.fromEntries(basicStatsEntries)
-    basicStats.push(currentStat)
+    const currentStat = Object.fromEntries(statsEntries)
+    stats.push(currentStat)
   })
 
-  return basicStats
+  return stats
 }
