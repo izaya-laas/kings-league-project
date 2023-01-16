@@ -1,37 +1,76 @@
 import * as cheerio from 'cheerio'
 import fetch from 'node-fetch'
+import { writeDBFile } from '../db/index.js'
+import { getLeaderBoard } from '../db/leaderboard.js'
+import { getStats } from './basicStats.js'
+import { logError, logInfo, logSuccess } from './log.js'
 
-export async function scrape (url) {
+export async function scrape(url) {
   const res = await fetch(url)
   const html = await res.text()
 
   return cheerio.load(html)
 }
 
-export async function getStats (url, statsSelectors) {
-  const $ = await scrape(url)
+export const SCRAPINGS = {
+  leaderboard: {
+    url: 'https://kingsleague.pro/estadisticas/clasificacion/',
+    scraper: getLeaderBoard,
+    specialSelector: null
+  },
+  mvp: {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getStats,
+    specialSelector: {
+      MVP: {
+        selector: '.el-text-6',
+        type: 'number'
+      }
+    }
+  },
+  topScorer: {
+    url: 'https://kingsleague.pro/estadisticas/goles/',
+    scraper: getStats,
+    specialSelector: {
+      goals: {
+        selector: '.el-text-6',
+        type: 'number'
+      }
+    }
+  },
+  topAssists: {
+    url: 'https://kingsleague.pro/estadisticas/asistencias/',
+    scraper: getStats,
+    specialSelector: {
+      assists: {
+        selector: '.el-text-6',
+        type: 'number'
+      }
+    }
+  }
+}
 
-  const $rows = $('tbody tr')
-  const stats = []
+export async function scrapeAndSave(name) {
+  const start = performance.now()
+  try {
+    const { scraper, url, specialSelector } = SCRAPINGS[name]
 
-  $rows.each((index, el) => {
-    const $el = $(el)
+    const $ = await scrape(url)
 
-    const statsSelectorsEntries = Object.entries(statsSelectors)
+    logInfo(`Scraping ${name}`)
+    const content = await scraper($, specialSelector)
+    logSuccess(`${name} scraped successfully`)
 
-    const statsEntries = statsSelectorsEntries.map(([key, { selector, type }]) => {
-      const rawValue = $el.find(selector).text()
-      let value = rawValue.trim()
+    logInfo(`Writing ${name} to database`)
+    writeDBFile(name, content)
+    logSuccess(`${name} written successfully`)
+  } catch (e) {
+    logError(e)
+  } finally {
+    const end = performance.now()
+    const time = (end - start) / 1000
+    logInfo(`${name} scraped in ${time} seconds`)
 
-      if (key === 'ranking') value = index + 1
-      if (type === 'number') value = Number(value)
-
-      return [key, value]
-    })
-
-    const currentStat = Object.fromEntries(statsEntries)
-    stats.push(currentStat)
-  })
-
-  return stats
+    console.log('')
+  }
 }
