@@ -1,16 +1,16 @@
 [
   {
-    "wins": 2,
+    "wins": 3,
     "loses": 0,
     "goalsScored": 0,
-    "goalsConceded": 3,
-    "yellowCards": 1,
-    "redCards": 0,
+    "goalsConceded": 4,
+    "yellowCards": 3,
+    "redCards": 1,
     "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "../static/ultimate-mostoles.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "../static/saiyans-fc.svg",
+      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
       "coach": "",
       "channel": "",
       "socialNetworks": [
@@ -20,18 +20,18 @@
         ""
       ],
       "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/djmariio.png",
-        "teamId": "ultimate-mostoles"
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/thegrefg.png",
+        "teamId": "saiyans-fc"
       }
     }
   },
   {
-    "wins": 2,
+    "wins": 3,
     "loses": 0,
     "goalsScored": 0,
-    "goalsConceded": 4,
+    "goalsConceded": 7,
     "yellowCards": 0,
     "redCards": 0,
     "team": {
@@ -57,38 +57,10 @@
   },
   {
     "wins": 2,
-    "loses": 0,
-    "goalsScored": 0,
+    "loses": 1,
+    "goalsScored": 1,
     "goalsConceded": 3,
-    "yellowCards": 3,
-    "redCards": 0,
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "../static/saiyans-fc.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/thegrefg.png",
-        "teamId": "saiyans-fc"
-      }
-    }
-  },
-  {
-    "wins": 2,
-    "loses": 0,
-    "goalsScored": 0,
-    "goalsConceded": 1,
-    "yellowCards": 1,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "kunisports",
@@ -112,39 +84,11 @@
     }
   },
   {
-    "wins": 1,
+    "wins": 2,
     "loses": 1,
     "goalsScored": 1,
-    "goalsConceded": 3,
-    "yellowCards": 1,
-    "redCards": 0,
-    "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "../static/el-barrio.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "president": {
-        "id": "adri-contreras",
-        "name": "Adri Contreras",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/adri-contreras.png",
-        "teamId": "el-barrio"
-      }
-    }
-  },
-  {
-    "wins": 1,
-    "loses": 1,
-    "goalsScored": 1,
-    "goalsConceded": 8,
-    "yellowCards": 1,
+    "goalsConceded": 10,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "los-troncos-fc",
@@ -168,10 +112,38 @@
     }
   },
   {
-    "wins": 1,
+    "wins": 2,
     "loses": 1,
     "goalsScored": 1,
-    "goalsConceded": 7,
+    "goalsConceded": 8,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "../static/ultimate-mostoles.svg",
+      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/djmariio.png",
+        "teamId": "ultimate-mostoles"
+      }
+    }
+  },
+  {
+    "wins": 2,
+    "loses": 1,
+    "goalsScored": 1,
+    "goalsConceded": 9,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -197,9 +169,37 @@
   },
   {
     "wins": 1,
-    "loses": 1,
-    "goalsScored": 1,
+    "loses": 2,
+    "goalsScored": 2,
     "goalsConceded": 7,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "../static/el-barrio.svg",
+      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/adri-contreras.png",
+        "teamId": "el-barrio"
+      }
+    }
+  },
+  {
+    "wins": 1,
+    "loses": 2,
+    "goalsScored": 2,
+    "goalsConceded": 9,
     "yellowCards": 0,
     "redCards": 0,
     "team": {
@@ -224,10 +224,66 @@
     }
   },
   {
-    "wins": 0,
+    "wins": 1,
     "loses": 2,
     "goalsScored": 2,
-    "goalsConceded": 7,
+    "goalsConceded": 9,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "../static/aniquiladores.svg",
+      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores.svg",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": "aniquiladores-fc"
+      }
+    }
+  },
+  {
+    "wins": 1,
+    "loses": 2,
+    "goalsScored": 2,
+    "goalsConceded": 8,
+    "yellowCards": 3,
+    "redCards": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "../static/xbuyer-team.svg",
+      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
+      "coach": "",
+      "channel": "",
+      "socialNetworks": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": "xbuyer-team"
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 3,
+    "goalsScored": 3,
+    "goalsConceded": 12,
     "yellowCards": 2,
     "redCards": 0,
     "team": {
@@ -253,66 +309,10 @@
   },
   {
     "wins": 0,
-    "loses": 2,
-    "goalsScored": 2,
-    "goalsConceded": 6,
-    "yellowCards": 1,
-    "redCards": 0,
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "../static/xbuyer-team.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "president": {
-        "id": "hnos-buyer",
-        "name": "Hnos. Buyer",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/hnos-buyer.png",
-        "teamId": "xbuyer-team"
-      }
-    }
-  },
-  {
-    "wins": 0,
-    "loses": 2,
-    "goalsScored": 2,
-    "goalsConceded": 8,
-    "yellowCards": 0,
-    "redCards": 0,
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "../static/aniquiladores.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/juan-guarnizo.png",
-        "teamId": "aniquiladores-fc"
-      }
-    }
-  },
-  {
-    "wins": 0,
-    "loses": 2,
-    "goalsScored": 2,
-    "goalsConceded": 6,
-    "yellowCards": 3,
+    "loses": 3,
+    "goalsScored": 3,
+    "goalsConceded": 9,
+    "yellowCards": 4,
     "redCards": 0,
     "team": {
       "id": "pio-fc",
