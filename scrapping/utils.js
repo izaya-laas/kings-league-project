@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio'
 import fetch from 'node-fetch'
 import { writeDBFile } from '../db/index.js'
-import { getLeaderBoard } from '../db/leaderboard.js'
+import { getLeaderBoard } from './leaderboard.js'
 import { getStats } from './basicStats.js'
 import { logError, logInfo, logSuccess } from './log.js'
 
