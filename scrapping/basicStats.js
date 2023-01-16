@@ -1,50 +1,41 @@
-import { getStats } from './utils.js'
-import { writeDBFile } from '../db/index.js'
-import { logError, logInfo, logSuccess } from './log.js'
-
-const MVP_URL = 'https://kingsleague.pro/estadisticas/mvp/'
-const TOP_SCORER_URL = 'https://kingsleague.pro/estadisticas/goles/'
-const ASSISTS_URL = 'https://kingsleague.pro/estadisticas/asistencias/'
-
-const specialMVPSelector = {
-  MVP: {
-    selector: '.el-text-6',
-    type: 'number'
+export async function getStats($, specialSelectors) {
+  const $rows = $('tbody tr')
+  const stats = []
+  const basicSelectors = {
+    name: {
+      selector: '.el-text-3',
+      type: 'string'
+    },
+    player: {
+      selector: '.el-text-4',
+      type: 'string'
+    },
+    gamesPlayed: {
+      selector: '.el-text-5',
+      type: 'number'
+    }
   }
-}
-const specialTopScorerSelector = {
-  goals: {
-    selector: '.el-text-6',
-    type: 'number'
-  }
-}
-const specialAssistsSelector = {
-  assists: {
-    selector: '.el-text-6',
-    type: 'number'
-  }
-}
 
-try {
-  logInfo('Scraping MVP List')
-  const MVP = await getStats(MVP_URL, specialMVPSelector)
-  logSuccess('MVP list scraped successfully')
+  const statsSelectors = { ...basicSelectors, ...specialSelectors }
 
-  logInfo('Scraping Top Scorer List')
-  const TopScorer = await getStats(TOP_SCORER_URL, specialTopScorerSelector)
-  logSuccess('Top scorer list scraped successfully')
+  $rows.each((index, el) => {
+    const $el = $(el)
 
-  logInfo('Scraping Top assists List')
-  const assists = await getStats(ASSISTS_URL, specialAssistsSelector)
-  logSuccess('Top assists list scraped successfully')
+    const statsSelectorsEntries = Object.entries(statsSelectors)
 
-  console.log('')
+    const statsEntries = statsSelectorsEntries.map(([key, { selector, type }]) => {
+      const rawValue = $el.find(selector).text()
+      let value = rawValue.trim()
 
-  logInfo('Writing stats to database')
-  writeDBFile('mvp', MVP)
-  writeDBFile('topScorer', TopScorer)
-  writeDBFile('assists', assists)
-  logSuccess('Stats written successfully')
-} catch (e) {
-  logError(e)
+      if (key === 'ranking') value = index + 1
+      if (type === 'number') value = Number(value)
+
+      return [key, value]
+    })
+
+    const currentStat = Object.fromEntries(statsEntries)
+    stats.push({ ranking: index, ...currentStat })
+  })
+
+  return stats
 }
