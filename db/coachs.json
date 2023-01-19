@@ -1,0 +1,74 @@
+{
+  "pio-fc": {
+    "name": "Gerardo Torrado",
+    "id": "entrenador",
+    "teamId": "pio-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/entrenador.png"
+  },
+  "1k": {
+    "name": "Julio García Mera",
+    "id": "entrenador",
+    "teamId": "1k",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/entrenador.png"
+  },
+  "aniquiladores-fc": {
+    "name": "Sergio Verdirame",
+    "id": "entrenador",
+    "teamId": "aniquiladores-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/entrenador.png"
+  },
+  "jijantes-fc": {
+    "name": "Marc Carmona",
+    "id": "entrenador",
+    "teamId": "jijantes-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/entrenador.png"
+  },
+  "kunisports": {
+    "name": "Martín Posse",
+    "id": "entrenador",
+    "teamId": "kunisports",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/entrenador.png"
+  },
+  "los-troncos-fc": {
+    "name": "Pol Font",
+    "id": "entrenador",
+    "teamId": "los-troncos-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/entrenador.png"
+  },
+  "rayo-barcelona": {
+    "name": "JuanluDBZ",
+    "id": "entrenador",
+    "teamId": "rayo-barcelona",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/entrenador.png"
+  },
+  "porcinos-fc": {
+    "name": "Juvenal Edjogo-Owono",
+    "id": "entrenador",
+    "teamId": "porcinos-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/entrenador.png"
+  },
+  "ultimate-mostoles": {
+    "name": "Nacho Castro",
+    "id": "entrenador",
+    "teamId": "ultimate-mostoles",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/entrenador.png"
+  },
+  "xbuyer-team": {
+    "name": "Victor González",
+    "id": "entrenador",
+    "teamId": "xbuyer-team",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/entrenador.png"
+  },
+  "el-barrio": {
+    "name": "Juan Arroita",
+    "id": "entrenador",
+    "teamId": "el-barrio",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/entrenador.png"
+  },
+  "saiyans-fc": {
+    "name": "Daniel Romo",
+    "id": "entrenador",
+    "teamId": "saiyans-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/entrenador.png"
+  }
+}
