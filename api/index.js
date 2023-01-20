@@ -33,7 +33,7 @@ app.get('/', (ctx) =>
       description: 'Returns the coaches of kings league'
     },
     {
-      endpoint: '/top-scorer',
+      endpoint: '/top-scorers',
       description: 'Returns top scorer players of kings league'
     },
     {
