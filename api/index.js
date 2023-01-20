@@ -5,7 +5,7 @@ import presidents from '../db/presidents.json'
 import teams from '../db/teams.json'
 import coaches from '../db/coaches.json'
 import players from '../db/players.json'
-import topScorer from '../db/top_scorer'
+import topScorer from '../db/top_scorers'
 import topAssists from '../db/top_assists'
 
 const app = new Hono()
