@@ -4,6 +4,8 @@ import { scrape } from './utils.js'
 import { writeFile } from 'node:fs/promises'
 import { writeDBFile } from '../db/index.js'
 import { logInfo, logSuccess } from './log.js'
+import presidents from '../db/presidents.json' assert { type: 'json' }
+
 const STATIC_PATH = path.join(process.cwd(), './assets/static')
 
 const pages = [
@@ -38,7 +40,6 @@ const coachs = {
   'el-barrio': {},
   'saiyans-fc': {}
 }
-
 const players = {
   'pio-fc': [],
   '1k': [],
@@ -53,6 +54,7 @@ const players = {
   'el-barrio': [],
   'saiyans-fc': []
 }
+const teams = {}
 
 async function donwloadDataTeam(page) {
   const { url, teamId } = page
@@ -60,9 +62,16 @@ async function donwloadDataTeam(page) {
   let imageFileName
   let imageExtension
   let imageURL
+  let coachId
+
+  const currentPresident = presidents.find((president) => (president.teamId = teamId))
+  const presidentId = currentPresident.id
 
   const $ = await scrape(url)
   const $players = $('.uk-slider-items li')
+
+  const teamName = $('.uk-heading-xlarge').text().trim()
+  const socialMedias = extractSocialMedia($)
 
   $players.each(async (_, player) => {
     const $player = $(player)
@@ -76,33 +85,54 @@ async function donwloadDataTeam(page) {
     imageURL = $player.find('.el-image').attr('src')
     imageExtension = imageURL.split('.').at(-1)
     const filenameImage = imageURL.split('.').at(-2).split('/').at(-1)
+    coachId = `${filenameImage}-${teamId}`
+
     imageFileName = `${filenameImage}.${imageExtension}`
+
+    if (position === 'presidente') return
 
     if (position === 'entrenador') {
       coachs[teamId] = {
         name,
-        id: filenameImage,
+        id: coachId,
         teamId,
         image: `https://kings-league-api.lautaronorielasat.workers.dev/static/teams/${teamId}/${imageFileName}`
       }
+    } else {
+      let playerID = name.split(' ')[0].toLowerCase()
+
+      if (playerID.includes('. ')) {
+        console.log(name.split(' ')[0], teamId)
+        playerID = name.split(' ')[1].toLowerCase()
+      }
+
+      players[teamId].push({
+        name,
+        position,
+        id: playerID,
+        teamId,
+        image: `https://kings-league-api.lautaronorielasat.workers.dev/static/teams/${teamId}/${imageFileName}`
+      })
     }
 
-    players[teamId].push({
-      name,
-      position,
-      id: imageFileName,
-      teamId,
-      image: `https://kings-league-api.lautaronorielasat.workers.dev/static/teams/${teamId}/${imageFileName}`
-    })
-
-    await downloadImages(imageURL, imageFileName, teamId)
+    // await downloadImages(imageURL, imageFileName, teamId)
   })
+
+  teams[teamName] = {
+    name: teamName,
+    teamId,
+    image: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}.svg`,
+    coachId,
+    presidentId,
+    socialMedias,
+    players: Object.values({ ...players[teamId] })
+  }
 
   console.log('Guardando Datos')
 
-  await writeDBFile('coachs', coachs)
+  await writeDBFile('coaches', coachs)
   await writeDBFile('players', players)
-  await downloadImages($players, teamId)
+  await writeDBFile('teams', teams)
 }
 
 async function downloadImages(imageURL, imageFileName, teamId) {
@@ -123,6 +153,31 @@ async function downloadImages(imageURL, imageFileName, teamId) {
     console.log(e, 'Error')
     throw new Error(e)
   }
+}
+
+function extractSocialMedia($) {
+  const $socialMedia = $('.uk-text-right div div a')
+
+  const socialMedias = {}
+
+  $socialMedia.each((_, media) => {
+    const $media = $(media)
+
+    const href = $media.attr('href')
+
+    const span = $media.find('span').attr('uk-icon')
+    const socialMedia = span.slice(5, -1).trim()
+
+    if (socialMedias[socialMedia]) {
+      const copy = socialMedias[socialMedia]
+
+      socialMedias[socialMedia] = [copy, { href }]
+    } else {
+      socialMedias[socialMedia] = { href }
+    }
+  })
+
+  return socialMedias
 }
 
 pages.map(donwloadDataTeam)
