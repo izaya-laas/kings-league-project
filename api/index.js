@@ -5,6 +5,8 @@ import presidents from '../db/presidents.json'
 import teams from '../db/teams.json'
 import coaches from '../db/coaches.json'
 import players from '../db/players.json'
+import topScorer from '../db/top_scorer'
+import topAssists from '../db/top_assists'
 
 const app = new Hono()
 
@@ -29,6 +31,14 @@ app.get('/', (ctx) =>
     {
       endpoint: '/coaches',
       description: 'Returns the coaches of kings league'
+    },
+    {
+      endpoint: '/top-scorer',
+      description: 'Returns top scorer players of kings league'
+    },
+    {
+      endpoint: '/top-assists',
+      description: 'Returns top assists players of kings league'
     }
   ])
 )
@@ -99,6 +109,14 @@ app.get('/players/:teamId/:playerId', (ctx) => {
   if (!foundPlayer) return ctx.json({ message: "Player don't found" }, 404)
 
   return ctx.json(foundPlayer)
+})
+
+app.get('/top-scorer', (ctx) => {
+  return ctx.json(topScorer)
+})
+
+app.get('/top-assists', (ctx) => {
+  return ctx.json(topAssists)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
