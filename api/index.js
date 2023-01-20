@@ -4,6 +4,7 @@ import leaderboard from '../db/leaderboard.json'
 import presidents from '../db/presidents.json'
 import teams from '../db/teams.json'
 import coaches from '../db/coaches.json'
+import players from '../db/players.json'
 
 const app = new Hono()
 
@@ -53,9 +54,10 @@ app.get('/teams', (ctx) => {
   return ctx.json(teams)
 })
 
-app.get('/teams', (ctx) => {
+app.get('/teams/:id', (ctx) => {
   const id = ctx.req.param('id')
-  const foundTeam = teams.find((team) => team.id === id)
+  const foundTeam = Object.values(teams).find((team) => team.teamId === id)
+  console.log(foundTeam)
 
   if (!foundTeam) return ctx.json({ message: 'Team Dont found' }, 404)
 
@@ -75,6 +77,30 @@ app.get('/coaches/:id', (ctx) => {
   return ctx.json(foundCoach)
 })
 
+app.get('/players', (ctx) => {
+  return ctx.json(players)
+})
+
+app.get('/players/:teamId', (ctx) => {
+  const teamId = ctx.req.param('teamId')
+  const foundTeam = players[teamId]
+
+  if (!foundTeam) return ctx.json({ message: "Team don't found" }, 404)
+
+  return ctx.json(foundTeam)
+})
+
+app.get('/players/:teamId/:playerId', (ctx) => {
+  const teamId = ctx.req.param('teamId')
+  const playerId = ctx.req.param('playerId')
+
+  const foundPlayer = players[teamId].find((player) => player.id === playerId)
+
+  if (!foundPlayer) return ctx.json({ message: "Player don't found" }, 404)
+
+  return ctx.json(foundPlayer)
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 app.notFound((ctx) => {
@@ -84,7 +110,7 @@ app.notFound((ctx) => {
     return ctx.redirect(pathname.slice(0, -1))
   }
 
-  return ctx.json({ message: 'President Dont found' }, 404)
+  return ctx.json({ message: 'Error endpoint dont exists' }, 404)
 })
 
 export default app
