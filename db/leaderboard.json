@@ -7,23 +7,99 @@
     "yellowCards": 3,
     "redCards": 1,
     "team": {
-      "id": "saiyans-fc",
       "name": "Saiyans FC",
-      "image": "../static/saiyans-fc.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "saiyans-fc",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
+      "coachId": "entrenador-saiyans-fc",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/thegrefg"
+        }
+      },
+      "players": [
+        {
+          "name": "Pol Alme",
+          "position": "jugador 11",
+          "id": "pol",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/Saiyans_8.png"
+        },
+        {
+          "name": "Briones",
+          "position": "Portero",
+          "id": "briones",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/1.png"
+        },
+        {
+          "name": "Gio Ferinu",
+          "position": "Delantero",
+          "id": "gio",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/9.png"
+        },
+        {
+          "name": "Campu",
+          "position": "Defensa",
+          "id": "campu",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/4.png"
+        },
+        {
+          "name": "Temo",
+          "position": "Medio",
+          "id": "temo",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/7.png"
+        },
+        {
+          "name": "C. Valle",
+          "position": "Medio",
+          "id": "c.",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/14.png"
+        },
+        {
+          "name": "V. Torres",
+          "position": "Defensa",
+          "id": "v.",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/5.png"
+        },
+        {
+          "name": "Feliu",
+          "position": "Medio",
+          "id": "feliu",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/20.png"
+        },
+        {
+          "name": "David Alba",
+          "position": "Delantero",
+          "id": "david",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/10.png"
+        },
+        {
+          "name": "R. Carbó",
+          "position": "Medio",
+          "id": "r.",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/11.png"
+        },
+        {
+          "name": "Fajardo",
+          "position": "Portero",
+          "id": "fajardo",
+          "teamId": "saiyans-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/22.png"
+        }
       ],
       "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/thegrefg.png",
-        "teamId": "saiyans-fc"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -35,17 +111,102 @@
     "yellowCards": 0,
     "redCards": 0,
     "team": {
-      "id": "1k",
       "name": "1K FC",
-      "image": "../static/1k-inverse.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k-inverse.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "1k",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k.svg",
+      "coachId": "entrenador-1k",
+      "socialMedias": {
+        "instagram": {
+          "href": "https://www.instagram.com/1kfutbolclub/?hl=es"
+        },
+        "twitter": {
+          "href": "https://twitter.com/1kfutbolclub"
+        },
+        "youtube": {
+          "href": "https://www.youtube.com/c/IkerCasillas"
+        },
+        "tiktok": {
+          "href": "https://www.tiktok.com/@1kfutbolclub"
+        }
+      },
+      "players": [
+        {
+          "name": "Ricardo",
+          "position": "jugador 11",
+          "id": "ricardo",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/1.png"
+        },
+        {
+          "name": "Román",
+          "position": "Defensa",
+          "id": "román",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/0.png"
+        },
+        {
+          "name": "Sorroche",
+          "position": "Delantero",
+          "id": "sorroche",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/7.png"
+        },
+        {
+          "name": "Marino",
+          "position": "Delantero",
+          "id": "marino",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/97.png"
+        },
+        {
+          "name": "Ledo",
+          "position": "Defensa",
+          "id": "ledo",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/3.png"
+        },
+        {
+          "name": "Sauras",
+          "position": "Defensa",
+          "id": "sauras",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/8.png"
+        },
+        {
+          "name": "Bruno",
+          "position": "Defensa",
+          "id": "bruno",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/14.png"
+        },
+        {
+          "name": "Pluvins",
+          "position": "Medio",
+          "id": "pluvins",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/80.png"
+        },
+        {
+          "name": "Rivero",
+          "position": "Medio",
+          "id": "rivero",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/10.png"
+        },
+        {
+          "name": "Lautaro",
+          "position": "Delantero",
+          "id": "lautaro",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/9.png"
+        },
+        {
+          "name": "Günter",
+          "position": "Delantero",
+          "id": "günter",
+          "teamId": "1k",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/11.png"
+        }
       ],
       "president": {
         "id": "iker-casillas",
@@ -63,23 +224,99 @@
     "yellowCards": 2,
     "redCards": 0,
     "team": {
-      "id": "kunisports",
       "name": "Kunisports",
-      "image": "../static/kunisports.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "kunisports",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports.svg",
+      "coachId": "entrenador-kunisports",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/slakun10"
+        }
+      },
+      "players": [
+        {
+          "name": "Coro",
+          "position": "jugador 11",
+          "id": "coro",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/Kunisports_23.png"
+        },
+        {
+          "name": "Torrentbó",
+          "position": "Delantero",
+          "id": "torrentbó",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/11.png"
+        },
+        {
+          "name": "Víctor",
+          "position": "Portero",
+          "id": "víctor",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/1.png"
+        },
+        {
+          "name": "Guerrero",
+          "position": "Defensa",
+          "id": "guerrero",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/4.png"
+        },
+        {
+          "name": "Joan Inés",
+          "position": "Medio",
+          "id": "joan",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/8.png"
+        },
+        {
+          "name": "Rode",
+          "position": "Portero",
+          "id": "rode",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/13.png"
+        },
+        {
+          "name": "Ruggeri",
+          "position": "Defensa",
+          "id": "ruggeri",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/5.png"
+        },
+        {
+          "name": "Nacho",
+          "position": "Defensa",
+          "id": "nacho",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/6.png"
+        },
+        {
+          "name": "Hidalgo",
+          "position": "Delantero",
+          "id": "hidalgo",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/9.png"
+        },
+        {
+          "name": "Lluc",
+          "position": "Delantero",
+          "id": "lluc",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/7.png"
+        },
+        {
+          "name": "Miki",
+          "position": "Defensa",
+          "id": "miki",
+          "teamId": "kunisports",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/3.png"
+        }
       ],
       "president": {
-        "id": "kun-aguero",
-        "name": "Kun Agüero",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/kun-aguero.png",
-        "teamId": "kunisports"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -91,23 +328,108 @@
     "yellowCards": 2,
     "redCards": 0,
     "team": {
-      "id": "los-troncos-fc",
       "name": "Los Troncos FC",
-      "image": "../static/los-troncos.webp",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos.webp",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "los-troncos-fc",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.webp",
+      "coachId": "entrenador-los-troncos-fc",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/perxitaa"
+        },
+        "instagram": {
+          "href": "https://www.instagram.com/troncosfc.oficial/"
+        },
+        "twitter": {
+          "href": "https://twitter.com/lostroncosfc_/"
+        },
+        "tiktok": {
+          "href": "https://www.tiktok.com/@lostroncosfc_"
+        }
+      },
+      "players": [
+        {
+          "name": "F. Álvarez «Citrus»",
+          "position": "jugador 11",
+          "id": "f.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/Troncos_11b.png"
+        },
+        {
+          "name": "E. Álvaro «Roble»",
+          "position": "Delantero",
+          "id": "e.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/9.png"
+        },
+        {
+          "name": "Lechuga",
+          "position": "Portero",
+          "id": "lechuga",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/13.png"
+        },
+        {
+          "name": "D. Soriano «Olivo»",
+          "position": "Defensa",
+          "id": "d.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/4.png"
+        },
+        {
+          "name": "S. Sánchez «Drago»",
+          "position": "Medio",
+          "id": "s.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/8.png"
+        },
+        {
+          "name": "Noel L. «Ahuehuete»",
+          "position": "Medio",
+          "id": "noel",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/5.png"
+        },
+        {
+          "name": "X. Molas «Mimosa»",
+          "position": "Medio",
+          "id": "x.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/10.png"
+        },
+        {
+          "name": "R. Martínez «Bonsai»",
+          "position": "Delantero",
+          "id": "r.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/7.png"
+        },
+        {
+          "name": "Dorkis P. «Mango»",
+          "position": "Delantero",
+          "id": "dorkis",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/11.png"
+        },
+        {
+          "name": "I. Nuevo «Ficus»",
+          "position": "Medio",
+          "id": "i.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/6.png"
+        },
+        {
+          "name": "M. Arús «Pino»",
+          "position": "Portero",
+          "id": "m.",
+          "teamId": "los-troncos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/1.png"
+        }
       ],
       "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/perxitaa.png",
-        "teamId": "los-troncos-fc"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -119,23 +441,99 @@
     "yellowCards": 1,
     "redCards": 0,
     "team": {
-      "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
-      "image": "../static/ultimate-mostoles.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "ultimate-mostoles",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+      "coachId": "entrenador-ultimate-mostoles",
+      "socialMedias": {
+        "youtube": {
+          "href": "https://m.youtube.com/user/DjMaRiiO/videos"
+        }
+      },
+      "players": [
+        {
+          "name": "Juanma Glez",
+          "position": "jugador 11",
+          "id": "juanma",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/22.png"
+        },
+        {
+          "name": "Arché",
+          "position": "Medio",
+          "id": "arché",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/10.png"
+        },
+        {
+          "name": "Iu",
+          "position": "Portero",
+          "id": "iu",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/1.png"
+        },
+        {
+          "name": "Guti",
+          "position": "Defensa",
+          "id": "guti",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/11.png"
+        },
+        {
+          "name": "Aleix",
+          "position": "Medio",
+          "id": "aleix",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/6.png"
+        },
+        {
+          "name": "Llur",
+          "position": "Delantero",
+          "id": "llur",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/19.png"
+        },
+        {
+          "name": "Iker",
+          "position": "Defensa",
+          "id": "iker",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/4.png"
+        },
+        {
+          "name": "Ian",
+          "position": "Defensa",
+          "id": "ian",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/3.png"
+        },
+        {
+          "name": "Zea",
+          "position": "Delantero",
+          "id": "zea",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/7.png"
+        },
+        {
+          "name": "Nacho",
+          "position": "Portero",
+          "id": "nacho",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/13.png"
+        },
+        {
+          "name": "Lucca",
+          "position": "Medio",
+          "id": "lucca",
+          "teamId": "ultimate-mostoles",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/20.png"
+        }
       ],
       "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/djmariio.png",
-        "teamId": "ultimate-mostoles"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -147,23 +545,102 @@
     "yellowCards": 1,
     "redCards": 0,
     "team": {
-      "id": "porcinos-fc",
       "name": "Porcinos FC",
-      "image": "../static/porcinos-fc.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "porcinos-fc",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc.svg",
+      "coachId": "entrenador-porcinos-fc",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/ibai"
+        },
+        "twitter": {
+          "href": "https://twitter.com/FCPorcinos"
+        }
+      },
+      "players": [
+        {
+          "name": "Espinosa",
+          "position": "jugador 11",
+          "id": "espinosa",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/8.png"
+        },
+        {
+          "name": "J. Segovia",
+          "position": "Portero",
+          "id": "j.",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/13.png"
+        },
+        {
+          "name": "G. Cichero",
+          "position": "Defensa",
+          "id": "g.",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/6.png"
+        },
+        {
+          "name": "David L.L.",
+          "position": "Defensa",
+          "id": "david",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/23.png"
+        },
+        {
+          "name": "Toti",
+          "position": "Medio",
+          "id": "toti",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/21.png"
+        },
+        {
+          "name": "A.Ripol",
+          "position": "Medio",
+          "id": "a.ripol",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/10.png"
+        },
+        {
+          "name": "Kilian",
+          "position": "Delantero",
+          "id": "kilian",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/9.png"
+        },
+        {
+          "name": "J. Blanco",
+          "position": "Delantero",
+          "id": "j.",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/7.png"
+        },
+        {
+          "name": "Lil Pizza",
+          "position": "Defensa",
+          "id": "lil",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/80.png"
+        },
+        {
+          "name": "Lao",
+          "position": "Medio",
+          "id": "lao",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/4.png"
+        },
+        {
+          "name": "Sergi",
+          "position": "Portero",
+          "id": "sergi",
+          "teamId": "porcinos-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/1.png"
+        }
       ],
       "president": {
-        "id": "ibai-llanos",
-        "name": "Ibai Llanos",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/ibai-llanos.png",
-        "teamId": "porcinos-fc"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -175,23 +652,110 @@
     "yellowCards": 1,
     "redCards": 0,
     "team": {
-      "id": "el-barrio",
       "name": "El Barrio",
-      "image": "../static/el-barrio.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "el-barrio",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
+      "coachId": "entrenador-el-barrio",
+      "socialMedias": {
+        "instagram": {
+          "href": "https://www.instagram.com/elbarrioklk/?hl=es"
+        },
+        "tiktok": [
+          {
+            "href": "https://www.tiktok.com/@adricontreras4"
+          },
+          {
+            "href": "https://www.tiktok.com/@elbarrioklk"
+          }
+        ],
+        "twitter": {
+          "href": "https://twitter.com/elbarrioklk_"
+        }
+      },
+      "players": [
+        {
+          "name": "José Juan",
+          "position": "jugador 11",
+          "id": "josé",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/1.png"
+        },
+        {
+          "name": "Jacobo",
+          "position": "Delantero",
+          "id": "jacobo",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/10.png"
+        },
+        {
+          "name": "Mase",
+          "position": "Defensa",
+          "id": "mase",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/6.png"
+        },
+        {
+          "name": "Beguer",
+          "position": "Delantero",
+          "id": "beguer",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/9.png"
+        },
+        {
+          "name": "Ros",
+          "position": "Medio",
+          "id": "ros",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/14.png"
+        },
+        {
+          "name": "Ubón",
+          "position": "Medio",
+          "id": "ubón",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/8.png"
+        },
+        {
+          "name": "Pau ZZ",
+          "position": "Defensa",
+          "id": "pau",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/19.png"
+        },
+        {
+          "name": "Olae",
+          "position": "Delantero",
+          "id": "olae",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/23.png"
+        },
+        {
+          "name": "O. Boada",
+          "position": "Delantero",
+          "id": "o.",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/11.png"
+        },
+        {
+          "name": "Baranera",
+          "position": "Medio",
+          "id": "baranera",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/7.png"
+        },
+        {
+          "name": "Capilla",
+          "position": "Medio",
+          "id": "capilla",
+          "teamId": "el-barrio",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/12.png"
+        }
       ],
       "president": {
-        "id": "adri-contreras",
-        "name": "Adri Contreras",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/adri-contreras.png",
-        "teamId": "el-barrio"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -203,23 +767,108 @@
     "yellowCards": 0,
     "redCards": 0,
     "team": {
-      "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
-      "image": "../static/rayo-barcelona.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "rayo-barcelona",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona.svg",
+      "coachId": "entrenador-rayo-barcelona",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/spursito"
+        },
+        "instagram": {
+          "href": "https://www.instagram.com/rayodebarcelona/?hl=es"
+        },
+        "twitter": {
+          "href": "https://twitter.com/RayodeBarcelona"
+        },
+        "tiktok": {
+          "href": "https://www.tiktok.com/@rayodebarcelona"
+        }
+      },
+      "players": [
+        {
+          "name": "Poloteli",
+          "position": "jugador 11",
+          "id": "poloteli",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/45.png"
+        },
+        {
+          "name": "Pelaz",
+          "position": "Medio",
+          "id": "pelaz",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/10.png"
+        },
+        {
+          "name": "Canet",
+          "position": "Portero",
+          "id": "canet",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/41.png"
+        },
+        {
+          "name": "Guillem ZZ",
+          "position": "Delantero",
+          "id": "guillem",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/19.png"
+        },
+        {
+          "name": "M. Reyes",
+          "position": "Defensa",
+          "id": "m.",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/22.png"
+        },
+        {
+          "name": "Franky P.",
+          "position": "Medio",
+          "id": "franky",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/30.png"
+        },
+        {
+          "name": "Dani P.",
+          "position": "Medio",
+          "id": "dani",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/8.png"
+        },
+        {
+          "name": "Alejandro",
+          "position": "Defensa",
+          "id": "alejandro",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/11.png"
+        },
+        {
+          "name": "Biboum M.",
+          "position": "Delantero",
+          "id": "biboum",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/9.png"
+        },
+        {
+          "name": "Jonathan",
+          "position": "Medio",
+          "id": "jonathan",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/63.png"
+        },
+        {
+          "name": "Alex Race",
+          "position": "Delantero",
+          "id": "alex",
+          "teamId": "rayo-barcelona",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/77.png"
+        }
       ],
       "president": {
-        "id": "spursito",
-        "name": "Spursito",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/spursito.png",
-        "teamId": "rayo-barcelona"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -231,23 +880,99 @@
     "yellowCards": 1,
     "redCards": 0,
     "team": {
-      "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
-      "image": "../static/aniquiladores.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "aniquiladores-fc",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc.svg",
+      "coachId": "entrenador-aniquiladores-fc",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/juansguarnizo"
+        }
+      },
+      "players": [
+        {
+          "name": "F. Hernández",
+          "position": "jugador 11",
+          "id": "f.",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/14.png"
+        },
+        {
+          "name": "Daniel P.",
+          "position": "Portero",
+          "id": "daniel",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/25.png"
+        },
+        {
+          "name": "Galvany",
+          "position": "Medio",
+          "id": "galvany",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/8.png"
+        },
+        {
+          "name": "Andrés",
+          "position": "Defensa",
+          "id": "andrés",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/5.png"
+        },
+        {
+          "name": "Bernat",
+          "position": "Medio",
+          "id": "bernat",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/31.png"
+        },
+        {
+          "name": "Pau Mañé",
+          "position": "Delantero",
+          "id": "pau",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/24.png"
+        },
+        {
+          "name": "Jorquera",
+          "position": "Defensa",
+          "id": "jorquera",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/22.png"
+        },
+        {
+          "name": "Gilles V.",
+          "position": "Medio",
+          "id": "gilles",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/9.png"
+        },
+        {
+          "name": "Jadir",
+          "position": "Defensa",
+          "id": "jadir",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/21.png"
+        },
+        {
+          "name": "Roger",
+          "position": "Medio",
+          "id": "roger",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/11.png"
+        },
+        {
+          "name": "X.Morales",
+          "position": "Portero",
+          "id": "x.morales",
+          "teamId": "aniquiladores-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/10.png"
+        }
       ],
       "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/juan-guarnizo.png",
-        "teamId": "aniquiladores-fc"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -259,23 +984,99 @@
     "yellowCards": 3,
     "redCards": 0,
     "team": {
-      "id": "xbuyer-team",
       "name": "XBUYER TEAM",
-      "image": "../static/xbuyer-team.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "xbuyer-team",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
+      "coachId": "entrenador-xbuyer-team",
+      "socialMedias": {
+        "youtube": {
+          "href": "https://www.youtube.com/xbuyer"
+        }
+      },
+      "players": [
+        {
+          "name": "C. Castro",
+          "position": "jugador 11",
+          "id": "c.",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/10.png"
+        },
+        {
+          "name": "Capi",
+          "position": "Portero",
+          "id": "capi",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/13.png"
+        },
+        {
+          "name": "Poch",
+          "position": "Delantero",
+          "id": "poch",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/9.png"
+        },
+        {
+          "name": "Iñaki",
+          "position": "Medio",
+          "id": "iñaki",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/20.png"
+        },
+        {
+          "name": "Dani",
+          "position": "Defensa",
+          "id": "dani",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/5.png"
+        },
+        {
+          "name": "Granero",
+          "position": "Delantero",
+          "id": "granero",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/32.png"
+        },
+        {
+          "name": "Goran",
+          "position": "Medio",
+          "id": "goran",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/11.png"
+        },
+        {
+          "name": "Bañuls",
+          "position": "Defensa",
+          "id": "bañuls",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/3.png"
+        },
+        {
+          "name": "Franc",
+          "position": "Medio",
+          "id": "franc",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/7.png"
+        },
+        {
+          "name": "B. Sierra",
+          "position": "Delantero",
+          "id": "b.",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/21.png"
+        },
+        {
+          "name": "Sep",
+          "position": "Portero",
+          "id": "sep",
+          "teamId": "xbuyer-team",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/1.png"
+        }
       ],
       "president": {
-        "id": "hnos-buyer",
-        "name": "Hnos. Buyer",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/hnos-buyer.png",
-        "teamId": "xbuyer-team"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -287,23 +1088,108 @@
     "yellowCards": 2,
     "redCards": 0,
     "team": {
-      "id": "jijantes-fc",
       "name": "Jijantes FC",
-      "image": "../static/jijantes-fc.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "jijantes-fc",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc.svg",
+      "coachId": "entrenador-jijantes-fc",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/gerardromero"
+        },
+        "instagram": {
+          "href": "https://www.instagram.com/jijantesfc/?hl=es"
+        },
+        "twitter": {
+          "href": "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w"
+        },
+        "tiktok": {
+          "href": "https://www.tiktok.com/@jijantesfutbolclub"
+        }
+      },
+      "players": [
+        {
+          "name": "Soriano",
+          "position": "jugador 11",
+          "id": "soriano",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/26.png"
+        },
+        {
+          "name": "Alsina",
+          "position": "Medio",
+          "id": "alsina",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/8.png"
+        },
+        {
+          "name": "Pol",
+          "position": "Portero",
+          "id": "pol",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/1.png"
+        },
+        {
+          "name": "Jay",
+          "position": "Defensa",
+          "id": "jay",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/4.png"
+        },
+        {
+          "name": "Quero",
+          "position": "Medio",
+          "id": "quero",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/7.png"
+        },
+        {
+          "name": "Arnau M.V",
+          "position": "Defensa",
+          "id": "arnau",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/5.png"
+        },
+        {
+          "name": "De la Villa",
+          "position": "Delantero",
+          "id": "de",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/10.png"
+        },
+        {
+          "name": "Maca",
+          "position": "Medio",
+          "id": "maca",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/30.png"
+        },
+        {
+          "name": "Noel",
+          "position": "Defensa",
+          "id": "noel",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/6.png"
+        },
+        {
+          "name": "Dorado",
+          "position": "Delantero",
+          "id": "dorado",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/31.png"
+        },
+        {
+          "name": "Mario",
+          "position": "Portero",
+          "id": "mario",
+          "teamId": "jijantes-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/25.png"
+        }
       ],
       "president": {
-        "id": "gerard-romero",
-        "name": "Gerard Romero",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/gerard-romero.png",
-        "teamId": "jijantes-fc"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   },
@@ -315,23 +1201,102 @@
     "yellowCards": 4,
     "redCards": 0,
     "team": {
-      "id": "pio-fc",
       "name": "PIO FC",
-      "image": "../static/pio.svg",
-      "url": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio.svg",
-      "coach": "",
-      "channel": "",
-      "socialNetworks": [
-        "",
-        "",
-        "",
-        ""
+      "teamId": "pio-fc",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc.svg",
+      "coachId": "entrenador-pio-fc",
+      "socialMedias": {
+        "twitch": {
+          "href": "https://www.twitch.tv/rivers_gg"
+        },
+        "twitter": {
+          "href": "https://twitter.com/PIO_FC"
+        }
+      },
+      "players": [
+        {
+          "name": "Lopo",
+          "position": "jugador 11",
+          "id": "lopo",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/4.png"
+        },
+        {
+          "name": "Jorge",
+          "position": "Portero",
+          "id": "jorge",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/1.png"
+        },
+        {
+          "name": "Carlitos",
+          "position": "Defensa",
+          "id": "carlitos",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/2.png"
+        },
+        {
+          "name": "Pau Fer",
+          "position": "Medio",
+          "id": "pau",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/6.png"
+        },
+        {
+          "name": "Carlinhos",
+          "position": "Delantero",
+          "id": "carlinhos",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/10.png"
+        },
+        {
+          "name": "B. Juárez",
+          "position": "Medio",
+          "id": "b.",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/21.png"
+        },
+        {
+          "name": "Turner",
+          "position": "Defensa",
+          "id": "turner",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/42.png"
+        },
+        {
+          "name": "Adri",
+          "position": "Delantero",
+          "id": "adri",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/11.png"
+        },
+        {
+          "name": "Cokita",
+          "position": "Medio",
+          "id": "cokita",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/8.png"
+        },
+        {
+          "name": "A. Ropero",
+          "position": "Medio",
+          "id": "a.",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/22.png"
+        },
+        {
+          "name": "Santiago",
+          "position": "Defensa",
+          "id": "santiago",
+          "teamId": "pio-fc",
+          "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/14.png"
+        }
       ],
       "president": {
-        "id": "rivers",
-        "name": "Rivers",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/rivers.png",
-        "teamId": "pio-fc"
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": "1k"
       }
     }
   }
