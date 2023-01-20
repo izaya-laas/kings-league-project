@@ -28,7 +28,7 @@ export const SCRAPINGS = {
       }
     }
   },
-  topScorer: {
+  top_scorer: {
     url: 'https://kingsleague.pro/estadisticas/goles/',
     scraper: getStats,
     specialSelector: {
@@ -38,7 +38,7 @@ export const SCRAPINGS = {
       }
     }
   },
-  topAssists: {
+  top_assists: {
     url: 'https://kingsleague.pro/estadisticas/asistencias/',
     scraper: getStats,
     specialSelector: {
