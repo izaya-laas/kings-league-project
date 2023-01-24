@@ -1,19 +1,13 @@
 {
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"astro", // Enable .astro
-		"typescript", // Enable .ts
-		"typescriptreact" // Enable .tsx
-	],
+  "eslint.validate": ["javascript", "astro"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-	"editor.insertSpaces": false,
-	"editor.detectIndentation": false,
-	"editor.fontFamily": "'Cascadia Code' ,Consolas, 'Courier New', monospace",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Cascadia Code' ,Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
