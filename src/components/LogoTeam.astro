@@ -1,0 +1,6 @@
+---
+const { image, name, class: styles } = Astro.props;
+---
+<a href="/" >
+	<img class={`aspect-square w-full ${styles}`} src={image} alt={name}>
+</a>
