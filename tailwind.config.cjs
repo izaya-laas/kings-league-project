@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        normal: ['Archivo']
+        body: ['Archivo', 'system-ui', 'sans-serif'],
+        black: ['Archivo Black', 'system-ui', 'sans-serif']
       }
     }
   },
