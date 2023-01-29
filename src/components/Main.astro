@@ -1,9 +1,7 @@
 ---
-import Table from './Table.astro';
+const { class: styles } = Astro.props
 ---
 
-<main>
-	<div class="w-4/5 mx-auto">
-		<Table/>
-	</div>
+<main class={`w-11/12 mx-auto ${styles}`}>
+	<slot/>
 </main>
