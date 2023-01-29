@@ -5,11 +5,10 @@
     "target": "ES2020",
     "jsx": "react",
     "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "paths": {
-      "@components/*": ["src/components/*"],
-      "@services/*": ["services/*"]
-    }
+    "strictFunctionTypes": true
   },
-  "exclude": ["node_modules", "**/node_modules/*"]
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
 }
