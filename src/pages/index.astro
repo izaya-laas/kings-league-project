@@ -1,6 +1,11 @@
 ---
+import Main from '../components/Main.astro'
+import Table from '../components/Table.astro'
 import Layout from '../layouts/Layout.astro'
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="">
+	<Main class="grid grid-cols-3">
+		<Table class="col-span-1"/>
+	</Main>
 </Layout>
