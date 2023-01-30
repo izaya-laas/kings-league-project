@@ -1,3 +1,123 @@
-<footer class="p-20 mt-10 bg-black">
-	<h2 class="text-center text-white text-2xl">Footer en construccion</h2>
+---
+
+const socialMedias = [
+	{
+		name: 'Logo Instagram',
+		path: '/social/instagram.svg',
+		href: 'https://instagram.com/kingsleague'
+	},
+	{
+		name: 'Logo Twitch',
+		path: '/social/twitch.svg',
+		href: 'https://twitch.tv/kingsleague'
+	},
+	{
+		name: 'Logo Twitter',
+		path: '/social/twitter.svg',
+		href: 'https://twitter.com/kingsleague'
+	},
+	{
+		name: 'Logo TikTok',
+		path: '/social/tiktok.svg',
+		href: 'https://www.tiktok.com/@kingsleague'
+	},
+	{
+		name: 'Logo Youtube',
+		path: '/social/youtube.svg',
+		href: 'https://www.youtube.com/@KingsLeagueOfficial'
+	}
+]
+
+const navLinks = [
+	{
+		name: 'Equipos',
+		href: '/equipos'
+	},
+		{
+		name: 'Estadisticas',
+		href: '/estadisticas'
+	},
+		{
+		name: 'Faqs',
+		href: '/faqs'
+	},
+		{
+		name: 'Jugador 12',
+		href: '/jugador-12'
+	},
+		{
+		name: 'Reglamento',
+		href: '/reglamento'
+	},
+		{
+		name: 'Draft',
+		href: '/draft'
+	},
+		{
+		name: 'Calendario',
+		href: '/calendario'
+	}
+]
+
+const legals = [
+	{
+		name: 'Contacto',
+		href: '/contacto'
+	},	{
+		name: 'Politica de privacidad',
+		href: '/politica-privacidad'
+	},	{
+		name: 'Contacto',
+		href: '/aviso-legal'
+	},	{
+		name: 'Politica Cookies',
+		href: '/politica-cookies'
+	}
+]
+
+---
+
+<footer class="py-10 px-20 mt-10 bg-black flex items-center justify-between">
+	<section class="flex flex-col items-center gap-4">
+		<img class="w-40" src="/public/kings-league-alternative.svg" alt="Logo Kings League">
+		<nav>
+			<ul class="flex gap-6">
+				{
+					socialMedias.map(({ name, path, href }) => (
+						<li>
+							<a href={href}>
+								<img class="w-6" src={path} alt={name}>
+							</a>
+						</li>
+							))
+						}
+				</ul>
+		</nav>
+	</section>
+	<section class="text-white">
+		<div>
+			<nav>
+				<ul class="grid grid-cols-3 gap-2 place-items-center">
+					{
+						navLinks.map(({ name, href }) => (
+							<li>
+								<a href={href}>{name}</a>
+							</li>
+						))
+					}
+				</ul>
+			</nav>
+		</div>
+		<div class="mt-8 text-xs">
+			<ul class="flex gap-x-4">
+				{
+					legals.map(({ name, href }) => (
+						<li>
+							<a href={href}>{name}</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+	</section>
 </footer>
