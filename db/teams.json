@@ -3,6 +3,8 @@
     "name": "Kunisports",
     "teamId": "kunisports",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports-inverse.svg",
+    "color": "#000",
     "coachId": "entrenador-kunisports",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -94,6 +96,8 @@
     "name": "Los Troncos FC",
     "teamId": "los-troncos-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.webp",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc-inverse.svg",
+    "color": "#29b392",
     "coachId": "entrenador-los-troncos-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -194,6 +198,8 @@
     "name": "1K FC",
     "teamId": "1k",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k-inverse.svg",
+    "color": "#5c4de8",
     "coachId": "entrenador-1k",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -294,6 +300,8 @@
     "name": "PIO FC",
     "teamId": "pio-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc-inverse.svg",
+    "color": "#f1f582",
     "coachId": "entrenador-pio-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -388,6 +396,8 @@
     "name": "El Barrio",
     "teamId": "el-barrio",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio-inverse.svg",
+    "color": "#237864",
     "coachId": "entrenador-el-barrio",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -490,6 +500,8 @@
     "name": "Jijantes FC",
     "teamId": "jijantes-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc-inverse.svg",
+    "color": "#eb4d5d",
     "coachId": "entrenador-jijantes-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -590,6 +602,8 @@
     "name": "Saiyans FC",
     "teamId": "saiyans-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc-inverse.svg",
+    "color": "#4f46fa",
     "coachId": "entrenador-saiyans-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -681,6 +695,8 @@
     "name": "Aniquiladores FC",
     "teamId": "aniquiladores-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc-inverse.svg",
+    "color": "#f73448",
     "coachId": "entrenador-aniquiladores-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -772,6 +788,8 @@
     "name": "XBUYER TEAM",
     "teamId": "xbuyer-team",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team-inverse.svg",
+    "color": "#525557",
     "coachId": "entrenador-xbuyer-team",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -863,6 +881,8 @@
     "name": "Ultimate Móstoles",
     "teamId": "ultimate-mostoles",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
+    "color": "#525557",
     "coachId": "entrenador-ultimate-mostoles",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -954,6 +974,8 @@
     "name": "Porcinos FC",
     "teamId": "porcinos-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc-inverse.svg",
+    "color": "#fa66f3",
     "coachId": "entrenador-porcinos-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
@@ -1048,6 +1070,8 @@
     "name": "Rayo de Barcelona",
     "teamId": "rayo-barcelona",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona.svg",
+    "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona-inverse.svg",
+    "color": "#faa843",
     "coachId": "entrenador-rayo-barcelona",
     "presidentId": "iker-casillas",
     "socialMedias": {
