@@ -18,59 +18,60 @@ logos.forEach((logo, index) => {
 })
 
 ---
-
-<header class="w-3/5 mx-auto">
-		<nav class="flex justify-center items-center gap-x-2 w-full bg-black outline-black outline-4 outline border-4 border-[#fab60a] py-2 px-6 rounded-3xl">
-			{logosPartOne.map(({ image, name }) =>
-				<li class="block w-full">
-					<Logo image={image} name={name}/>
-				</li>
-			)}
-			<LogoKingsLeague class="scale-150 relative mx-6" />
-			{logosPartTwo.map(({ image, name }) =>
-				<li class="block w-full">
-					<Logo image={image} name={name}/>
-				</li>
-			)}
-		</nav>
-		<div class="flex justify-between pt-4">
-			<nav class="relative -translate-x-10 flex items-center">
-				<ul class="flex gap-x-2 text-sm font-bold text-white">
-					<li >
-						<a href="/equipos">Equipos</a>
+<div class="bg-gradient-to-b from-[#2bc7ff] via-[#09f] to-[#2bc7ff] pt-8 pb-12 before:content-[' '] before:w-1/2 before:h-8 before:rounded-full before:bg-white before:block before:-bottom-4 before:left-1/4 before:absolute before:border-t-4 before:border-[#000] border-b-4 border-[#000] relative">
+	<header class="w-3/5 mx-auto">
+			<nav class="flex justify-center items-center gap-x-2 w-full bg-black outline-black outline-4 outline border-4 border-[#fab60a] py-2 px-6 rounded-3xl">
+				{logosPartOne.map(({ image, name }) =>
+					<li class="block w-full">
+						<Logo image={image} name={name}/>
 					</li>
-					<li>
-						<a href="/calendario">Calendario</a>
+				)}
+				<LogoKingsLeague class="scale-150 relative mx-6" />
+				{logosPartTwo.map(({ image, name }) =>
+					<li class="block w-full">
+						<Logo image={image} name={name}/>
 					</li>
-					<li>
-						<a href="/estadisticas">Estadisticas</a>
-					</li>
-					<li>
-						<a href="/contacto">Contacto</a>
-					</li>
-					<li>
-						<a href="/reglamento">Reglamento</a>
-					</li>
-				</ul>
+				)}
 			</nav>
-			<nav class="w-full">
-				<ul class="flex justify-end gap-x-6 pr-6">
-					<li class="w-6">
-						<Logo image="/social/instagram.svg" name="instagram"/>
-					</li>
-					<li class="w-6">
-						<Logo image="social/twitter.svg" name="instagram"/>
-					</li>
-					<li class="w-6">
-						<Logo image="social/tiktok.svg" name="instagram"/>
-					</li>
-					<li class="w-6">
-						<Logo image="social/twitch.svg" name="instagram"/>
-					</li>
-					<li class="w-6">
-						<Logo image="social/youtube.svg" name="instagram"/>
-					</li>
-				</ul>
-			</nav>
-		</div>
-</header>
+			<div class="flex justify-between pt-4">
+				<nav class="relative -translate-x-10 flex items-center">
+					<ul class="flex gap-x-2 text-sm font-bold text-white">
+						<li >
+							<a href="/equipos">Equipos</a>
+						</li>
+						<li>
+							<a href="/calendario">Calendario</a>
+						</li>
+						<li>
+							<a href="/estadisticas">Estadisticas</a>
+						</li>
+						<li>
+							<a href="/contacto">Contacto</a>
+						</li>
+						<li>
+							<a href="/reglamento">Reglamento</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="w-full">
+					<ul class="flex justify-end gap-x-6 pr-6">
+						<li class="w-6">
+							<Logo image="/social/instagram.svg" name="instagram"/>
+						</li>
+						<li class="w-6">
+							<Logo image="social/twitter.svg" name="instagram"/>
+						</li>
+						<li class="w-6">
+							<Logo image="social/tiktok.svg" name="instagram"/>
+						</li>
+						<li class="w-6">
+							<Logo image="social/twitch.svg" name="instagram"/>
+						</li>
+						<li class="w-6">
+							<Logo image="social/youtube.svg" name="instagram"/>
+						</li>
+					</ul>
+				</nav>
+			</div>
+	</header>
+</div>
