@@ -1,36 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro'
-import { getAllTeams } from '../../../services/index.js'
 import Main from '../../components/Main.astro'
 import Title from '../../components/Title.astro'
-
-const teams = await getAllTeams()
+import TeamsCards from '../../components/TeamsCards.astro';
 ---
 
 <Layout>
 	<Title title="Equipos"/>
 	<Main>
-		<section class="grid lg:grid-cols-3 place-items-center grid-cols-2 gap-4 mx-auto">
-			{
-				teams.map(team => {
-					const { name, inverse: imageInverse, color, teamId } = team
-					const styleImage = { backgroundImage: `url(${imageInverse})` }
-					const styleBackground = { background: color }
-
-					return (
-					<a class="w-72 h-32" href={`/equipos/${teamId}`}>
-						<figure style={styleBackground} class='h-full relative rounded-xl overflow-hidden' >
-							<div class="h-full flex justify-center items-center gap-x-4">
-								<img src={imageInverse} alt={name} class="w-16">
-								<h3 class="font-bold text-white text-xl">{name}</h3>
-							</div>
-							<div class="z-0 absolute inset-0 opacity-25 bg-center bg-[length:150%_150%] hover:bg-[length:250%_250%] transition-all" style={styleImage}></div>
-						</figure>
-					</a>
-
-					)
-				})
-			}
-		</section>
+		<TeamsCards/>
 	</Main>
 </Layout>
