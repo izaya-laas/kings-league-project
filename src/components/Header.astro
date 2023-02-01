@@ -1,4 +1,5 @@
 ---
+import ListSocialNetworks from './ListSocialNetworks.astro'
 import LogoKingsLeague from './Logo.astro'
 import Logo from './LogoTeam.astro'
 
@@ -53,25 +54,7 @@ logos.forEach((logo, index) => {
 						</li>
 					</ul>
 				</nav>
-				<nav class="w-full">
-					<ul class="flex justify-end gap-x-6 pr-6">
-						<li class="w-6">
-							<Logo image="/social/instagram.svg" name="logo instagram"/>
-						</li>
-						<li class="w-6">
-							<Logo image="/social/twitter.svg" name="logo twitter"/>
-						</li>
-						<li class="w-6">
-							<Logo image="/social/tiktok.svg" name="logo tiktok"/>
-						</li>
-						<li class="w-6">
-							<Logo image="/social/twitch.svg" name="logo twitch"/>
-						</li>
-						<li class="w-6">
-							<Logo image="/social/youtube.svg" name="logo youtube"/>
-						</li>
-					</ul>
-				</nav>
+				<ListSocialNetworks/>
 			</div>
 	</header>
 </div>

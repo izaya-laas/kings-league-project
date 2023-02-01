@@ -1,0 +1,43 @@
+---
+const socialMedias = [
+	{
+		name: 'Logo Instagram',
+		path: '/social/instagram.svg',
+		href: 'https://instagram.com/kingsleague'
+	},
+	{
+		name: 'Logo Twitch',
+		path: '/social/twitch.svg',
+		href: 'https://twitch.tv/kingsleague'
+	},
+	{
+		name: 'Logo Twitter',
+		path: '/social/twitter.svg',
+		href: 'https://twitter.com/kingsleague'
+	},
+	{
+		name: 'Logo TikTok',
+		path: '/social/tiktok.svg',
+		href: 'https://www.tiktok.com/@kingsleague'
+	},
+	{
+		name: 'Logo Youtube',
+		path: '/social/youtube.svg',
+		href: 'https://www.youtube.com/@KingsLeagueOfficial'
+	}
+]
+---
+
+<nav>
+			<ul class="flex gap-6">
+				{
+					socialMedias.map(({ name, path, href }) => (
+						<li>
+							<a href={href}>
+								<img class="w-6" src={path} alt={name}>
+							</a>
+						</li>
+							))
+						}
+			</ul>
+</nav>
