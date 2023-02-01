@@ -1,0 +1,79 @@
+[
+  {
+    "partnerLevel": "Principal Partner",
+    "partners": [
+      {
+        "partnerName": "InfoJobs",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/InfoJobs.svg"
+      }
+    ]
+  },
+  {
+    "partnerLevel": "Stadium Partner",
+    "partners": [
+      {
+        "partnerName": "cupra",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/cupra.svg"
+      }
+    ]
+  },
+  {
+    "partnerLevel": "Main Partners",
+    "partners": [
+      {
+        "partnerName": "grefusa",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/grefusa.svg"
+      },
+      {
+        "partnerName": "spotify",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/spotify.svg"
+      },
+      {
+        "partnerName": "mahou",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/mahou.svg"
+      },
+      {
+        "partnerName": "McDelivery",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/McDelivery.svg"
+      },
+      {
+        "partnerName": "Xiaomi",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/Xiaomi.svg"
+      },
+      {
+        "partnerName": "shukran",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/shukran.svg"
+      },
+      {
+        "partnerName": "imagin",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/imagin.svg"
+      },
+      {
+        "partnerName": "iq-option",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/iq-option.svg"
+      },
+      {
+        "partnerName": "fantasy",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/fantasy.svg"
+      }
+    ]
+  },
+  {
+    "partnerLevel": "Hosting Partner",
+    "partners": [
+      {
+        "partnerName": "port_bcn",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/port_bcn.svg"
+      }
+    ]
+  },
+  {
+    "partnerLevel": "Media Partner",
+    "partners": [
+      {
+        "partnerName": "Marca",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/partners/Marca.svg"
+      }
+    ]
+  }
+]
