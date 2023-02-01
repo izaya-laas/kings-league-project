@@ -1,7 +1,7 @@
 ---
-const { class: styles } = Astro.props
+const { class: styles, style } = Astro.props
 ---
 
-<main class={`w-11/12 mx-auto ${styles}`}>
+<main class={`w-11/12 mx-auto ${styles}`} style={style}>
 	<slot/>
 </main>
