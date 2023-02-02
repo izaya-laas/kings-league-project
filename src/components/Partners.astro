@@ -1,0 +1,27 @@
+---
+import PartnerLogos from './PartnerLogos.astro'
+
+const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/partners'
+const res = await fetch(URL)
+const partners = await res.json()
+const { partnerLevel: principalPartnerLevel, partners: principalPartners } = partners[0]
+const { partnerLevel: stadiumPartnerLevel, partners: stadiumPartners } = partners[1]
+const { partnerLevel: mainPartnerLevel, partners: mainPartners } = partners[2]
+const { partnerLevel: hostingPartnerLevel, partners: hostingPartners } = partners[3]
+const { partnerLevel: mediaPartnerLevel, partners: mediaPartners } = partners[4]
+
+---
+
+<section class="bg-black py-6">
+	<div class="w-11/12 mx-auto flex flex-col xl:flex-row xl:gap-x-12 xl:justify-center gap-y-6">
+		<div class="flex gap-x-12 ">
+			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={principalPartnerLevel} partners={principalPartners}/>
+			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={stadiumPartnerLevel} partners={stadiumPartners}/>
+		</div>
+		<PartnerLogos classImagesContainer="grid grid-cols-3 gap-x-6 gap-y-2" partnerLevel={mainPartnerLevel} partners={mainPartners}/>
+		<div class="flex gap-x-12">
+			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={hostingPartnerLevel} partners={hostingPartners}/>
+			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={mediaPartnerLevel} partners={mediaPartners}/>
+		</div>
+	</>
+</section>

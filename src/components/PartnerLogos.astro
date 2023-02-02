@@ -1,0 +1,21 @@
+---
+const { classContainer, classImagesContainer, classImages, partnerLevel, partners } = Astro.props
+
+const splitPartnerLevel = partnerLevel.split(' ')
+const [level, partnerText] = splitPartnerLevel
+
+---
+
+<article class={classContainer}>
+		<h3 class="text-white text-base">
+			<strong class="font-bold">{level}</strong>
+			{partnerText}
+		</h3>
+		<div class={`${classImagesContainer} border-t-2 border-[#09f] pt-2`}>
+			{
+				partners.map(({ partnerName, image }) => (
+					<img class={classImages} src={image} alt={`logo de ${partnerName}`}>
+				))
+			}
+		</div>
+</article>
