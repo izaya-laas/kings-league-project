@@ -49,9 +49,10 @@ const legals = [
 ]
 ---
 
-<footer class="py-10 px-20 mt-10 bg-black flex items-center justify-between">
-	<section class="flex flex-col items-center gap-4">
-		<img class="w-40" src="/public/kings-league-alternative.svg" alt="Logo Kings League">
+<footer class="py-10 mt-10 bg-black">
+	<div class="w-11/12 mx-auto flex items-center justify-between">
+		<section class="flex flex-col items-center gap-4">
+			<img class="w-40" src="/public/kings-league-alternative.svg" alt="Logo Kings League">
 		<ListSocialNetworks/>
 	</section>
 	<section class="text-white">
@@ -74,10 +75,11 @@ const legals = [
 					legals.map(({ name, href }) => (
 						<li>
 							<a href={href}>{name}</a>
-						</li>
-					))
-				}
+							</li>
+							))
+						}
 			</ul>
 		</nav>
 	</section>
+</div>
 </footer>
