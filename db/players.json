@@ -19,20 +19,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 4,
+          "concededGoals": 11,
+          "stopPenalties": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 84,
+          "saves": 83,
+          "kickoff": 82,
+          "stretch": 78
         }
       }
     },
@@ -44,20 +44,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/2.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 64,
-          "tiro": 77,
-          "pase": 71,
-          "talento": 81,
-          "defensa": 85
+          "speed": 73,
+          "physique": 64,
+          "shooting": 77,
+          "passing": 71,
+          "talent": 81,
+          "defense": 85
         }
       }
     },
@@ -69,20 +69,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 62,
-          "tiro": 71,
-          "pase": 82,
-          "talento": 75,
-          "defensa": 82
+          "speed": 71,
+          "physique": 62,
+          "shooting": 71,
+          "passing": 82,
+          "talent": 75,
+          "defense": 82
         }
       }
     },
@@ -94,20 +94,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/Pio_9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 1,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 1,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "speed": 0,
+          "physique": 0,
+          "shooting": 0,
+          "passing": 0,
+          "talent": 0,
+          "defense": 0
         }
       }
     },
@@ -119,20 +119,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/21.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 2,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 2,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 65,
-          "tiro": 75,
-          "pase": 55,
-          "talento": 71,
-          "defensa": 77
+          "speed": 71,
+          "physique": 65,
+          "shooting": 75,
+          "passing": 55,
+          "talent": 71,
+          "defense": 77
         }
       }
     },
@@ -144,20 +144,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/42.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 59,
-          "tiro": 72,
-          "pase": 77,
-          "talento": 80,
-          "defensa": 80
+          "speed": 73,
+          "physique": 59,
+          "shooting": 72,
+          "passing": 77,
+          "talent": 80,
+          "defense": 80
         }
       }
     },
@@ -169,20 +169,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 70,
-          "físico": 45,
-          "tiro": 80,
-          "pase": 89,
-          "talento": 82,
-          "defensa": 81
+          "speed": 70,
+          "physique": 45,
+          "shooting": 80,
+          "passing": 89,
+          "talent": 82,
+          "defense": 81
         }
       }
     },
@@ -194,20 +194,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 67,
-          "físico": 47,
-          "tiro": 79,
-          "pase": 75,
-          "talento": 80,
-          "defensa": 71
+          "speed": 67,
+          "physique": 47,
+          "shooting": 79,
+          "passing": 75,
+          "talent": 80,
+          "defense": 71
         }
       }
     },
@@ -219,20 +219,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/22.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 57,
-          "tiro": 82,
-          "pase": 72,
-          "talento": 72,
-          "defensa": 68
+          "speed": 72,
+          "physique": 57,
+          "shooting": 82,
+          "passing": 72,
+          "talent": 72,
+          "defense": 68
         }
       }
     },
@@ -244,20 +244,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/14.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 67,
-          "físico": 46,
-          "tiro": 71,
-          "pase": 74,
-          "talento": 78,
-          "defensa": 70
+          "speed": 67,
+          "physique": 46,
+          "shooting": 71,
+          "passing": 74,
+          "talent": 78,
+          "defense": 70
         }
       }
     }
@@ -282,20 +282,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/0.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 71,
-          "tiro": 68,
-          "pase": 76,
-          "talento": 86,
-          "defensa": 66
+          "speed": 73,
+          "physique": 71,
+          "shooting": 68,
+          "passing": 76,
+          "talent": 86,
+          "defense": 66
         }
       }
     },
@@ -307,20 +307,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 93,
-          "físico": 74,
-          "tiro": 87,
-          "pase": 58,
-          "talento": 78,
-          "defensa": 73
+          "speed": 93,
+          "physique": 74,
+          "shooting": 87,
+          "passing": 58,
+          "talent": 78,
+          "defense": 73
         }
       }
     },
@@ -332,20 +332,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/97.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 59,
-          "tiro": 81,
-          "pase": 83,
-          "talento": 68,
-          "defensa": 69
+          "speed": 73,
+          "physique": 59,
+          "shooting": 81,
+          "passing": 83,
+          "talent": 68,
+          "defense": 69
         }
       }
     },
@@ -357,20 +357,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/3.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 67,
-          "físico": 51,
-          "tiro": 70,
-          "pase": 72,
-          "talento": 81,
-          "defensa": 70
+          "speed": 67,
+          "physique": 51,
+          "shooting": 70,
+          "passing": 72,
+          "talent": 81,
+          "defense": 70
         }
       }
     },
@@ -382,20 +382,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 69,
-          "tiro": 69,
-          "pase": 62,
-          "talento": 65,
-          "defensa": 82
+          "speed": 73,
+          "physique": 69,
+          "shooting": 69,
+          "passing": 62,
+          "talent": 65,
+          "defense": 82
         }
       }
     },
@@ -407,20 +407,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/14.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 66,
-          "físico": 51,
-          "tiro": 77,
-          "pase": 76,
-          "talento": 78,
-          "defensa": 84
+          "speed": 66,
+          "physique": 51,
+          "shooting": 77,
+          "passing": 76,
+          "talent": 78,
+          "defense": 84
         }
       }
     },
@@ -432,20 +432,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/80.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 58,
-          "tiro": 78,
-          "pase": 70,
-          "talento": 87,
-          "defensa": 71
+          "speed": 72,
+          "physique": 58,
+          "shooting": 78,
+          "passing": 70,
+          "talent": 87,
+          "defense": 71
         }
       }
     },
@@ -457,20 +457,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 3,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 3,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 64,
-          "tiro": 82,
-          "pase": 60,
-          "talento": 87,
-          "defensa": 75
+          "speed": 73,
+          "physique": 64,
+          "shooting": 82,
+          "passing": 60,
+          "talent": 87,
+          "defense": 75
         }
       }
     },
@@ -482,20 +482,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 2,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 79,
-          "físico": 59,
-          "tiro": 75,
-          "pase": 70,
-          "talento": 69,
-          "defensa": 70
+          "speed": 79,
+          "physique": 59,
+          "shooting": 75,
+          "passing": 70,
+          "talent": 69,
+          "defense": 70
         }
       }
     },
@@ -507,20 +507,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 76,
-          "tiro": 83,
-          "pase": 55,
-          "talento": 78,
-          "defensa": 71
+          "speed": 71,
+          "physique": 76,
+          "shooting": 83,
+          "passing": 55,
+          "talent": 78,
+          "defense": 71
         }
       }
     }
@@ -545,20 +545,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/25.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 4,
+          "concededGoals": 10,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 90,
+          "saves": 83,
+          "kickoff": 84,
+          "stretch": 86
         }
       }
     },
@@ -570,20 +570,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 63,
-          "tiro": 86,
-          "pase": 87,
-          "talento": 81,
-          "defensa": 90
+          "speed": 73,
+          "physique": 63,
+          "shooting": 86,
+          "passing": 87,
+          "talent": 81,
+          "defense": 90
         }
       }
     },
@@ -595,20 +595,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/5.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 74,
-          "físico": 69,
-          "tiro": 69,
-          "pase": 71,
-          "talento": 63,
-          "defensa": 77
+          "speed": 74,
+          "physique": 69,
+          "shooting": 69,
+          "passing": 71,
+          "talent": 63,
+          "defense": 77
         }
       }
     },
@@ -620,20 +620,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/31.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 64,
-          "tiro": 82,
-          "pase": 94,
-          "talento": 79,
-          "defensa": 64
+          "speed": 73,
+          "physique": 64,
+          "shooting": 82,
+          "passing": 94,
+          "talent": 79,
+          "defense": 64
         }
       }
     },
@@ -645,20 +645,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/24.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 83,
-          "físico": 69,
-          "tiro": 82,
-          "pase": 77,
-          "talento": 80,
-          "defensa": 69
+          "speed": 83,
+          "physique": 69,
+          "shooting": 82,
+          "passing": 77,
+          "talent": 80,
+          "defense": 69
         }
       }
     },
@@ -670,20 +670,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/22.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 74,
-          "físico": 69,
-          "tiro": 70,
-          "pase": 83,
-          "talento": 66,
-          "defensa": 71
+          "speed": 74,
+          "physique": 69,
+          "shooting": 70,
+          "passing": 83,
+          "talent": 66,
+          "defense": 71
         }
       }
     },
@@ -695,20 +695,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 82,
-          "físico": 58,
-          "tiro": 65,
-          "pase": 81,
-          "talento": 81,
-          "defensa": 73
+          "speed": 82,
+          "physique": 58,
+          "shooting": 65,
+          "passing": 81,
+          "talent": 81,
+          "defense": 73
         }
       }
     },
@@ -720,20 +720,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/21.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 55,
-          "tiro": 67,
-          "pase": 57,
-          "talento": 58,
-          "defensa": 68
+          "speed": 72,
+          "physique": 55,
+          "shooting": 67,
+          "passing": 57,
+          "talent": 58,
+          "defense": 68
         }
       }
     },
@@ -745,20 +745,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 75,
-          "tiro": 73,
-          "pase": 73,
-          "talento": 85,
-          "defensa": 68
+          "speed": 71,
+          "physique": 75,
+          "shooting": 73,
+          "passing": 73,
+          "talent": 85,
+          "defense": 68
         }
       }
     },
@@ -770,20 +770,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 1,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 1,
+          "concededGoals": 0,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 83,
+          "saves": 83,
+          "kickoff": 76,
+          "stretch": 74
         }
       }
     }
@@ -808,20 +808,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 1,
-          "t.amarilla": 2,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 2,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 93,
-          "físico": 74,
-          "tiro": 87,
-          "pase": 76,
-          "talento": 84,
-          "defensa": 73
+          "speed": 93,
+          "physique": 74,
+          "shooting": 87,
+          "passing": 76,
+          "talent": 84,
+          "defense": 73
         }
       }
     },
@@ -833,20 +833,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 3,
+          "concededGoals": 10,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 86,
+          "saves": 87,
+          "kickoff": 84,
+          "stretch": 94
         }
       }
     },
@@ -858,20 +858,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/4.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 86,
-          "físico": 82,
-          "tiro": 74,
-          "pase": 66,
-          "talento": 76,
-          "defensa": 77
+          "speed": 86,
+          "physique": 82,
+          "shooting": 74,
+          "passing": 66,
+          "talent": 76,
+          "defense": 77
         }
       }
     },
@@ -883,20 +883,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 83,
-          "físico": 67,
-          "tiro": 73,
-          "pase": 86,
-          "talento": 83,
-          "defensa": 74
+          "speed": 83,
+          "physique": 67,
+          "shooting": 73,
+          "passing": 86,
+          "talent": 83,
+          "defense": 74
         }
       }
     },
@@ -908,20 +908,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/5.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 74,
-          "físico": 62,
-          "tiro": 81,
-          "pase": 60,
-          "talento": 68,
-          "defensa": 82
+          "speed": 74,
+          "physique": 62,
+          "shooting": 81,
+          "passing": 60,
+          "talent": 68,
+          "defense": 82
         }
       }
     },
@@ -933,20 +933,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 61,
-          "tiro": 81,
-          "pase": 68,
-          "talento": 78,
-          "defensa": 69
+          "speed": 73,
+          "physique": 61,
+          "shooting": 81,
+          "passing": 68,
+          "talent": 78,
+          "defense": 69
         }
       }
     },
@@ -958,20 +958,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/30.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 77,
-          "tiro": 72,
-          "pase": 72,
-          "talento": 87,
-          "defensa": 75
+          "speed": 72,
+          "physique": 77,
+          "shooting": 72,
+          "passing": 72,
+          "talent": 87,
+          "defense": 75
         }
       }
     },
@@ -983,20 +983,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 62,
-          "tiro": 71,
-          "pase": 64,
-          "talento": 72,
-          "defensa": 68
+          "speed": 72,
+          "physique": 62,
+          "shooting": 71,
+          "passing": 64,
+          "talent": 72,
+          "defense": 68
         }
       }
     },
@@ -1008,20 +1008,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/31.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 2,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 52,
-          "tiro": 80,
-          "pase": 71,
-          "talento": 78,
-          "defensa": 58
+          "speed": 72,
+          "physique": 52,
+          "shooting": 80,
+          "passing": 71,
+          "talent": 78,
+          "defense": 58
         }
       }
     },
@@ -1033,20 +1033,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/25.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 1,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 1,
+          "concededGoals": 5,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 71,
+          "saves": 73,
+          "kickoff": 62,
+          "stretch": 80
         }
       }
     }
@@ -1071,20 +1071,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 2
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 59,
-          "tiro": 73,
-          "pase": 76,
-          "talento": 75,
-          "defensa": 72
+          "speed": 73,
+          "physique": 59,
+          "shooting": 73,
+          "passing": 76,
+          "talent": 75,
+          "defense": 72
         }
       }
     },
@@ -1096,20 +1096,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 1
+          "matchs": 4,
+          "concededGoals": 5,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 1,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 83,
+          "saves": 92,
+          "kickoff": 86,
+          "stretch": 87
         }
       }
     },
@@ -1121,20 +1121,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/4.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 55,
-          "tiro": 82,
-          "pase": 77,
-          "talento": 83,
-          "defensa": 83
+          "speed": 71,
+          "physique": 55,
+          "shooting": 82,
+          "passing": 77,
+          "talent": 83,
+          "defense": 83
         }
       }
     },
@@ -1146,20 +1146,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 60,
-          "tiro": 78,
-          "pase": 64,
-          "talento": 64,
-          "defensa": 63
+          "speed": 72,
+          "physique": 60,
+          "shooting": 78,
+          "passing": 64,
+          "talent": 64,
+          "defense": 63
         }
       }
     },
@@ -1171,20 +1171,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/13.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 0,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 0,
+          "concededGoals": 0,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 81,
+          "saves": 84,
+          "kickoff": 74,
+          "stretch": 76
         }
       }
     },
@@ -1196,20 +1196,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/5.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 2,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 70,
-          "físico": 56,
-          "tiro": 68,
-          "pase": 68,
-          "talento": 81,
-          "defensa": 85
+          "speed": 70,
+          "physique": 56,
+          "shooting": 68,
+          "passing": 68,
+          "talent": 81,
+          "defense": 85
         }
       }
     },
@@ -1221,20 +1221,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 0,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 0,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 51,
-          "tiro": 70,
-          "pase": 79,
-          "talento": 64,
-          "defensa": 64
+          "speed": 72,
+          "physique": 51,
+          "shooting": 70,
+          "passing": 79,
+          "talent": 64,
+          "defense": 64
         }
       }
     },
@@ -1246,20 +1246,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 56,
-          "tiro": 71,
-          "pase": 65,
-          "talento": 68,
-          "defensa": 74
+          "speed": 72,
+          "physique": 56,
+          "shooting": 71,
+          "passing": 65,
+          "talent": 68,
+          "defense": 74
         }
       }
     },
@@ -1271,20 +1271,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 69,
-          "físico": 57,
-          "tiro": 61,
-          "pase": 67,
-          "talento": 78,
-          "defensa": 77
+          "speed": 69,
+          "physique": 57,
+          "shooting": 61,
+          "passing": 67,
+          "talent": 78,
+          "defense": 77
         }
       }
     },
@@ -1296,20 +1296,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/3.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 70,
-          "físico": 53,
-          "tiro": 86,
-          "pase": 58,
-          "talento": 55,
-          "defensa": 69
+          "speed": 70,
+          "physique": 53,
+          "shooting": 86,
+          "passing": 58,
+          "talent": 55,
+          "defense": 69
         }
       }
     }
@@ -1334,20 +1334,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 3,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 3,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 82,
-          "tiro": 81,
-          "pase": 55,
-          "talento": 85,
-          "defensa": 70
+          "speed": 73,
+          "physique": 82,
+          "shooting": 81,
+          "passing": 55,
+          "talent": 85,
+          "defense": 70
         }
       }
     },
@@ -1359,20 +1359,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/13.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 4,
+          "concededGoals": 10,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 1,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 81,
+          "saves": 84,
+          "kickoff": 70,
+          "stretch": 60
         }
       }
     },
@@ -1384,20 +1384,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/4.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 70,
-          "tiro": 80,
-          "pase": 78,
-          "talento": 56,
-          "defensa": 57
+          "speed": 71,
+          "physique": 70,
+          "shooting": 80,
+          "passing": 78,
+          "talent": 56,
+          "defense": 57
         }
       }
     },
@@ -1409,20 +1409,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 3,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 3,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 65,
-          "físico": 43,
-          "tiro": 75,
-          "pase": 79,
-          "talento": 82,
-          "defensa": 84
+          "speed": 65,
+          "physique": 43,
+          "shooting": 75,
+          "passing": 79,
+          "talent": 82,
+          "defense": 84
         }
       }
     },
@@ -1434,20 +1434,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/5.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 68,
-          "tiro": 79,
-          "pase": 70,
-          "talento": 89,
-          "defensa": 67
+          "speed": 73,
+          "physique": 68,
+          "shooting": 79,
+          "passing": 70,
+          "talent": 89,
+          "defense": 67
         }
       }
     },
@@ -1459,20 +1459,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 72,
-          "tiro": 76,
-          "pase": 84,
-          "talento": 81,
-          "defensa": 78
+          "speed": 73,
+          "physique": 72,
+          "shooting": 76,
+          "passing": 84,
+          "talent": 81,
+          "defense": 78
         }
       }
     },
@@ -1484,20 +1484,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 50,
-          "tiro": 70,
-          "pase": 76,
-          "talento": 84,
-          "defensa": 73
+          "speed": 73,
+          "physique": 50,
+          "shooting": 70,
+          "passing": 76,
+          "talent": 84,
+          "defense": 73
         }
       }
     },
@@ -1509,20 +1509,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 54,
-          "tiro": 78,
-          "pase": 54,
-          "talento": 71,
-          "defensa": 72
+          "speed": 72,
+          "physique": 54,
+          "shooting": 78,
+          "passing": 54,
+          "talent": 71,
+          "defense": 72
         }
       }
     },
@@ -1534,20 +1534,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 70,
-          "físico": 63,
-          "tiro": 80,
-          "pase": 61,
-          "talento": 83,
-          "defensa": 73
+          "speed": 70,
+          "physique": 63,
+          "shooting": 80,
+          "passing": 61,
+          "talent": 83,
+          "defense": 73
         }
       }
     },
@@ -1559,20 +1559,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 3,
+          "concededGoals": 5,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 62,
+          "saves": 70,
+          "kickoff": 60,
+          "stretch": 73
         }
       }
     }
@@ -1597,20 +1597,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 5,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 5,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 59,
-          "tiro": 76,
-          "pase": 78,
-          "talento": 86,
-          "defensa": 72
+          "speed": 71,
+          "physique": 59,
+          "shooting": 76,
+          "passing": 78,
+          "talent": 86,
+          "defense": 72
         }
       }
     },
@@ -1622,20 +1622,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/41.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 4,
+          "concededGoals": 14,
+          "stopPenalties": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 84,
+          "saves": 95,
+          "kickoff": 84,
+          "stretch": 85
         }
       }
     },
@@ -1647,20 +1647,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/19.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 3,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 3,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 69,
-          "físico": 52,
-          "tiro": 84,
-          "pase": 63,
-          "talento": 81,
-          "defensa": 80
+          "speed": 69,
+          "physique": 52,
+          "shooting": 84,
+          "passing": 63,
+          "talent": 81,
+          "defense": 80
         }
       }
     },
@@ -1672,20 +1672,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/22.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 66,
-          "físico": 53,
-          "tiro": 76,
-          "pase": 72,
-          "talento": 73,
-          "defensa": 69
+          "speed": 66,
+          "physique": 53,
+          "shooting": 76,
+          "passing": 72,
+          "talent": 73,
+          "defense": 69
         }
       }
     },
@@ -1697,20 +1697,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/30.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 2,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 71,
-          "tiro": 74,
-          "pase": 66,
-          "talento": 82,
-          "defensa": 78
+          "speed": 73,
+          "physique": 71,
+          "shooting": 74,
+          "passing": 66,
+          "talent": 82,
+          "defense": 78
         }
       }
     },
@@ -1722,20 +1722,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 2,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 96,
-          "físico": 75,
-          "tiro": 78,
-          "pase": 88,
-          "talento": 66,
-          "defensa": 62
+          "speed": 96,
+          "physique": 75,
+          "shooting": 78,
+          "passing": 88,
+          "talent": 66,
+          "defense": 62
         }
       }
     },
@@ -1747,20 +1747,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 51,
-          "tiro": 57,
-          "pase": 70,
-          "talento": 68,
-          "defensa": 74
+          "speed": 72,
+          "physique": 51,
+          "shooting": 57,
+          "passing": 70,
+          "talent": 68,
+          "defense": 74
         }
       }
     },
@@ -1772,20 +1772,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 58,
-          "tiro": 80,
-          "pase": 88,
-          "talento": 68,
-          "defensa": 70
+          "speed": 72,
+          "physique": 58,
+          "shooting": 80,
+          "passing": 88,
+          "talent": 68,
+          "defense": 70
         }
       }
     },
@@ -1797,20 +1797,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/63.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 85,
-          "físico": 73,
-          "tiro": 80,
-          "pase": 60,
-          "talento": 62,
-          "defensa": 62
+          "speed": 85,
+          "physique": 73,
+          "shooting": 80,
+          "passing": 60,
+          "talent": 62,
+          "defense": 62
         }
       }
     },
@@ -1822,20 +1822,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/77.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 69,
-          "físico": 56,
-          "tiro": 73,
-          "pase": 57,
-          "talento": 81,
-          "defensa": 87
+          "speed": 69,
+          "physique": 56,
+          "shooting": 73,
+          "passing": 57,
+          "talent": 81,
+          "defense": 87
         }
       }
     }
@@ -1860,20 +1860,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/13.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 4,
+          "concededGoals": 10,
+          "stopPenalties": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 85,
+          "saves": 92,
+          "kickoff": 86,
+          "stretch": 86
         }
       }
     },
@@ -1885,20 +1885,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 3,
-          "asist.": 1,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 3,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 49,
-          "tiro": 66,
-          "pase": 75,
-          "talento": 76,
-          "defensa": 74
+          "speed": 73,
+          "physique": 49,
+          "shooting": 66,
+          "passing": 75,
+          "talent": 76,
+          "defense": 74
         }
       }
     },
@@ -1910,20 +1910,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/23.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 70,
-          "físico": 48,
-          "tiro": 80,
-          "pase": 62,
-          "talento": 81,
-          "defensa": 75
+          "speed": 70,
+          "physique": 48,
+          "shooting": 80,
+          "passing": 62,
+          "talent": 81,
+          "defense": 75
         }
       }
     },
@@ -1935,20 +1935,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/21.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 58,
-          "tiro": 80,
-          "pase": 69,
-          "talento": 78,
-          "defensa": 73
+          "speed": 72,
+          "physique": 58,
+          "shooting": 80,
+          "passing": 69,
+          "talent": 78,
+          "defense": 73
         }
       }
     },
@@ -1960,20 +1960,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 53,
-          "tiro": 76,
-          "pase": 75,
-          "talento": 71,
-          "defensa": 69
+          "speed": 72,
+          "physique": 53,
+          "shooting": 76,
+          "passing": 75,
+          "talent": 71,
+          "defense": 69
         }
       }
     },
@@ -1985,20 +1985,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 70,
-          "tiro": 87,
-          "pase": 69,
-          "talento": 78,
-          "defensa": 73
+          "speed": 72,
+          "physique": 70,
+          "shooting": 87,
+          "passing": 69,
+          "talent": 78,
+          "defense": 73
         }
       }
     },
@@ -2010,20 +2010,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 54,
-          "tiro": 65,
-          "pase": 66,
-          "talento": 71,
-          "defensa": 65
+          "speed": 73,
+          "physique": 54,
+          "shooting": 65,
+          "passing": 66,
+          "talent": 71,
+          "defense": 65
         }
       }
     },
@@ -2035,20 +2035,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/Porcinos_17.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 1,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 1,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "speed": 0,
+          "physique": 0,
+          "shooting": 0,
+          "passing": 0,
+          "talent": 0,
+          "defense": 0
         }
       }
     },
@@ -2060,20 +2060,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/4.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 69,
-          "tiro": 89,
-          "pase": 65,
-          "talento": 74,
-          "defensa": 77
+          "speed": 73,
+          "physique": 69,
+          "shooting": 89,
+          "passing": 65,
+          "talent": 74,
+          "defense": 77
         }
       }
     },
@@ -2085,20 +2085,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 1,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 1,
+          "concededGoals": 0,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 70,
+          "saves": 73,
+          "kickoff": 81,
+          "stretch": 71
         }
       }
     }
@@ -2123,20 +2123,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 4,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 4,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 69,
-          "tiro": 79,
-          "pase": 78,
-          "talento": 77,
-          "defensa": 65
+          "speed": 72,
+          "physique": 69,
+          "shooting": 79,
+          "passing": 78,
+          "talent": 77,
+          "defense": 65
         }
       }
     },
@@ -2148,20 +2148,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 3,
+          "concededGoals": 2,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 71,
+          "saves": 84,
+          "kickoff": 79,
+          "stretch": 83
         }
       }
     },
@@ -2173,20 +2173,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 62,
-          "tiro": 76,
-          "pase": 58,
-          "talento": 74,
-          "defensa": 77
+          "speed": 73,
+          "physique": 62,
+          "shooting": 76,
+          "passing": 58,
+          "talent": 74,
+          "defense": 77
         }
       }
     },
@@ -2198,20 +2198,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 87,
-          "físico": 64,
-          "tiro": 65,
-          "pase": 72,
-          "talento": 74,
-          "defensa": 70
+          "speed": 87,
+          "physique": 64,
+          "shooting": 65,
+          "passing": 72,
+          "talent": 74,
+          "defense": 70
         }
       }
     },
@@ -2223,20 +2223,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/19.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 53,
-          "tiro": 75,
-          "pase": 59,
-          "talento": 66,
-          "defensa": 67
+          "speed": 71,
+          "physique": 53,
+          "shooting": 75,
+          "passing": 59,
+          "talent": 66,
+          "defense": 67
         }
       }
     },
@@ -2248,20 +2248,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/4.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 67,
-          "tiro": 79,
-          "pase": 84,
-          "talento": 69,
-          "defensa": 71
+          "speed": 73,
+          "physique": 67,
+          "shooting": 79,
+          "passing": 84,
+          "talent": 69,
+          "defense": 71
         }
       }
     },
@@ -2273,20 +2273,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/3.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 87,
-          "físico": 54,
-          "tiro": 64,
-          "pase": 54,
-          "talento": 74,
-          "defensa": 76
+          "speed": 87,
+          "physique": 54,
+          "shooting": 64,
+          "passing": 54,
+          "talent": 74,
+          "defense": 76
         }
       }
     },
@@ -2298,20 +2298,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 49,
-          "tiro": 72,
-          "pase": 53,
-          "talento": 75,
-          "defensa": 79
+          "speed": 72,
+          "physique": 49,
+          "shooting": 72,
+          "passing": 53,
+          "talent": 75,
+          "defense": 79
         }
       }
     },
@@ -2323,20 +2323,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/13.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 3,
+          "concededGoals": 7,
+          "stopPenalties": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 72,
+          "saves": 77,
+          "kickoff": 79,
+          "stretch": 80
         }
       }
     },
@@ -2348,20 +2348,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/20.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 77,
-          "tiro": 77,
-          "pase": 50,
-          "talento": 77,
-          "defensa": 83
+          "speed": 72,
+          "physique": 77,
+          "shooting": 77,
+          "passing": 50,
+          "talent": 77,
+          "defense": 83
         }
       }
     }
@@ -2386,20 +2386,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/13.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 4,
+          "concededGoals": 10,
+          "stopPenalties": 1,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 82,
+          "saves": 74,
+          "kickoff": 75,
+          "stretch": 84
         }
       }
     },
@@ -2411,20 +2411,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 2,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 68,
-          "físico": 53,
-          "tiro": 84,
-          "pase": 79,
-          "talento": 79,
-          "defensa": 73
+          "speed": 68,
+          "physique": 53,
+          "shooting": 84,
+          "passing": 79,
+          "talent": 79,
+          "defense": 73
         }
       }
     },
@@ -2436,20 +2436,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/20.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 64,
-          "tiro": 79,
-          "pase": 75,
-          "talento": 70,
-          "defensa": 70
+          "speed": 73,
+          "physique": 64,
+          "shooting": 79,
+          "passing": 75,
+          "talent": 70,
+          "defense": 70
         }
       }
     },
@@ -2461,20 +2461,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/5.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 64,
-          "físico": 69,
-          "tiro": 79,
-          "pase": 55,
-          "talento": 75,
-          "defensa": 83
+          "speed": 64,
+          "physique": 69,
+          "shooting": 79,
+          "passing": 55,
+          "talent": 75,
+          "defense": 83
         }
       }
     },
@@ -2486,20 +2486,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/32.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 62,
-          "tiro": 70,
-          "pase": 65,
-          "talento": 56,
-          "defensa": 72
+          "speed": 72,
+          "physique": 62,
+          "shooting": 70,
+          "passing": 65,
+          "talent": 56,
+          "defense": 72
         }
       }
     },
@@ -2511,20 +2511,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 92,
-          "físico": 61,
-          "tiro": 72,
-          "pase": 51,
-          "talento": 71,
-          "defensa": 60
+          "speed": 92,
+          "physique": 61,
+          "shooting": 72,
+          "passing": 51,
+          "talent": 71,
+          "defense": 60
         }
       }
     },
@@ -2536,20 +2536,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/3.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 58,
-          "tiro": 81,
-          "pase": 76,
-          "talento": 76,
-          "defensa": 80
+          "speed": 71,
+          "physique": 58,
+          "shooting": 81,
+          "passing": 76,
+          "talent": 76,
+          "defense": 80
         }
       }
     },
@@ -2561,20 +2561,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 64,
-          "físico": 46,
-          "tiro": 77,
-          "pase": 87,
-          "talento": 81,
-          "defensa": 74
+          "speed": 64,
+          "physique": 46,
+          "shooting": 77,
+          "passing": 87,
+          "talent": 81,
+          "defense": 74
         }
       }
     },
@@ -2586,20 +2586,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/21.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 66,
-          "tiro": 66,
-          "pase": 77,
-          "talento": 77,
-          "defensa": 75
+          "speed": 73,
+          "physique": 66,
+          "shooting": 66,
+          "passing": 77,
+          "talent": 77,
+          "defense": 75
         }
       }
     },
@@ -2611,20 +2611,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 0,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 0,
+          "concededGoals": 0,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 60,
+          "saves": 74,
+          "kickoff": 60,
+          "stretch": 60
         }
       }
     }
@@ -2649,20 +2649,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 4,
-          "asist.": 1,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 4,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 86,
-          "físico": 68,
-          "tiro": 84,
-          "pase": 81,
-          "talento": 84,
-          "defensa": 67
+          "speed": 86,
+          "physique": 68,
+          "shooting": 84,
+          "passing": 81,
+          "talent": 84,
+          "defense": 67
         }
       }
     },
@@ -2674,20 +2674,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/6.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 2,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 2,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 76,
-          "tiro": 78,
-          "pase": 83,
-          "talento": 74,
-          "defensa": 79
+          "speed": 71,
+          "physique": 76,
+          "shooting": 78,
+          "passing": 83,
+          "talent": 74,
+          "defense": 79
         }
       }
     },
@@ -2699,20 +2699,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 57,
-          "tiro": 84,
-          "pase": 66,
-          "talento": 86,
-          "defensa": 71
+          "speed": 73,
+          "physique": 57,
+          "shooting": 84,
+          "passing": 66,
+          "talent": 86,
+          "defense": 71
         }
       }
     },
@@ -2724,20 +2724,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/14.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 2,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 78,
-          "tiro": 86,
-          "pase": 75,
-          "talento": 83,
-          "defensa": 80
+          "speed": 72,
+          "physique": 78,
+          "shooting": 86,
+          "passing": 75,
+          "talent": 83,
+          "defense": 80
         }
       }
     },
@@ -2749,20 +2749,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/8.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 5,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 5,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 2
         },
         "performanceStats": {
-          "velocidad": 69,
-          "físico": 52,
-          "tiro": 78,
-          "pase": 73,
-          "talento": 81,
-          "defensa": 85
+          "speed": 69,
+          "physique": 52,
+          "shooting": 78,
+          "passing": 73,
+          "talent": 81,
+          "defense": 85
         }
       }
     },
@@ -2774,20 +2774,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/19.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 3,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 3,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 56,
-          "tiro": 76,
-          "pase": 68,
-          "talento": 74,
-          "defensa": 76
+          "speed": 72,
+          "physique": 56,
+          "shooting": 76,
+          "passing": 68,
+          "talent": 74,
+          "defense": 76
         }
       }
     },
@@ -2799,20 +2799,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/23.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 81,
-          "físico": 70,
-          "tiro": 75,
-          "pase": 77,
-          "talento": 80,
-          "defensa": 67
+          "speed": 81,
+          "physique": 70,
+          "shooting": 75,
+          "passing": 77,
+          "talent": 80,
+          "defense": 67
         }
       }
     },
@@ -2824,20 +2824,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 53,
-          "tiro": 80,
-          "pase": 63,
-          "talento": 79,
-          "defensa": 73
+          "speed": 72,
+          "physique": 53,
+          "shooting": 80,
+          "passing": 63,
+          "talent": 79,
+          "defense": 73
         }
       }
     },
@@ -2849,20 +2849,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 60,
-          "tiro": 62,
-          "pase": 69,
-          "talento": 74,
-          "defensa": 68
+          "speed": 73,
+          "physique": 60,
+          "shooting": 62,
+          "passing": 69,
+          "talent": 74,
+          "defense": 68
         }
       }
     },
@@ -2874,20 +2874,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/12.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 73,
-          "físico": 40,
-          "tiro": 78,
-          "pase": 70,
-          "talento": 77,
-          "defensa": 78
+          "speed": 73,
+          "physique": 40,
+          "shooting": 78,
+          "passing": 70,
+          "talent": 77,
+          "defense": 78
         }
       }
     }
@@ -2912,20 +2912,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/1.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 1
+          "matchs": 4,
+          "concededGoals": 5,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 1,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 82,
+          "saves": 81,
+          "kickoff": 80,
+          "stretch": 84
         }
       }
     },
@@ -2937,20 +2937,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/9.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 3,
-          "goles": 2,
-          "asist.": 2,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 3,
+          "goals": 2,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 67,
-          "tiro": 74,
-          "pase": 75,
-          "talento": 85,
-          "defensa": 77
+          "speed": 71,
+          "physique": 67,
+          "shooting": 74,
+          "passing": 75,
+          "talent": 85,
+          "defense": 77
         }
       }
     },
@@ -2962,20 +2962,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/4.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 2,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 2,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 70,
-          "físico": 53,
-          "tiro": 80,
-          "pase": 78,
-          "talento": 78,
-          "defensa": 83
+          "speed": 70,
+          "physique": 53,
+          "shooting": 80,
+          "passing": 78,
+          "talent": 78,
+          "defense": 83
         }
       }
     },
@@ -2987,20 +2987,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/7.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 1,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 1,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 45,
-          "tiro": 75,
-          "pase": 74,
-          "talento": 73,
-          "defensa": 70
+          "speed": 72,
+          "physique": 45,
+          "shooting": 75,
+          "passing": 74,
+          "talent": 73,
+          "defense": 70
         }
       }
     },
@@ -3012,20 +3012,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/14.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 52,
-          "tiro": 76,
-          "pase": 86,
-          "talento": 78,
-          "defensa": 66
+          "speed": 71,
+          "physique": 52,
+          "shooting": 76,
+          "passing": 86,
+          "talent": 78,
+          "defense": 66
         }
       }
     },
@@ -3037,20 +3037,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/5.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 1,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 1,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 39,
-          "tiro": 74,
-          "pase": 73,
-          "talento": 69,
-          "defensa": 60
+          "speed": 71,
+          "physique": 39,
+          "shooting": 74,
+          "passing": 73,
+          "talent": 69,
+          "defense": 60
         }
       }
     },
@@ -3062,20 +3062,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/20.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 2,
-          "asist.": 1,
-          "t.amarilla": 1,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 2,
+          "assists": 1,
+          "yellowCards": 1,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 72,
-          "físico": 64,
-          "tiro": 83,
-          "pase": 60,
-          "talento": 82,
-          "defensa": 84
+          "speed": 72,
+          "physique": 64,
+          "shooting": 83,
+          "passing": 60,
+          "talent": 82,
+          "defense": 84
         }
       }
     },
@@ -3087,20 +3087,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/10.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 0,
-          "asist.": 1,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 0,
+          "assists": 1,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 0
         },
         "performanceStats": {
-          "velocidad": 75,
-          "físico": 75,
-          "tiro": 80,
-          "pase": 65,
-          "talento": 73,
-          "defensa": 64
+          "speed": 75,
+          "physique": 75,
+          "shooting": 80,
+          "passing": 65,
+          "talent": 73,
+          "defense": 64
         }
       }
     },
@@ -3112,20 +3112,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/11.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 4,
-          "goles": 3,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
+          "matchs": 4,
+          "goals": 3,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
           "mvp": 1
         },
         "performanceStats": {
-          "velocidad": 71,
-          "físico": 49,
-          "tiro": 63,
-          "pase": 67,
-          "talento": 66,
-          "defensa": 62
+          "speed": 71,
+          "physique": 49,
+          "shooting": 63,
+          "passing": 67,
+          "talent": 66,
+          "defense": 62
         }
       }
     },
@@ -3137,20 +3137,20 @@
       "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/22.png",
       "playerStats": {
         "matchStats": {
-          "partidos": 0,
-          "goles": 0,
-          "asist.": 0,
-          "t.amarilla": 0,
-          "t.roja": 0,
-          "mvp": 0
+          "matchs": 0,
+          "concededGoals": 0,
+          "stopPenalties": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "mvp": 0,
+          "goals": 0,
+          "assists": 0
         },
         "performanceStats": {
-          "velocidad": 0,
-          "físico": 0,
-          "tiro": 0,
-          "pase": 0,
-          "talento": 0,
-          "defensa": 0
+          "reflexes": 61,
+          "saves": 60,
+          "kickoff": 74,
+          "stretch": 63
         }
       }
     }

@@ -113,11 +113,9 @@ async function donwloadDataTeam(page) {
         playerID = firstName.toLowerCase()
       }
 
-      // console.log(firstName, lastName, playerID)
-
       const playerIDSelector = position === 'jugador 11' ? 'jugador-11' : `jugador-${index - 1}`
 
-      const playerStats = extractPlayerStats(playerIDSelector, $)
+      const playerStats = extractPlayerStats(playerIDSelector, position, $)
 
       players[teamId].push({
         name,
@@ -194,9 +192,35 @@ function extractSocialMedia($) {
   return socialMedias
 }
 
-function extractPlayerStats(playerIDSelector, $) {
-  const matchContainerSelector = 'div div div .league-player > div > div'
-  const performanceContainerSelector = 'div div div .data-player > div > div'
+function extractPlayerStats(playerIDSelector, position, $) {
+  const matchPropertyNames = {
+    partidos: 'matchs',
+    'penaltis parados': 'stopPenalties',
+    'goles encajados': 'concededGoals',
+    goles: 'goals',
+    'asist.': 'assists',
+    't.amarilla': 'yellowCards',
+    't.roja': 'redCards',
+    mvp: 'mvp'
+  }
+  const performancePropertyNames = {
+    velocidad: 'speed',
+    físico: 'physique',
+    tiro: 'shooting',
+    pase: 'passing',
+    talento: 'talent',
+    defensa: 'defense',
+    reflejo: 'reflexes',
+    paradas: 'saves',
+    saque: 'kickoff',
+    estirada: 'stretch'
+  }
+
+  const specialMatchSelector = position === 'Portero' ? '.league-goalk' : '.league-player'
+  const specialPerformanceSelector = position === 'Portero' ? '.data-goalk' : '.data-player'
+
+  const matchContainerSelector = `div div div ${specialMatchSelector}  > div > div`
+  const performanceContainerSelector = `div div div ${specialPerformanceSelector} > div > div`
   const playerStats = {
     matchStats: {},
     performanceStats: {}
@@ -206,7 +230,7 @@ function extractPlayerStats(playerIDSelector, $) {
 
   $containerMatchStats.each((_, stat) => {
     const $stat = $(stat)
-    const { scoreName, scoreValue } = extractScores($stat)
+    const { scoreName, scoreValue } = extractScores($stat, matchPropertyNames)
 
     playerStats.matchStats[scoreName] = scoreValue
   })
@@ -217,7 +241,7 @@ function extractPlayerStats(playerIDSelector, $) {
 
   $containerPerformanceStats.each((_, stat) => {
     const $stat = $(stat)
-    const { scoreName, scoreValue } = extractScores($stat)
+    const { scoreName, scoreValue } = extractScores($stat, performancePropertyNames)
 
     playerStats.performanceStats[scoreName] = scoreValue
   })
@@ -225,9 +249,11 @@ function extractPlayerStats(playerIDSelector, $) {
   return playerStats
 }
 
-const extractScores = ($stat) => {
-  const scoreName = $stat.find('.el-meta').text().trim()
+const extractScores = ($stat, propertyNames) => {
+  let scoreName = $stat.find('.el-meta').text().trim()
   const scoreValue = Number($stat.find('h3').text().trim())
+
+  scoreName = propertyNames[scoreName]
 
   return { scoreName, scoreValue }
 }
