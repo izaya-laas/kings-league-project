@@ -73,7 +73,7 @@ async function donwloadDataTeam(page) {
   const teamName = $('.uk-heading-xlarge').text().trim()
   const socialMedias = extractSocialMedia($)
 
-  $players.each(async (_, player) => {
+  $players.each(async (index, player) => {
     const $player = $(player)
 
     // Delete hide element
@@ -99,19 +99,33 @@ async function donwloadDataTeam(page) {
         image: `https://kings-league-api.lautaronorielasat.workers.dev/static/teams/${teamId}/${imageFileName}`
       }
     } else {
-      let playerID = name.split(' ')[0].toLowerCase()
+      let playerID
+      const [firstName, lastName] = name.split(' ')
 
-      if (playerID.includes('. ')) {
-        console.log(name.split(' ')[0], teamId)
-        playerID = name.split(' ')[1].toLowerCase()
+      if (firstName.includes('.')) {
+        if (!lastName) {
+          const [_, newID] = firstName.split('.')
+          playerID = newID.toLowerCase()
+        } else {
+          playerID = lastName.toLowerCase()
+        }
+      } else {
+        playerID = firstName.toLowerCase()
       }
+
+      // console.log(firstName, lastName, playerID)
+
+      const playerIDSelector = position === 'jugador 11' ? 'jugador-11' : `jugador-${index - 1}`
+
+      const playerStats = extractPlayerStats(playerIDSelector, $)
 
       players[teamId].push({
         name,
         position,
         id: playerID,
         teamId,
-        image: `https://kings-league-api.lautaronorielasat.workers.dev/static/teams/${teamId}/${imageFileName}`
+        image: `https://kings-league-api.lautaronorielasat.workers.dev/static/teams/${teamId}/${imageFileName}`,
+        playerStats
       })
     }
 
@@ -178,6 +192,44 @@ function extractSocialMedia($) {
   })
 
   return socialMedias
+}
+
+function extractPlayerStats(playerIDSelector, $) {
+  const matchContainerSelector = 'div div div .league-player > div > div'
+  const performanceContainerSelector = 'div div div .data-player > div > div'
+  const playerStats = {
+    matchStats: {},
+    performanceStats: {}
+  }
+
+  const $containerMatchStats = $(`.${playerIDSelector} ${matchContainerSelector}`)
+
+  $containerMatchStats.each((_, stat) => {
+    const $stat = $(stat)
+    const { scoreName, scoreValue } = extractScores($stat)
+
+    playerStats.matchStats[scoreName] = scoreValue
+  })
+
+  if (playerIDSelector === 'jugador-11') return playerStats
+
+  const $containerPerformanceStats = $(`.${playerIDSelector} ${performanceContainerSelector}`)
+
+  $containerPerformanceStats.each((_, stat) => {
+    const $stat = $(stat)
+    const { scoreName, scoreValue } = extractScores($stat)
+
+    playerStats.performanceStats[scoreName] = scoreValue
+  })
+
+  return playerStats
+}
+
+const extractScores = ($stat) => {
+  const scoreName = $stat.find('.el-meta').text().trim()
+  const scoreValue = Number($stat.find('h3').text().trim())
+
+  return { scoreName, scoreValue }
 }
 
 pages.map(donwloadDataTeam)
