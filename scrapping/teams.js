@@ -55,6 +55,19 @@ const players = {
   'saiyans-fc': []
 }
 const teams = {}
+const colors = {
+  kunisports: '#000',
+  'los-troncos-fc': '#29b392',
+  '1k': '#5c4de8',
+  'pio-fc': 'f1f582',
+  'el-barrio': '#237864',
+  'jijantes-fc': '#eb4d5d',
+  'aniquiladores-fc': '#f73448',
+  'xbuyer-team': '#525557',
+  'ultimate-mostoles': '#525557',
+  'porcinos-fc': '#fa66f3',
+  'rayo-barcelona': '#faa843'
+}
 
 async function donwloadDataTeam(page) {
   const { url, teamId } = page
@@ -64,7 +77,7 @@ async function donwloadDataTeam(page) {
   let imageURL
   let coachId
 
-  const currentPresident = presidents.find((president) => (president.teamId = teamId))
+  const currentPresident = presidents.find((president) => president.teamId === teamId)
   const presidentId = currentPresident.id
 
   const $ = await scrape(url)
@@ -136,6 +149,7 @@ async function donwloadDataTeam(page) {
     image: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}.svg`,
     inverse: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}-inverse.svg`,
     coachId,
+    color: colors[teamId],
     presidentId,
     socialMedias,
     players: Object.values({ ...players[teamId] })
