@@ -49,19 +49,19 @@ const legals = [
 ]
 ---
 
-<footer class="py-10 mt-10 bg-black">
-	<div class="w-11/12 mx-auto flex items-center justify-between">
-		<section class="flex flex-col items-center gap-4">
+<footer class="py-10 bg-black">
+	<div class="w-11/12 mx-auto flex flex-col sm:flex-row items-center justify-between">
+		<section class="flex flex-col items-center gap-4 mb-10 sm:mb-0">
 			<img class="w-40" src="/public/kings-league-alternative.svg" alt="Logo Kings League">
 		<ListSocialNetworks/>
 	</section>
 	<section class="text-white">
 		<div>
 			<nav>
-				<ul class="grid grid-cols-3 gap-2 place-items-center">
+				<ul class="flex flex-wrap justify-center gap-4 sm:grid sm:grid-cols-3 sm:gap-2 sm:place-items-center">
 					{
 						navLinks.map(({ name, href }) => (
-							<li>
+							<li class="justify-self-center self-center">
 								<a href={href}>{name}</a>
 							</li>
 						))
@@ -70,7 +70,7 @@ const legals = [
 			</nav>
 		</div>
 		<nav class="mt-8 text-xs">
-			<ul class="flex gap-x-4">
+			<ul class="flex justify-center flex-wrap sm:flex-nowrap sm:justify-start whitespace-nowrap gap-4 sm:gap-y-0 sm:gap-x-2">
 				{
 					legals.map(({ name, href }) => (
 						<li>
