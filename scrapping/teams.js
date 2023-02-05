@@ -246,6 +246,8 @@ function extractPlayerStats(playerIDSelector, position, $) {
     playerStats.performanceStats[scoreName] = scoreValue
   })
 
+  playerStats.performanceStats['score'] = calculateScore(playerStats.performanceStats)
+
   return playerStats
 }
 
@@ -256,6 +258,15 @@ const extractScores = ($stat, propertyNames) => {
   scoreName = propertyNames[scoreName]
 
   return { scoreName, scoreValue }
+}
+
+const calculateScore = (stats) => {
+  const values = Object.values(stats)
+
+  const totalValue = values.reduce((acc, currentValue) => acc + currentValue)
+  const totalScore = Math.round(totalValue / values.length)
+
+  return totalScore
 }
 
 pages.map(donwloadDataTeam)

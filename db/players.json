@@ -32,7 +32,8 @@
           "reflexes": 84,
           "saves": 83,
           "kickoff": 82,
-          "stretch": 78
+          "stretch": 78,
+          "score": 82
         }
       }
     },
@@ -57,7 +58,8 @@
           "shooting": 77,
           "passing": 71,
           "talent": 81,
-          "defense": 85
+          "defense": 85,
+          "score": 75
         }
       }
     },
@@ -82,7 +84,8 @@
           "shooting": 71,
           "passing": 82,
           "talent": 75,
-          "defense": 82
+          "defense": 82,
+          "score": 74
         }
       }
     },
@@ -107,7 +110,8 @@
           "shooting": 0,
           "passing": 0,
           "talent": 0,
-          "defense": 0
+          "defense": 0,
+          "score": 0
         }
       }
     },
@@ -132,7 +136,8 @@
           "shooting": 75,
           "passing": 55,
           "talent": 71,
-          "defense": 77
+          "defense": 77,
+          "score": 69
         }
       }
     },
@@ -157,7 +162,8 @@
           "shooting": 72,
           "passing": 77,
           "talent": 80,
-          "defense": 80
+          "defense": 80,
+          "score": 74
         }
       }
     },
@@ -182,7 +188,8 @@
           "shooting": 80,
           "passing": 89,
           "talent": 82,
-          "defense": 81
+          "defense": 81,
+          "score": 75
         }
       }
     },
@@ -207,7 +214,8 @@
           "shooting": 79,
           "passing": 75,
           "talent": 80,
-          "defense": 71
+          "defense": 71,
+          "score": 70
         }
       }
     },
@@ -232,7 +240,8 @@
           "shooting": 82,
           "passing": 72,
           "talent": 72,
-          "defense": 68
+          "defense": 68,
+          "score": 71
         }
       }
     },
@@ -257,7 +266,8 @@
           "shooting": 71,
           "passing": 74,
           "talent": 78,
-          "defense": 70
+          "defense": 70,
+          "score": 68
         }
       }
     }
@@ -295,7 +305,8 @@
           "shooting": 68,
           "passing": 76,
           "talent": 86,
-          "defense": 66
+          "defense": 66,
+          "score": 73
         }
       }
     },
@@ -320,7 +331,8 @@
           "shooting": 87,
           "passing": 58,
           "talent": 78,
-          "defense": 73
+          "defense": 73,
+          "score": 77
         }
       }
     },
@@ -345,7 +357,8 @@
           "shooting": 81,
           "passing": 83,
           "talent": 68,
-          "defense": 69
+          "defense": 69,
+          "score": 72
         }
       }
     },
@@ -370,7 +383,8 @@
           "shooting": 70,
           "passing": 72,
           "talent": 81,
-          "defense": 70
+          "defense": 70,
+          "score": 69
         }
       }
     },
@@ -395,7 +409,8 @@
           "shooting": 69,
           "passing": 62,
           "talent": 65,
-          "defense": 82
+          "defense": 82,
+          "score": 70
         }
       }
     },
@@ -420,7 +435,8 @@
           "shooting": 77,
           "passing": 76,
           "talent": 78,
-          "defense": 84
+          "defense": 84,
+          "score": 72
         }
       }
     },
@@ -445,7 +461,8 @@
           "shooting": 78,
           "passing": 70,
           "talent": 87,
-          "defense": 71
+          "defense": 71,
+          "score": 73
         }
       }
     },
@@ -470,7 +487,8 @@
           "shooting": 82,
           "passing": 60,
           "talent": 87,
-          "defense": 75
+          "defense": 75,
+          "score": 74
         }
       }
     },
@@ -495,7 +513,8 @@
           "shooting": 75,
           "passing": 70,
           "talent": 69,
-          "defense": 70
+          "defense": 70,
+          "score": 70
         }
       }
     },
@@ -520,7 +539,8 @@
           "shooting": 83,
           "passing": 55,
           "talent": 78,
-          "defense": 71
+          "defense": 71,
+          "score": 72
         }
       }
     }
@@ -558,7 +578,8 @@
           "reflexes": 90,
           "saves": 83,
           "kickoff": 84,
-          "stretch": 86
+          "stretch": 86,
+          "score": 86
         }
       }
     },
@@ -583,7 +604,8 @@
           "shooting": 86,
           "passing": 87,
           "talent": 81,
-          "defense": 90
+          "defense": 90,
+          "score": 80
         }
       }
     },
@@ -608,7 +630,8 @@
           "shooting": 69,
           "passing": 71,
           "talent": 63,
-          "defense": 77
+          "defense": 77,
+          "score": 71
         }
       }
     },
@@ -633,7 +656,8 @@
           "shooting": 82,
           "passing": 94,
           "talent": 79,
-          "defense": 64
+          "defense": 64,
+          "score": 76
         }
       }
     },
@@ -658,7 +682,8 @@
           "shooting": 82,
           "passing": 77,
           "talent": 80,
-          "defense": 69
+          "defense": 69,
+          "score": 77
         }
       }
     },
@@ -683,7 +708,8 @@
           "shooting": 70,
           "passing": 83,
           "talent": 66,
-          "defense": 71
+          "defense": 71,
+          "score": 72
         }
       }
     },
@@ -708,7 +734,8 @@
           "shooting": 65,
           "passing": 81,
           "talent": 81,
-          "defense": 73
+          "defense": 73,
+          "score": 73
         }
       }
     },
@@ -733,7 +760,8 @@
           "shooting": 67,
           "passing": 57,
           "talent": 58,
-          "defense": 68
+          "defense": 68,
+          "score": 63
         }
       }
     },
@@ -758,7 +786,8 @@
           "shooting": 73,
           "passing": 73,
           "talent": 85,
-          "defense": 68
+          "defense": 68,
+          "score": 74
         }
       }
     },
@@ -783,7 +812,8 @@
           "reflexes": 83,
           "saves": 83,
           "kickoff": 76,
-          "stretch": 74
+          "stretch": 74,
+          "score": 79
         }
       }
     }
@@ -821,7 +851,8 @@
           "shooting": 87,
           "passing": 76,
           "talent": 84,
-          "defense": 73
+          "defense": 73,
+          "score": 81
         }
       }
     },
@@ -846,7 +877,8 @@
           "reflexes": 86,
           "saves": 87,
           "kickoff": 84,
-          "stretch": 94
+          "stretch": 94,
+          "score": 88
         }
       }
     },
@@ -871,7 +903,8 @@
           "shooting": 74,
           "passing": 66,
           "talent": 76,
-          "defense": 77
+          "defense": 77,
+          "score": 77
         }
       }
     },
@@ -896,7 +929,8 @@
           "shooting": 73,
           "passing": 86,
           "talent": 83,
-          "defense": 74
+          "defense": 74,
+          "score": 78
         }
       }
     },
@@ -921,7 +955,8 @@
           "shooting": 81,
           "passing": 60,
           "talent": 68,
-          "defense": 82
+          "defense": 82,
+          "score": 71
         }
       }
     },
@@ -946,7 +981,8 @@
           "shooting": 81,
           "passing": 68,
           "talent": 78,
-          "defense": 69
+          "defense": 69,
+          "score": 72
         }
       }
     },
@@ -971,7 +1007,8 @@
           "shooting": 72,
           "passing": 72,
           "talent": 87,
-          "defense": 75
+          "defense": 75,
+          "score": 76
         }
       }
     },
@@ -996,7 +1033,8 @@
           "shooting": 71,
           "passing": 64,
           "talent": 72,
-          "defense": 68
+          "defense": 68,
+          "score": 68
         }
       }
     },
@@ -1021,7 +1059,8 @@
           "shooting": 80,
           "passing": 71,
           "talent": 78,
-          "defense": 58
+          "defense": 58,
+          "score": 69
         }
       }
     },
@@ -1046,7 +1085,8 @@
           "reflexes": 71,
           "saves": 73,
           "kickoff": 62,
-          "stretch": 80
+          "stretch": 80,
+          "score": 72
         }
       }
     }
@@ -1084,7 +1124,8 @@
           "shooting": 73,
           "passing": 76,
           "talent": 75,
-          "defense": 72
+          "defense": 72,
+          "score": 71
         }
       }
     },
@@ -1109,7 +1150,8 @@
           "reflexes": 83,
           "saves": 92,
           "kickoff": 86,
-          "stretch": 87
+          "stretch": 87,
+          "score": 87
         }
       }
     },
@@ -1134,7 +1176,8 @@
           "shooting": 82,
           "passing": 77,
           "talent": 83,
-          "defense": 83
+          "defense": 83,
+          "score": 75
         }
       }
     },
@@ -1159,7 +1202,8 @@
           "shooting": 78,
           "passing": 64,
           "talent": 64,
-          "defense": 63
+          "defense": 63,
+          "score": 67
         }
       }
     },
@@ -1184,7 +1228,8 @@
           "reflexes": 81,
           "saves": 84,
           "kickoff": 74,
-          "stretch": 76
+          "stretch": 76,
+          "score": 79
         }
       }
     },
@@ -1209,7 +1254,8 @@
           "shooting": 68,
           "passing": 68,
           "talent": 81,
-          "defense": 85
+          "defense": 85,
+          "score": 71
         }
       }
     },
@@ -1234,7 +1280,8 @@
           "shooting": 70,
           "passing": 79,
           "talent": 64,
-          "defense": 64
+          "defense": 64,
+          "score": 67
         }
       }
     },
@@ -1259,7 +1306,8 @@
           "shooting": 71,
           "passing": 65,
           "talent": 68,
-          "defense": 74
+          "defense": 74,
+          "score": 68
         }
       }
     },
@@ -1284,7 +1332,8 @@
           "shooting": 61,
           "passing": 67,
           "talent": 78,
-          "defense": 77
+          "defense": 77,
+          "score": 68
         }
       }
     },
@@ -1309,7 +1358,8 @@
           "shooting": 86,
           "passing": 58,
           "talent": 55,
-          "defense": 69
+          "defense": 69,
+          "score": 65
         }
       }
     }
@@ -1347,7 +1397,8 @@
           "shooting": 81,
           "passing": 55,
           "talent": 85,
-          "defense": 70
+          "defense": 70,
+          "score": 74
         }
       }
     },
@@ -1372,7 +1423,8 @@
           "reflexes": 81,
           "saves": 84,
           "kickoff": 70,
-          "stretch": 60
+          "stretch": 60,
+          "score": 74
         }
       }
     },
@@ -1397,7 +1449,8 @@
           "shooting": 80,
           "passing": 78,
           "talent": 56,
-          "defense": 57
+          "defense": 57,
+          "score": 69
         }
       }
     },
@@ -1422,7 +1475,8 @@
           "shooting": 75,
           "passing": 79,
           "talent": 82,
-          "defense": 84
+          "defense": 84,
+          "score": 71
         }
       }
     },
@@ -1447,7 +1501,8 @@
           "shooting": 79,
           "passing": 70,
           "talent": 89,
-          "defense": 67
+          "defense": 67,
+          "score": 74
         }
       }
     },
@@ -1472,7 +1527,8 @@
           "shooting": 76,
           "passing": 84,
           "talent": 81,
-          "defense": 78
+          "defense": 78,
+          "score": 77
         }
       }
     },
@@ -1497,7 +1553,8 @@
           "shooting": 70,
           "passing": 76,
           "talent": 84,
-          "defense": 73
+          "defense": 73,
+          "score": 71
         }
       }
     },
@@ -1522,7 +1579,8 @@
           "shooting": 78,
           "passing": 54,
           "talent": 71,
-          "defense": 72
+          "defense": 72,
+          "score": 67
         }
       }
     },
@@ -1547,7 +1605,8 @@
           "shooting": 80,
           "passing": 61,
           "talent": 83,
-          "defense": 73
+          "defense": 73,
+          "score": 72
         }
       }
     },
@@ -1572,7 +1631,8 @@
           "reflexes": 62,
           "saves": 70,
           "kickoff": 60,
-          "stretch": 73
+          "stretch": 73,
+          "score": 66
         }
       }
     }
@@ -1610,7 +1670,8 @@
           "shooting": 76,
           "passing": 78,
           "talent": 86,
-          "defense": 72
+          "defense": 72,
+          "score": 74
         }
       }
     },
@@ -1635,7 +1696,8 @@
           "reflexes": 84,
           "saves": 95,
           "kickoff": 84,
-          "stretch": 85
+          "stretch": 85,
+          "score": 87
         }
       }
     },
@@ -1660,7 +1722,8 @@
           "shooting": 84,
           "passing": 63,
           "talent": 81,
-          "defense": 80
+          "defense": 80,
+          "score": 72
         }
       }
     },
@@ -1685,7 +1748,8 @@
           "shooting": 76,
           "passing": 72,
           "talent": 73,
-          "defense": 69
+          "defense": 69,
+          "score": 68
         }
       }
     },
@@ -1710,7 +1774,8 @@
           "shooting": 74,
           "passing": 66,
           "talent": 82,
-          "defense": 78
+          "defense": 78,
+          "score": 74
         }
       }
     },
@@ -1735,7 +1800,8 @@
           "shooting": 78,
           "passing": 88,
           "talent": 66,
-          "defense": 62
+          "defense": 62,
+          "score": 78
         }
       }
     },
@@ -1760,7 +1826,8 @@
           "shooting": 57,
           "passing": 70,
           "talent": 68,
-          "defense": 74
+          "defense": 74,
+          "score": 65
         }
       }
     },
@@ -1785,7 +1852,8 @@
           "shooting": 80,
           "passing": 88,
           "talent": 68,
-          "defense": 70
+          "defense": 70,
+          "score": 73
         }
       }
     },
@@ -1810,7 +1878,8 @@
           "shooting": 80,
           "passing": 60,
           "talent": 62,
-          "defense": 62
+          "defense": 62,
+          "score": 70
         }
       }
     },
@@ -1835,7 +1904,8 @@
           "shooting": 73,
           "passing": 57,
           "talent": 81,
-          "defense": 87
+          "defense": 87,
+          "score": 71
         }
       }
     }
@@ -1873,7 +1943,8 @@
           "reflexes": 85,
           "saves": 92,
           "kickoff": 86,
-          "stretch": 86
+          "stretch": 86,
+          "score": 87
         }
       }
     },
@@ -1898,7 +1969,8 @@
           "shooting": 66,
           "passing": 75,
           "talent": 76,
-          "defense": 74
+          "defense": 74,
+          "score": 69
         }
       }
     },
@@ -1923,7 +1995,8 @@
           "shooting": 80,
           "passing": 62,
           "talent": 81,
-          "defense": 75
+          "defense": 75,
+          "score": 69
         }
       }
     },
@@ -1948,7 +2021,8 @@
           "shooting": 80,
           "passing": 69,
           "talent": 78,
-          "defense": 73
+          "defense": 73,
+          "score": 72
         }
       }
     },
@@ -1973,7 +2047,8 @@
           "shooting": 76,
           "passing": 75,
           "talent": 71,
-          "defense": 69
+          "defense": 69,
+          "score": 69
         }
       }
     },
@@ -1998,7 +2073,8 @@
           "shooting": 87,
           "passing": 69,
           "talent": 78,
-          "defense": 73
+          "defense": 73,
+          "score": 75
         }
       }
     },
@@ -2023,7 +2099,8 @@
           "shooting": 65,
           "passing": 66,
           "talent": 71,
-          "defense": 65
+          "defense": 65,
+          "score": 66
         }
       }
     },
@@ -2048,7 +2125,8 @@
           "shooting": 0,
           "passing": 0,
           "talent": 0,
-          "defense": 0
+          "defense": 0,
+          "score": 0
         }
       }
     },
@@ -2073,7 +2151,8 @@
           "shooting": 89,
           "passing": 65,
           "talent": 74,
-          "defense": 77
+          "defense": 77,
+          "score": 75
         }
       }
     },
@@ -2098,7 +2177,8 @@
           "reflexes": 70,
           "saves": 73,
           "kickoff": 81,
-          "stretch": 71
+          "stretch": 71,
+          "score": 74
         }
       }
     }
@@ -2136,7 +2216,8 @@
           "shooting": 79,
           "passing": 78,
           "talent": 77,
-          "defense": 65
+          "defense": 65,
+          "score": 73
         }
       }
     },
@@ -2161,7 +2242,8 @@
           "reflexes": 71,
           "saves": 84,
           "kickoff": 79,
-          "stretch": 83
+          "stretch": 83,
+          "score": 79
         }
       }
     },
@@ -2186,7 +2268,8 @@
           "shooting": 76,
           "passing": 58,
           "talent": 74,
-          "defense": 77
+          "defense": 77,
+          "score": 70
         }
       }
     },
@@ -2211,7 +2294,8 @@
           "shooting": 65,
           "passing": 72,
           "talent": 74,
-          "defense": 70
+          "defense": 70,
+          "score": 72
         }
       }
     },
@@ -2236,7 +2320,8 @@
           "shooting": 75,
           "passing": 59,
           "talent": 66,
-          "defense": 67
+          "defense": 67,
+          "score": 65
         }
       }
     },
@@ -2261,7 +2346,8 @@
           "shooting": 79,
           "passing": 84,
           "talent": 69,
-          "defense": 71
+          "defense": 71,
+          "score": 74
         }
       }
     },
@@ -2286,7 +2372,8 @@
           "shooting": 64,
           "passing": 54,
           "talent": 74,
-          "defense": 76
+          "defense": 76,
+          "score": 68
         }
       }
     },
@@ -2311,7 +2398,8 @@
           "shooting": 72,
           "passing": 53,
           "talent": 75,
-          "defense": 79
+          "defense": 79,
+          "score": 67
         }
       }
     },
@@ -2336,7 +2424,8 @@
           "reflexes": 72,
           "saves": 77,
           "kickoff": 79,
-          "stretch": 80
+          "stretch": 80,
+          "score": 77
         }
       }
     },
@@ -2361,7 +2450,8 @@
           "shooting": 77,
           "passing": 50,
           "talent": 77,
-          "defense": 83
+          "defense": 83,
+          "score": 73
         }
       }
     }
@@ -2399,7 +2489,8 @@
           "reflexes": 82,
           "saves": 74,
           "kickoff": 75,
-          "stretch": 84
+          "stretch": 84,
+          "score": 79
         }
       }
     },
@@ -2424,7 +2515,8 @@
           "shooting": 84,
           "passing": 79,
           "talent": 79,
-          "defense": 73
+          "defense": 73,
+          "score": 73
         }
       }
     },
@@ -2449,7 +2541,8 @@
           "shooting": 79,
           "passing": 75,
           "talent": 70,
-          "defense": 70
+          "defense": 70,
+          "score": 72
         }
       }
     },
@@ -2474,7 +2567,8 @@
           "shooting": 79,
           "passing": 55,
           "talent": 75,
-          "defense": 83
+          "defense": 83,
+          "score": 71
         }
       }
     },
@@ -2499,7 +2593,8 @@
           "shooting": 70,
           "passing": 65,
           "talent": 56,
-          "defense": 72
+          "defense": 72,
+          "score": 66
         }
       }
     },
@@ -2524,7 +2619,8 @@
           "shooting": 72,
           "passing": 51,
           "talent": 71,
-          "defense": 60
+          "defense": 60,
+          "score": 68
         }
       }
     },
@@ -2549,7 +2645,8 @@
           "shooting": 81,
           "passing": 76,
           "talent": 76,
-          "defense": 80
+          "defense": 80,
+          "score": 74
         }
       }
     },
@@ -2574,7 +2671,8 @@
           "shooting": 77,
           "passing": 87,
           "talent": 81,
-          "defense": 74
+          "defense": 74,
+          "score": 72
         }
       }
     },
@@ -2599,7 +2697,8 @@
           "shooting": 66,
           "passing": 77,
           "talent": 77,
-          "defense": 75
+          "defense": 75,
+          "score": 72
         }
       }
     },
@@ -2624,7 +2723,8 @@
           "reflexes": 60,
           "saves": 74,
           "kickoff": 60,
-          "stretch": 60
+          "stretch": 60,
+          "score": 64
         }
       }
     }
@@ -2662,7 +2762,8 @@
           "shooting": 84,
           "passing": 81,
           "talent": 84,
-          "defense": 67
+          "defense": 67,
+          "score": 78
         }
       }
     },
@@ -2687,7 +2788,8 @@
           "shooting": 78,
           "passing": 83,
           "talent": 74,
-          "defense": 79
+          "defense": 79,
+          "score": 77
         }
       }
     },
@@ -2712,7 +2814,8 @@
           "shooting": 84,
           "passing": 66,
           "talent": 86,
-          "defense": 71
+          "defense": 71,
+          "score": 73
         }
       }
     },
@@ -2737,7 +2840,8 @@
           "shooting": 86,
           "passing": 75,
           "talent": 83,
-          "defense": 80
+          "defense": 80,
+          "score": 79
         }
       }
     },
@@ -2762,7 +2866,8 @@
           "shooting": 78,
           "passing": 73,
           "talent": 81,
-          "defense": 85
+          "defense": 85,
+          "score": 73
         }
       }
     },
@@ -2787,7 +2892,8 @@
           "shooting": 76,
           "passing": 68,
           "talent": 74,
-          "defense": 76
+          "defense": 76,
+          "score": 70
         }
       }
     },
@@ -2812,7 +2918,8 @@
           "shooting": 75,
           "passing": 77,
           "talent": 80,
-          "defense": 67
+          "defense": 67,
+          "score": 75
         }
       }
     },
@@ -2837,7 +2944,8 @@
           "shooting": 80,
           "passing": 63,
           "talent": 79,
-          "defense": 73
+          "defense": 73,
+          "score": 70
         }
       }
     },
@@ -2862,7 +2970,8 @@
           "shooting": 62,
           "passing": 69,
           "talent": 74,
-          "defense": 68
+          "defense": 68,
+          "score": 68
         }
       }
     },
@@ -2887,18 +2996,19 @@
           "shooting": 78,
           "passing": 70,
           "talent": 77,
-          "defense": 78
+          "defense": 78,
+          "score": 69
         }
       }
     }
   ],
   "saiyans-fc": [
     {
-      "name": "Alfaya Jr.",
+      "name": "Pol Alme",
       "position": "jugador 11",
-      "id": "alfaya",
+      "id": "pol",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/16.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/Saiyans_8.png",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -2925,7 +3035,8 @@
           "reflexes": 82,
           "saves": 81,
           "kickoff": 80,
-          "stretch": 84
+          "stretch": 84,
+          "score": 82
         }
       }
     },
@@ -2950,7 +3061,8 @@
           "shooting": 74,
           "passing": 75,
           "talent": 85,
-          "defense": 77
+          "defense": 77,
+          "score": 75
         }
       }
     },
@@ -2975,7 +3087,8 @@
           "shooting": 80,
           "passing": 78,
           "talent": 78,
-          "defense": 83
+          "defense": 83,
+          "score": 74
         }
       }
     },
@@ -3000,7 +3113,8 @@
           "shooting": 75,
           "passing": 74,
           "talent": 73,
-          "defense": 70
+          "defense": 70,
+          "score": 68
         }
       }
     },
@@ -3025,7 +3139,8 @@
           "shooting": 76,
           "passing": 86,
           "talent": 78,
-          "defense": 66
+          "defense": 66,
+          "score": 72
         }
       }
     },
@@ -3050,7 +3165,8 @@
           "shooting": 74,
           "passing": 73,
           "talent": 69,
-          "defense": 60
+          "defense": 60,
+          "score": 64
         }
       }
     },
@@ -3075,7 +3191,8 @@
           "shooting": 83,
           "passing": 60,
           "talent": 82,
-          "defense": 84
+          "defense": 84,
+          "score": 74
         }
       }
     },
@@ -3100,7 +3217,8 @@
           "shooting": 80,
           "passing": 65,
           "talent": 73,
-          "defense": 64
+          "defense": 64,
+          "score": 72
         }
       }
     },
@@ -3125,7 +3243,8 @@
           "shooting": 63,
           "passing": 67,
           "talent": 66,
-          "defense": 62
+          "defense": 62,
+          "score": 63
         }
       }
     },
@@ -3150,7 +3269,8 @@
           "reflexes": 61,
           "saves": 60,
           "kickoff": 74,
-          "stretch": 63
+          "stretch": 63,
+          "score": 65
         }
       }
     }

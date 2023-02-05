@@ -43,7 +43,8 @@
             "shooting": 73,
             "passing": 76,
             "talent": 75,
-            "defense": 72
+            "defense": 72,
+            "score": 71
           }
         }
       },
@@ -68,7 +69,8 @@
             "reflexes": 83,
             "saves": 92,
             "kickoff": 86,
-            "stretch": 87
+            "stretch": 87,
+            "score": 87
           }
         }
       },
@@ -93,7 +95,8 @@
             "shooting": 82,
             "passing": 77,
             "talent": 83,
-            "defense": 83
+            "defense": 83,
+            "score": 75
           }
         }
       },
@@ -118,7 +121,8 @@
             "shooting": 78,
             "passing": 64,
             "talent": 64,
-            "defense": 63
+            "defense": 63,
+            "score": 67
           }
         }
       },
@@ -143,7 +147,8 @@
             "reflexes": 81,
             "saves": 84,
             "kickoff": 74,
-            "stretch": 76
+            "stretch": 76,
+            "score": 79
           }
         }
       },
@@ -168,7 +173,8 @@
             "shooting": 68,
             "passing": 68,
             "talent": 81,
-            "defense": 85
+            "defense": 85,
+            "score": 71
           }
         }
       },
@@ -193,7 +199,8 @@
             "shooting": 70,
             "passing": 79,
             "talent": 64,
-            "defense": 64
+            "defense": 64,
+            "score": 67
           }
         }
       },
@@ -218,7 +225,8 @@
             "shooting": 71,
             "passing": 65,
             "talent": 68,
-            "defense": 74
+            "defense": 74,
+            "score": 68
           }
         }
       },
@@ -243,7 +251,8 @@
             "shooting": 61,
             "passing": 67,
             "talent": 78,
-            "defense": 77
+            "defense": 77,
+            "score": 68
           }
         }
       },
@@ -268,7 +277,863 @@
             "shooting": 86,
             "passing": 58,
             "talent": 55,
-            "defense": 69
+            "defense": 69,
+            "score": 65
+          }
+        }
+      }
+    ]
+  },
+  "Ultimate Móstoles": {
+    "name": "Ultimate Móstoles",
+    "teamId": "ultimate-mostoles",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
+    "coachId": "entrenador-ultimate-mostoles",
+    "presidentId": "iker-casillas",
+    "socialMedias": {
+      "youtube": {
+        "href": "https://m.youtube.com/user/DjMaRiiO/videos"
+      }
+    },
+    "players": [
+      {
+        "name": "Juanma Glez",
+        "position": "jugador 11",
+        "id": "juanma",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/22.png",
+        "playerStats": {
+          "matchStats": {},
+          "performanceStats": {}
+        }
+      },
+      {
+        "name": "Arché",
+        "position": "Medio",
+        "id": "arché",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/10.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 4,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 1
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 69,
+            "shooting": 79,
+            "passing": 78,
+            "talent": 77,
+            "defense": 65,
+            "score": 73
+          }
+        }
+      },
+      {
+        "name": "Iu",
+        "position": "Portero",
+        "id": "iu",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/1.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 3,
+            "concededGoals": 2,
+            "stopPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 71,
+            "saves": 84,
+            "kickoff": 79,
+            "stretch": 83,
+            "score": 79
+          }
+        }
+      },
+      {
+        "name": "Guti",
+        "position": "Defensa",
+        "id": "guti",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/11.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 3,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 62,
+            "shooting": 76,
+            "passing": 58,
+            "talent": 74,
+            "defense": 77,
+            "score": 70
+          }
+        }
+      },
+      {
+        "name": "Aleix",
+        "position": "Medio",
+        "id": "aleix",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/6.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 2,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 87,
+            "physique": 64,
+            "shooting": 65,
+            "passing": 72,
+            "talent": 74,
+            "defense": 70,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "Llur",
+        "position": "Delantero",
+        "id": "llur",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/19.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 53,
+            "shooting": 75,
+            "passing": 59,
+            "talent": 66,
+            "defense": 67,
+            "score": 65
+          }
+        }
+      },
+      {
+        "name": "Iker",
+        "position": "Defensa",
+        "id": "iker",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/4.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 67,
+            "shooting": 79,
+            "passing": 84,
+            "talent": 69,
+            "defense": 71,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "Ian",
+        "position": "Defensa",
+        "id": "ian",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/3.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 87,
+            "physique": 54,
+            "shooting": 64,
+            "passing": 54,
+            "talent": 74,
+            "defense": 76,
+            "score": 68
+          }
+        }
+      },
+      {
+        "name": "Zea",
+        "position": "Delantero",
+        "id": "zea",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/7.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 49,
+            "shooting": 72,
+            "passing": 53,
+            "talent": 75,
+            "defense": 79,
+            "score": 67
+          }
+        }
+      },
+      {
+        "name": "Nacho",
+        "position": "Portero",
+        "id": "nacho",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/13.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 3,
+            "concededGoals": 7,
+            "stopPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 72,
+            "saves": 77,
+            "kickoff": 79,
+            "stretch": 80,
+            "score": 77
+          }
+        }
+      },
+      {
+        "name": "Lucca",
+        "position": "Medio",
+        "id": "lucca",
+        "teamId": "ultimate-mostoles",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/20.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 77,
+            "shooting": 77,
+            "passing": 50,
+            "talent": 77,
+            "defense": 83,
+            "score": 73
+          }
+        }
+      }
+    ]
+  },
+  "Aniquiladores FC": {
+    "name": "Aniquiladores FC",
+    "teamId": "aniquiladores-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc.svg",
+    "coachId": "entrenador-aniquiladores-fc",
+    "presidentId": "iker-casillas",
+    "socialMedias": {
+      "twitch": {
+        "href": "https://www.twitch.tv/juansguarnizo"
+      }
+    },
+    "players": [
+      {
+        "name": "F. Hernández",
+        "position": "jugador 11",
+        "id": "hernández",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/14.png",
+        "playerStats": {
+          "matchStats": {},
+          "performanceStats": {}
+        }
+      },
+      {
+        "name": "Daniel P.",
+        "position": "Portero",
+        "id": "daniel",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/25.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "concededGoals": 10,
+            "stopPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 90,
+            "saves": 83,
+            "kickoff": 84,
+            "stretch": 86,
+            "score": 86
+          }
+        }
+      },
+      {
+        "name": "Galvany",
+        "position": "Medio",
+        "id": "galvany",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/8.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 63,
+            "shooting": 86,
+            "passing": 87,
+            "talent": 81,
+            "defense": 90,
+            "score": 80
+          }
+        }
+      },
+      {
+        "name": "Andrés",
+        "position": "Defensa",
+        "id": "andrés",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/5.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 74,
+            "physique": 69,
+            "shooting": 69,
+            "passing": 71,
+            "talent": 63,
+            "defense": 77,
+            "score": 71
+          }
+        }
+      },
+      {
+        "name": "Bernat",
+        "position": "Medio",
+        "id": "bernat",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/31.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 64,
+            "shooting": 82,
+            "passing": 94,
+            "talent": 79,
+            "defense": 64,
+            "score": 76
+          }
+        }
+      },
+      {
+        "name": "Pau Mañé",
+        "position": "Delantero",
+        "id": "pau",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/24.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 83,
+            "physique": 69,
+            "shooting": 82,
+            "passing": 77,
+            "talent": 80,
+            "defense": 69,
+            "score": 77
+          }
+        }
+      },
+      {
+        "name": "Jorquera",
+        "position": "Defensa",
+        "id": "jorquera",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/22.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 74,
+            "physique": 69,
+            "shooting": 70,
+            "passing": 83,
+            "talent": 66,
+            "defense": 71,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "Gilles V.",
+        "position": "Medio",
+        "id": "gilles",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/9.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 82,
+            "physique": 58,
+            "shooting": 65,
+            "passing": 81,
+            "talent": 81,
+            "defense": 73,
+            "score": 73
+          }
+        }
+      },
+      {
+        "name": "Jadir",
+        "position": "Defensa",
+        "id": "jadir",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/21.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 3,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 55,
+            "shooting": 67,
+            "passing": 57,
+            "talent": 58,
+            "defense": 68,
+            "score": 63
+          }
+        }
+      },
+      {
+        "name": "Roger",
+        "position": "Medio",
+        "id": "roger",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/11.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 75,
+            "shooting": 73,
+            "passing": 73,
+            "talent": 85,
+            "defense": 68,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "X.Morales",
+        "position": "Portero",
+        "id": "morales",
+        "teamId": "aniquiladores-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/10.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 1,
+            "concededGoals": 0,
+            "stopPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 83,
+            "saves": 83,
+            "kickoff": 76,
+            "stretch": 74,
+            "score": 79
+          }
+        }
+      }
+    ]
+  },
+  "Saiyans FC": {
+    "name": "Saiyans FC",
+    "teamId": "saiyans-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
+    "coachId": "entrenador-saiyans-fc",
+    "presidentId": "iker-casillas",
+    "socialMedias": {
+      "twitch": {
+        "href": "https://www.twitch.tv/thegrefg"
+      }
+    },
+    "players": [
+      {
+        "name": "Pol Alme",
+        "position": "jugador 11",
+        "id": "pol",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/Saiyans_8.png",
+        "playerStats": {
+          "matchStats": {},
+          "performanceStats": {}
+        }
+      },
+      {
+        "name": "Briones",
+        "position": "Portero",
+        "id": "briones",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/1.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "concededGoals": 5,
+            "stopPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 1,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 82,
+            "saves": 81,
+            "kickoff": 80,
+            "stretch": 84,
+            "score": 82
+          }
+        }
+      },
+      {
+        "name": "Gio Ferinu",
+        "position": "Delantero",
+        "id": "gio",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/9.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 3,
+            "goals": 2,
+            "assists": 2,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 67,
+            "shooting": 74,
+            "passing": 75,
+            "talent": 85,
+            "defense": 77,
+            "score": 75
+          }
+        }
+      },
+      {
+        "name": "Campu",
+        "position": "Defensa",
+        "id": "campu",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/4.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 2,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 70,
+            "physique": 53,
+            "shooting": 80,
+            "passing": 78,
+            "talent": 78,
+            "defense": 83,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "Temo",
+        "position": "Medio",
+        "id": "temo",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/7.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 45,
+            "shooting": 75,
+            "passing": 74,
+            "talent": 73,
+            "defense": 70,
+            "score": 68
+          }
+        }
+      },
+      {
+        "name": "C. Valle",
+        "position": "Medio",
+        "id": "valle",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/14.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 52,
+            "shooting": 76,
+            "passing": 86,
+            "talent": 78,
+            "defense": 66,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "V. Torres",
+        "position": "Defensa",
+        "id": "torres",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/5.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 1,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 39,
+            "shooting": 74,
+            "passing": 73,
+            "talent": 69,
+            "defense": 60,
+            "score": 64
+          }
+        }
+      },
+      {
+        "name": "Feliu",
+        "position": "Medio",
+        "id": "feliu",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/20.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 2,
+            "assists": 1,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 1
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 64,
+            "shooting": 83,
+            "passing": 60,
+            "talent": 82,
+            "defense": 84,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "David Alba",
+        "position": "Delantero",
+        "id": "david",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/10.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 75,
+            "physique": 75,
+            "shooting": 80,
+            "passing": 65,
+            "talent": 73,
+            "defense": 64,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "R. Carbó",
+        "position": "Medio",
+        "id": "carbó",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/11.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 3,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 1
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 49,
+            "shooting": 63,
+            "passing": 67,
+            "talent": 66,
+            "defense": 62,
+            "score": 63
+          }
+        }
+      },
+      {
+        "name": "Fajardo",
+        "position": "Portero",
+        "id": "fajardo",
+        "teamId": "saiyans-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/22.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 0,
+            "concededGoals": 0,
+            "stopPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 61,
+            "saves": 60,
+            "kickoff": 74,
+            "stretch": 63,
+            "score": 65
           }
         }
       }
@@ -321,7 +1186,8 @@
             "reflexes": 84,
             "saves": 83,
             "kickoff": 82,
-            "stretch": 78
+            "stretch": 78,
+            "score": 82
           }
         }
       },
@@ -346,7 +1212,8 @@
             "shooting": 77,
             "passing": 71,
             "talent": 81,
-            "defense": 85
+            "defense": 85,
+            "score": 75
           }
         }
       },
@@ -371,7 +1238,8 @@
             "shooting": 71,
             "passing": 82,
             "talent": 75,
-            "defense": 82
+            "defense": 82,
+            "score": 74
           }
         }
       },
@@ -396,7 +1264,8 @@
             "shooting": 0,
             "passing": 0,
             "talent": 0,
-            "defense": 0
+            "defense": 0,
+            "score": 0
           }
         }
       },
@@ -421,7 +1290,8 @@
             "shooting": 75,
             "passing": 55,
             "talent": 71,
-            "defense": 77
+            "defense": 77,
+            "score": 69
           }
         }
       },
@@ -446,7 +1316,8 @@
             "shooting": 72,
             "passing": 77,
             "talent": 80,
-            "defense": 80
+            "defense": 80,
+            "score": 74
           }
         }
       },
@@ -471,7 +1342,8 @@
             "shooting": 80,
             "passing": 89,
             "talent": 82,
-            "defense": 81
+            "defense": 81,
+            "score": 75
           }
         }
       },
@@ -496,7 +1368,8 @@
             "shooting": 79,
             "passing": 75,
             "talent": 80,
-            "defense": 71
+            "defense": 71,
+            "score": 70
           }
         }
       },
@@ -521,7 +1394,8 @@
             "shooting": 82,
             "passing": 72,
             "talent": 72,
-            "defense": 68
+            "defense": 68,
+            "score": 71
           }
         }
       },
@@ -546,654 +1420,107 @@
             "shooting": 71,
             "passing": 74,
             "talent": 78,
-            "defense": 70
+            "defense": 70,
+            "score": 68
           }
         }
       }
     ]
   },
-  "Los Troncos FC": {
-    "name": "Los Troncos FC",
-    "teamId": "los-troncos-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.svg",
-    "coachId": "entrenador-los-troncos-fc",
+  "1K FC": {
+    "name": "1K FC",
+    "teamId": "1k",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k.svg",
+    "coachId": "entrenador-1k",
     "presidentId": "iker-casillas",
     "socialMedias": {
-      "twitch": {
-        "href": "https://www.twitch.tv/perxitaa"
-      },
       "instagram": {
-        "href": "https://www.instagram.com/troncosfc.oficial/"
+        "href": "https://www.instagram.com/1kfutbolclub/?hl=es"
       },
       "twitter": {
-        "href": "https://twitter.com/lostroncosfc_/"
+        "href": "https://twitter.com/1kfutbolclub"
+      },
+      "youtube": {
+        "href": "https://www.youtube.com/c/IkerCasillas"
       },
       "tiktok": {
-        "href": "https://www.tiktok.com/@lostroncosfc_"
+        "href": "https://www.tiktok.com/@1kfutbolclub"
       }
     },
     "players": [
       {
-        "name": "F. Álvarez «Citrus»",
+        "name": "Ricardo",
         "position": "jugador 11",
-        "id": "álvarez",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/Troncos_11b.png",
+        "id": "ricardo",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/1.png",
         "playerStats": {
           "matchStats": {},
           "performanceStats": {}
         }
       },
       {
-        "name": "E. Álvaro «Roble»",
-        "position": "Delantero",
-        "id": "álvaro",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/9.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 3,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 1
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 82,
-            "shooting": 81,
-            "passing": 55,
-            "talent": 85,
-            "defense": 70
-          }
-        }
-      },
-      {
-        "name": "Lechuga",
-        "position": "Portero",
-        "id": "lechuga",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/13.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "concededGoals": 10,
-            "stopPenalties": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0,
-            "goals": 1,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 81,
-            "saves": 84,
-            "kickoff": 70,
-            "stretch": 60
-          }
-        }
-      },
-      {
-        "name": "D. Soriano «Olivo»",
+        "name": "Román",
         "position": "Defensa",
-        "id": "soriano",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/4.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 70,
-            "shooting": 80,
-            "passing": 78,
-            "talent": 56,
-            "defense": 57
-          }
-        }
-      },
-      {
-        "name": "S. Sánchez «Drago»",
-        "position": "Medio",
-        "id": "sánchez",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/8.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 2,
-            "goals": 3,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 65,
-            "physique": 43,
-            "shooting": 75,
-            "passing": 79,
-            "talent": 82,
-            "defense": 84
-          }
-        }
-      },
-      {
-        "name": "Noel L. «Ahuehuete»",
-        "position": "Medio",
-        "id": "noel",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/5.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 68,
-            "shooting": 79,
-            "passing": 70,
-            "talent": 89,
-            "defense": 67
-          }
-        }
-      },
-      {
-        "name": "X. Molas «Mimosa»",
-        "position": "Medio",
-        "id": "molas",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/10.png",
+        "id": "román",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/0.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
             "goals": 1,
-            "assists": 0,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 72,
-            "shooting": 76,
-            "passing": 84,
-            "talent": 81,
-            "defense": 78
-          }
-        }
-      },
-      {
-        "name": "R. Martínez «Bonsai»",
-        "position": "Delantero",
-        "id": "martínez",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/7.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
+            "assists": 1,
             "yellowCards": 0,
             "redCards": 0,
             "mvp": 0
           },
           "performanceStats": {
             "speed": 73,
-            "physique": 50,
-            "shooting": 70,
+            "physique": 71,
+            "shooting": 68,
             "passing": 76,
-            "talent": 84,
-            "defense": 73
+            "talent": 86,
+            "defense": 66,
+            "score": 73
           }
         }
       },
       {
-        "name": "Dorkis P. «Mango»",
+        "name": "Sorroche",
         "position": "Delantero",
-        "id": "dorkis",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/11.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 54,
-            "shooting": 78,
-            "passing": 54,
-            "talent": 71,
-            "defense": 72
-          }
-        }
-      },
-      {
-        "name": "I. Nuevo «Ficus»",
-        "position": "Medio",
-        "id": "nuevo",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/6.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 70,
-            "physique": 63,
-            "shooting": 80,
-            "passing": 61,
-            "talent": 83,
-            "defense": 73
-          }
-        }
-      },
-      {
-        "name": "M. Arús «Pino»",
-        "position": "Portero",
-        "id": "arús",
-        "teamId": "los-troncos-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/1.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 3,
-            "concededGoals": 5,
-            "stopPenalties": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0,
-            "goals": 0,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 62,
-            "saves": 70,
-            "kickoff": 60,
-            "stretch": 73
-          }
-        }
-      }
-    ]
-  },
-  "Saiyans FC": {
-    "name": "Saiyans FC",
-    "teamId": "saiyans-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
-    "coachId": "entrenador-saiyans-fc",
-    "presidentId": "iker-casillas",
-    "socialMedias": {
-      "twitch": {
-        "href": "https://www.twitch.tv/thegrefg"
-      }
-    },
-    "players": [
-      {
-        "name": "Alfaya Jr.",
-        "position": "jugador 11",
-        "id": "alfaya",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/16.png",
-        "playerStats": {
-          "matchStats": {},
-          "performanceStats": {}
-        }
-      },
-      {
-        "name": "Briones",
-        "position": "Portero",
-        "id": "briones",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/1.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "concededGoals": 5,
-            "stopPenalties": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 1,
-            "goals": 0,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 82,
-            "saves": 81,
-            "kickoff": 80,
-            "stretch": 84
-          }
-        }
-      },
-      {
-        "name": "Gio Ferinu",
-        "position": "Delantero",
-        "id": "gio",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/9.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 3,
-            "goals": 2,
-            "assists": 2,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 67,
-            "shooting": 74,
-            "passing": 75,
-            "talent": 85,
-            "defense": 77
-          }
-        }
-      },
-      {
-        "name": "Campu",
-        "position": "Defensa",
-        "id": "campu",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/4.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 2,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 70,
-            "physique": 53,
-            "shooting": 80,
-            "passing": 78,
-            "talent": 78,
-            "defense": 83
-          }
-        }
-      },
-      {
-        "name": "Temo",
-        "position": "Medio",
-        "id": "temo",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/7.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 45,
-            "shooting": 75,
-            "passing": 74,
-            "talent": 73,
-            "defense": 70
-          }
-        }
-      },
-      {
-        "name": "C. Valle",
-        "position": "Medio",
-        "id": "valle",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/14.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 52,
-            "shooting": 76,
-            "passing": 86,
-            "talent": 78,
-            "defense": 66
-          }
-        }
-      },
-      {
-        "name": "V. Torres",
-        "position": "Defensa",
-        "id": "torres",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/5.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 1,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 39,
-            "shooting": 74,
-            "passing": 73,
-            "talent": 69,
-            "defense": 60
-          }
-        }
-      },
-      {
-        "name": "Feliu",
-        "position": "Medio",
-        "id": "feliu",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/20.png",
+        "id": "sorroche",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/7.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
             "goals": 2,
             "assists": 1,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 1
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 64,
-            "shooting": 83,
-            "passing": 60,
-            "talent": 82,
-            "defense": 84
-          }
-        }
-      },
-      {
-        "name": "David Alba",
-        "position": "Delantero",
-        "id": "david",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/10.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 75,
-            "physique": 75,
-            "shooting": 80,
-            "passing": 65,
-            "talent": 73,
-            "defense": 64
-          }
-        }
-      },
-      {
-        "name": "R. Carbó",
-        "position": "Medio",
-        "id": "carbó",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/11.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 3,
-            "assists": 0,
             "yellowCards": 0,
             "redCards": 0,
             "mvp": 1
           },
           "performanceStats": {
-            "speed": 71,
-            "physique": 49,
-            "shooting": 63,
-            "passing": 67,
-            "talent": 66,
-            "defense": 62
+            "speed": 93,
+            "physique": 74,
+            "shooting": 87,
+            "passing": 58,
+            "talent": 78,
+            "defense": 73,
+            "score": 77
           }
         }
       },
       {
-        "name": "Fajardo",
-        "position": "Portero",
-        "id": "fajardo",
-        "teamId": "saiyans-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/22.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 0,
-            "concededGoals": 0,
-            "stopPenalties": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0,
-            "goals": 0,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 61,
-            "saves": 60,
-            "kickoff": 74,
-            "stretch": 63
-          }
-        }
-      }
-    ]
-  },
-  "XBUYER TEAM": {
-    "name": "XBUYER TEAM",
-    "teamId": "xbuyer-team",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
-    "coachId": "entrenador-xbuyer-team",
-    "presidentId": "iker-casillas",
-    "socialMedias": {
-      "youtube": {
-        "href": "https://www.youtube.com/xbuyer"
-      }
-    },
-    "players": [
-      {
-        "name": "C. Castro",
-        "position": "jugador 11",
-        "id": "castro",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/10.png",
-        "playerStats": {
-          "matchStats": {},
-          "performanceStats": {}
-        }
-      },
-      {
-        "name": "Capi",
-        "position": "Portero",
-        "id": "capi",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/13.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "concededGoals": 10,
-            "stopPenalties": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0,
-            "goals": 0,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 82,
-            "saves": 74,
-            "kickoff": 75,
-            "stretch": 84
-          }
-        }
-      },
-      {
-        "name": "Poch",
+        "name": "Marino",
         "position": "Delantero",
-        "id": "poch",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/9.png",
+        "id": "marino",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/97.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
             "goals": 1,
-            "assists": 2,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 68,
-            "physique": 53,
-            "shooting": 84,
-            "passing": 79,
-            "talent": 79,
-            "defense": 73
-          }
-        }
-      },
-      {
-        "name": "Iñaki",
-        "position": "Medio",
-        "id": "iñaki",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/20.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
             "assists": 0,
             "yellowCards": 0,
             "redCards": 0,
@@ -1201,20 +1528,21 @@
           },
           "performanceStats": {
             "speed": 73,
-            "physique": 64,
-            "shooting": 79,
-            "passing": 75,
-            "talent": 70,
-            "defense": 70
+            "physique": 59,
+            "shooting": 81,
+            "passing": 83,
+            "talent": 68,
+            "defense": 69,
+            "score": 72
           }
         }
       },
       {
-        "name": "Dani",
+        "name": "Ledo",
         "position": "Defensa",
-        "id": "dani",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/5.png",
+        "id": "ledo",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/3.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
@@ -1225,96 +1553,48 @@
             "mvp": 0
           },
           "performanceStats": {
-            "speed": 64,
+            "speed": 67,
+            "physique": 51,
+            "shooting": 70,
+            "passing": 72,
+            "talent": 81,
+            "defense": 70,
+            "score": 69
+          }
+        }
+      },
+      {
+        "name": "Sauras",
+        "position": "Defensa",
+        "id": "sauras",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/8.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
             "physique": 69,
-            "shooting": 79,
-            "passing": 55,
-            "talent": 75,
-            "defense": 83
+            "shooting": 69,
+            "passing": 62,
+            "talent": 65,
+            "defense": 82,
+            "score": 70
           }
         }
       },
       {
-        "name": "Granero",
-        "position": "Delantero",
-        "id": "granero",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/32.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 62,
-            "shooting": 70,
-            "passing": 65,
-            "talent": 56,
-            "defense": 72
-          }
-        }
-      },
-      {
-        "name": "Goran",
-        "position": "Medio",
-        "id": "goran",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/11.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 92,
-            "physique": 61,
-            "shooting": 72,
-            "passing": 51,
-            "talent": 71,
-            "defense": 60
-          }
-        }
-      },
-      {
-        "name": "Bañuls",
+        "name": "Bruno",
         "position": "Defensa",
-        "id": "bañuls",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/3.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 0,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 58,
-            "shooting": 81,
-            "passing": 76,
-            "talent": 76,
-            "defense": 80
-          }
-        }
-      },
-      {
-        "name": "Franc",
-        "position": "Medio",
-        "id": "franc",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/7.png",
+        "id": "bruno",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/14.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
@@ -1325,21 +1605,22 @@
             "mvp": 0
           },
           "performanceStats": {
-            "speed": 64,
-            "physique": 46,
+            "speed": 66,
+            "physique": 51,
             "shooting": 77,
-            "passing": 87,
-            "talent": 81,
-            "defense": 74
+            "passing": 76,
+            "talent": 78,
+            "defense": 84,
+            "score": 72
           }
         }
       },
       {
-        "name": "B. Sierra",
-        "position": "Delantero",
-        "id": "sierra",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/21.png",
+        "name": "Pluvins",
+        "position": "Medio",
+        "id": "pluvins",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/80.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
@@ -1350,37 +1631,91 @@
             "mvp": 0
           },
           "performanceStats": {
-            "speed": 73,
-            "physique": 66,
-            "shooting": 66,
-            "passing": 77,
-            "talent": 77,
-            "defense": 75
+            "speed": 72,
+            "physique": 58,
+            "shooting": 78,
+            "passing": 70,
+            "talent": 87,
+            "defense": 71,
+            "score": 73
           }
         }
       },
       {
-        "name": "Sep",
-        "position": "Portero",
-        "id": "sep",
-        "teamId": "xbuyer-team",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/1.png",
+        "name": "Rivero",
+        "position": "Medio",
+        "id": "rivero",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/10.png",
         "playerStats": {
           "matchStats": {
-            "matchs": 0,
-            "concededGoals": 0,
-            "stopPenalties": 0,
+            "matchs": 4,
+            "goals": 3,
+            "assists": 0,
             "yellowCards": 0,
             "redCards": 0,
-            "mvp": 0,
-            "goals": 0,
-            "assists": 0
+            "mvp": 0
           },
           "performanceStats": {
-            "reflexes": 60,
-            "saves": 74,
-            "kickoff": 60,
-            "stretch": 60
+            "speed": 73,
+            "physique": 64,
+            "shooting": 82,
+            "passing": 60,
+            "talent": 87,
+            "defense": 75,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "Lautaro",
+        "position": "Delantero",
+        "id": "lautaro",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/9.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 2,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 79,
+            "physique": 59,
+            "shooting": 75,
+            "passing": 70,
+            "talent": 69,
+            "defense": 70,
+            "score": 70
+          }
+        }
+      },
+      {
+        "name": "Günter",
+        "position": "Delantero",
+        "id": "günter",
+        "teamId": "1k",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/11.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 76,
+            "shooting": 83,
+            "passing": 55,
+            "talent": 78,
+            "defense": 71,
+            "score": 72
           }
         }
       }
@@ -1441,7 +1776,8 @@
             "shooting": 84,
             "passing": 81,
             "talent": 84,
-            "defense": 67
+            "defense": 67,
+            "score": 78
           }
         }
       },
@@ -1466,7 +1802,8 @@
             "shooting": 78,
             "passing": 83,
             "talent": 74,
-            "defense": 79
+            "defense": 79,
+            "score": 77
           }
         }
       },
@@ -1491,7 +1828,8 @@
             "shooting": 84,
             "passing": 66,
             "talent": 86,
-            "defense": 71
+            "defense": 71,
+            "score": 73
           }
         }
       },
@@ -1516,7 +1854,8 @@
             "shooting": 86,
             "passing": 75,
             "talent": 83,
-            "defense": 80
+            "defense": 80,
+            "score": 79
           }
         }
       },
@@ -1541,7 +1880,8 @@
             "shooting": 78,
             "passing": 73,
             "talent": 81,
-            "defense": 85
+            "defense": 85,
+            "score": 73
           }
         }
       },
@@ -1566,7 +1906,8 @@
             "shooting": 76,
             "passing": 68,
             "talent": 74,
-            "defense": 76
+            "defense": 76,
+            "score": 70
           }
         }
       },
@@ -1591,7 +1932,8 @@
             "shooting": 75,
             "passing": 77,
             "talent": 80,
-            "defense": 67
+            "defense": 67,
+            "score": 75
           }
         }
       },
@@ -1616,7 +1958,8 @@
             "shooting": 80,
             "passing": 63,
             "talent": 79,
-            "defense": 73
+            "defense": 73,
+            "score": 70
           }
         }
       },
@@ -1641,7 +1984,8 @@
             "shooting": 62,
             "passing": 69,
             "talent": 74,
-            "defense": 68
+            "defense": 68,
+            "score": 68
           }
         }
       },
@@ -1666,7 +2010,8 @@
             "shooting": 78,
             "passing": 70,
             "talent": 77,
-            "defense": 78
+            "defense": 78,
+            "score": 69
           }
         }
       }
@@ -1725,7 +2070,8 @@
             "shooting": 87,
             "passing": 76,
             "talent": 84,
-            "defense": 73
+            "defense": 73,
+            "score": 81
           }
         }
       },
@@ -1750,7 +2096,8 @@
             "reflexes": 86,
             "saves": 87,
             "kickoff": 84,
-            "stretch": 94
+            "stretch": 94,
+            "score": 88
           }
         }
       },
@@ -1775,7 +2122,8 @@
             "shooting": 74,
             "passing": 66,
             "talent": 76,
-            "defense": 77
+            "defense": 77,
+            "score": 77
           }
         }
       },
@@ -1800,7 +2148,8 @@
             "shooting": 73,
             "passing": 86,
             "talent": 83,
-            "defense": 74
+            "defense": 74,
+            "score": 78
           }
         }
       },
@@ -1825,7 +2174,8 @@
             "shooting": 81,
             "passing": 60,
             "talent": 68,
-            "defense": 82
+            "defense": 82,
+            "score": 71
           }
         }
       },
@@ -1850,7 +2200,8 @@
             "shooting": 81,
             "passing": 68,
             "talent": 78,
-            "defense": 69
+            "defense": 69,
+            "score": 72
           }
         }
       },
@@ -1875,7 +2226,8 @@
             "shooting": 72,
             "passing": 72,
             "talent": 87,
-            "defense": 75
+            "defense": 75,
+            "score": 76
           }
         }
       },
@@ -1900,7 +2252,8 @@
             "shooting": 71,
             "passing": 64,
             "talent": 72,
-            "defense": 68
+            "defense": 68,
+            "score": 68
           }
         }
       },
@@ -1925,7 +2278,8 @@
             "shooting": 80,
             "passing": 71,
             "talent": 78,
-            "defense": 58
+            "defense": 58,
+            "score": 69
           }
         }
       },
@@ -1950,41 +2304,77 @@
             "reflexes": 71,
             "saves": 73,
             "kickoff": 62,
-            "stretch": 80
+            "stretch": 80,
+            "score": 72
           }
         }
       }
     ]
   },
-  "Aniquiladores FC": {
-    "name": "Aniquiladores FC",
-    "teamId": "aniquiladores-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc.svg",
-    "coachId": "entrenador-aniquiladores-fc",
+  "Los Troncos FC": {
+    "name": "Los Troncos FC",
+    "teamId": "los-troncos-fc",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.svg",
+    "coachId": "entrenador-los-troncos-fc",
     "presidentId": "iker-casillas",
     "socialMedias": {
       "twitch": {
-        "href": "https://www.twitch.tv/juansguarnizo"
+        "href": "https://www.twitch.tv/perxitaa"
+      },
+      "instagram": {
+        "href": "https://www.instagram.com/troncosfc.oficial/"
+      },
+      "twitter": {
+        "href": "https://twitter.com/lostroncosfc_/"
+      },
+      "tiktok": {
+        "href": "https://www.tiktok.com/@lostroncosfc_"
       }
     },
     "players": [
       {
-        "name": "F. Hernández",
+        "name": "F. Álvarez «Citrus»",
         "position": "jugador 11",
-        "id": "hernández",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/14.png",
+        "id": "álvarez",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/Troncos_11b.png",
         "playerStats": {
           "matchStats": {},
           "performanceStats": {}
         }
       },
       {
-        "name": "Daniel P.",
+        "name": "E. Álvaro «Roble»",
+        "position": "Delantero",
+        "id": "álvaro",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/9.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 3,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 1
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 82,
+            "shooting": 81,
+            "passing": 55,
+            "talent": 85,
+            "defense": 70,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "Lechuga",
         "position": "Portero",
-        "id": "daniel",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/25.png",
+        "id": "lechuga",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/13.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
@@ -1993,478 +2383,211 @@
             "yellowCards": 0,
             "redCards": 0,
             "mvp": 0,
-            "goals": 0,
+            "goals": 1,
             "assists": 0
           },
           "performanceStats": {
-            "reflexes": 90,
-            "saves": 83,
-            "kickoff": 84,
-            "stretch": 86
-          }
-        }
-      },
-      {
-        "name": "Galvany",
-        "position": "Medio",
-        "id": "galvany",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/8.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 63,
-            "shooting": 86,
-            "passing": 87,
-            "talent": 81,
-            "defense": 90
-          }
-        }
-      },
-      {
-        "name": "Andrés",
-        "position": "Defensa",
-        "id": "andrés",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/5.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 3,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 74,
-            "physique": 69,
-            "shooting": 69,
-            "passing": 71,
-            "talent": 63,
-            "defense": 77
-          }
-        }
-      },
-      {
-        "name": "Bernat",
-        "position": "Medio",
-        "id": "bernat",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/31.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 64,
-            "shooting": 82,
-            "passing": 94,
-            "talent": 79,
-            "defense": 64
-          }
-        }
-      },
-      {
-        "name": "Pau Mañé",
-        "position": "Delantero",
-        "id": "pau",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/24.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 83,
-            "physique": 69,
-            "shooting": 82,
-            "passing": 77,
-            "talent": 80,
-            "defense": 69
-          }
-        }
-      },
-      {
-        "name": "Jorquera",
-        "position": "Defensa",
-        "id": "jorquera",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/22.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 74,
-            "physique": 69,
-            "shooting": 70,
-            "passing": 83,
-            "talent": 66,
-            "defense": 71
-          }
-        }
-      },
-      {
-        "name": "Gilles V.",
-        "position": "Medio",
-        "id": "gilles",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/9.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 82,
-            "physique": 58,
-            "shooting": 65,
-            "passing": 81,
-            "talent": 81,
-            "defense": 73
-          }
-        }
-      },
-      {
-        "name": "Jadir",
-        "position": "Defensa",
-        "id": "jadir",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/21.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 3,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 55,
-            "shooting": 67,
-            "passing": 57,
-            "talent": 58,
-            "defense": 68
-          }
-        }
-      },
-      {
-        "name": "Roger",
-        "position": "Medio",
-        "id": "roger",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/11.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 75,
-            "shooting": 73,
-            "passing": 73,
-            "talent": 85,
-            "defense": 68
-          }
-        }
-      },
-      {
-        "name": "X.Morales",
-        "position": "Portero",
-        "id": "morales",
-        "teamId": "aniquiladores-fc",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/10.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 1,
-            "concededGoals": 0,
-            "stopPenalties": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0,
-            "goals": 0,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 83,
-            "saves": 83,
-            "kickoff": 76,
-            "stretch": 74
-          }
-        }
-      }
-    ]
-  },
-  "Ultimate Móstoles": {
-    "name": "Ultimate Móstoles",
-    "teamId": "ultimate-mostoles",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
-    "coachId": "entrenador-ultimate-mostoles",
-    "presidentId": "iker-casillas",
-    "socialMedias": {
-      "youtube": {
-        "href": "https://m.youtube.com/user/DjMaRiiO/videos"
-      }
-    },
-    "players": [
-      {
-        "name": "Juanma Glez",
-        "position": "jugador 11",
-        "id": "juanma",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/22.png",
-        "playerStats": {
-          "matchStats": {},
-          "performanceStats": {}
-        }
-      },
-      {
-        "name": "Arché",
-        "position": "Medio",
-        "id": "arché",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/10.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 4,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 1
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 69,
-            "shooting": 79,
-            "passing": 78,
-            "talent": 77,
-            "defense": 65
-          }
-        }
-      },
-      {
-        "name": "Iu",
-        "position": "Portero",
-        "id": "iu",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/1.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 3,
-            "concededGoals": 2,
-            "stopPenalties": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0,
-            "goals": 0,
-            "assists": 0
-          },
-          "performanceStats": {
-            "reflexes": 71,
+            "reflexes": 81,
             "saves": 84,
-            "kickoff": 79,
-            "stretch": 83
+            "kickoff": 70,
+            "stretch": 60,
+            "score": 74
           }
         }
       },
       {
-        "name": "Guti",
+        "name": "D. Soriano «Olivo»",
         "position": "Defensa",
-        "id": "guti",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/11.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 3,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 62,
-            "shooting": 76,
-            "passing": 58,
-            "talent": 74,
-            "defense": 77
-          }
-        }
-      },
-      {
-        "name": "Aleix",
-        "position": "Medio",
-        "id": "aleix",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/6.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 2,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 87,
-            "physique": 64,
-            "shooting": 65,
-            "passing": 72,
-            "talent": 74,
-            "defense": 70
-          }
-        }
-      },
-      {
-        "name": "Llur",
-        "position": "Delantero",
-        "id": "llur",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/19.png",
+        "id": "soriano",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/4.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
             "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
+            "assists": 1,
+            "yellowCards": 1,
             "redCards": 0,
             "mvp": 0
           },
           "performanceStats": {
             "speed": 71,
-            "physique": 53,
-            "shooting": 75,
-            "passing": 59,
-            "talent": 66,
-            "defense": 67
+            "physique": 70,
+            "shooting": 80,
+            "passing": 78,
+            "talent": 56,
+            "defense": 57,
+            "score": 69
           }
         }
       },
       {
-        "name": "Iker",
-        "position": "Defensa",
-        "id": "iker",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/4.png",
+        "name": "S. Sánchez «Drago»",
+        "position": "Medio",
+        "id": "sánchez",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/8.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 2,
+            "goals": 3,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 65,
+            "physique": 43,
+            "shooting": 75,
+            "passing": 79,
+            "talent": 82,
+            "defense": 84,
+            "score": 71
+          }
+        }
+      },
+      {
+        "name": "Noel L. «Ahuehuete»",
+        "position": "Medio",
+        "id": "noel",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/5.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
-            "goals": 1,
-            "assists": 0,
+            "goals": 0,
+            "assists": 1,
             "yellowCards": 0,
             "redCards": 0,
             "mvp": 0
           },
           "performanceStats": {
             "speed": 73,
-            "physique": 67,
+            "physique": 68,
             "shooting": 79,
-            "passing": 84,
-            "talent": 69,
-            "defense": 71
+            "passing": 70,
+            "talent": 89,
+            "defense": 67,
+            "score": 74
           }
         }
       },
       {
-        "name": "Ian",
-        "position": "Defensa",
-        "id": "ian",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/3.png",
+        "name": "X. Molas «Mimosa»",
+        "position": "Medio",
+        "id": "molas",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/10.png",
         "playerStats": {
           "matchStats": {
             "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 87,
-            "physique": 54,
-            "shooting": 64,
-            "passing": 54,
-            "talent": 74,
-            "defense": 76
-          }
-        }
-      },
-      {
-        "name": "Zea",
-        "position": "Delantero",
-        "id": "zea",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/7.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
+            "goals": 1,
             "assists": 0,
             "yellowCards": 1,
             "redCards": 0,
             "mvp": 0
           },
           "performanceStats": {
-            "speed": 72,
-            "physique": 49,
-            "shooting": 72,
-            "passing": 53,
-            "talent": 75,
-            "defense": 79
+            "speed": 73,
+            "physique": 72,
+            "shooting": 76,
+            "passing": 84,
+            "talent": 81,
+            "defense": 78,
+            "score": 77
           }
         }
       },
       {
-        "name": "Nacho",
+        "name": "R. Martínez «Bonsai»",
+        "position": "Delantero",
+        "id": "martínez",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/7.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 50,
+            "shooting": 70,
+            "passing": 76,
+            "talent": 84,
+            "defense": 73,
+            "score": 71
+          }
+        }
+      },
+      {
+        "name": "Dorkis P. «Mango»",
+        "position": "Delantero",
+        "id": "dorkis",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/11.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 54,
+            "shooting": 78,
+            "passing": 54,
+            "talent": 71,
+            "defense": 72,
+            "score": 67
+          }
+        }
+      },
+      {
+        "name": "I. Nuevo «Ficus»",
+        "position": "Medio",
+        "id": "nuevo",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/6.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 70,
+            "physique": 63,
+            "shooting": 80,
+            "passing": 61,
+            "talent": 83,
+            "defense": 73,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "M. Arús «Pino»",
         "position": "Portero",
-        "id": "nacho",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/13.png",
+        "id": "arús",
+        "teamId": "los-troncos-fc",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/1.png",
         "playerStats": {
           "matchStats": {
             "matchs": 3,
-            "concededGoals": 7,
-            "stopPenalties": 1,
+            "concededGoals": 5,
+            "stopPenalties": 0,
             "yellowCards": 0,
             "redCards": 0,
             "mvp": 0,
@@ -2472,35 +2595,11 @@
             "assists": 0
           },
           "performanceStats": {
-            "reflexes": 72,
-            "saves": 77,
-            "kickoff": 79,
-            "stretch": 80
-          }
-        }
-      },
-      {
-        "name": "Lucca",
-        "position": "Medio",
-        "id": "lucca",
-        "teamId": "ultimate-mostoles",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/20.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 77,
-            "shooting": 77,
-            "passing": 50,
-            "talent": 77,
-            "defense": 83
+            "reflexes": 62,
+            "saves": 70,
+            "kickoff": 60,
+            "stretch": 73,
+            "score": 66
           }
         }
       }
@@ -2559,7 +2658,8 @@
             "shooting": 76,
             "passing": 78,
             "talent": 86,
-            "defense": 72
+            "defense": 72,
+            "score": 74
           }
         }
       },
@@ -2584,7 +2684,8 @@
             "reflexes": 84,
             "saves": 95,
             "kickoff": 84,
-            "stretch": 85
+            "stretch": 85,
+            "score": 87
           }
         }
       },
@@ -2609,7 +2710,8 @@
             "shooting": 84,
             "passing": 63,
             "talent": 81,
-            "defense": 80
+            "defense": 80,
+            "score": 72
           }
         }
       },
@@ -2634,7 +2736,8 @@
             "shooting": 76,
             "passing": 72,
             "talent": 73,
-            "defense": 69
+            "defense": 69,
+            "score": 68
           }
         }
       },
@@ -2659,7 +2762,8 @@
             "shooting": 74,
             "passing": 66,
             "talent": 82,
-            "defense": 78
+            "defense": 78,
+            "score": 74
           }
         }
       },
@@ -2684,7 +2788,8 @@
             "shooting": 78,
             "passing": 88,
             "talent": 66,
-            "defense": 62
+            "defense": 62,
+            "score": 78
           }
         }
       },
@@ -2709,7 +2814,8 @@
             "shooting": 57,
             "passing": 70,
             "talent": 68,
-            "defense": 74
+            "defense": 74,
+            "score": 65
           }
         }
       },
@@ -2734,7 +2840,8 @@
             "shooting": 80,
             "passing": 88,
             "talent": 68,
-            "defense": 70
+            "defense": 70,
+            "score": 73
           }
         }
       },
@@ -2759,7 +2866,8 @@
             "shooting": 80,
             "passing": 60,
             "talent": 62,
-            "defense": 62
+            "defense": 62,
+            "score": 70
           }
         }
       },
@@ -2784,7 +2892,293 @@
             "shooting": 73,
             "passing": 57,
             "talent": 81,
-            "defense": 87
+            "defense": 87,
+            "score": 71
+          }
+        }
+      }
+    ]
+  },
+  "XBUYER TEAM": {
+    "name": "XBUYER TEAM",
+    "teamId": "xbuyer-team",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
+    "coachId": "entrenador-xbuyer-team",
+    "presidentId": "iker-casillas",
+    "socialMedias": {
+      "youtube": {
+        "href": "https://www.youtube.com/xbuyer"
+      }
+    },
+    "players": [
+      {
+        "name": "C. Castro",
+        "position": "jugador 11",
+        "id": "castro",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/10.png",
+        "playerStats": {
+          "matchStats": {},
+          "performanceStats": {}
+        }
+      },
+      {
+        "name": "Capi",
+        "position": "Portero",
+        "id": "capi",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/13.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "concededGoals": 10,
+            "stopPenalties": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 82,
+            "saves": 74,
+            "kickoff": 75,
+            "stretch": 84,
+            "score": 79
+          }
+        }
+      },
+      {
+        "name": "Poch",
+        "position": "Delantero",
+        "id": "poch",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/9.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 2,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 68,
+            "physique": 53,
+            "shooting": 84,
+            "passing": 79,
+            "talent": 79,
+            "defense": 73,
+            "score": 73
+          }
+        }
+      },
+      {
+        "name": "Iñaki",
+        "position": "Medio",
+        "id": "iñaki",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/20.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 64,
+            "shooting": 79,
+            "passing": 75,
+            "talent": 70,
+            "defense": 70,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "Dani",
+        "position": "Defensa",
+        "id": "dani",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/5.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 64,
+            "physique": 69,
+            "shooting": 79,
+            "passing": 55,
+            "talent": 75,
+            "defense": 83,
+            "score": 71
+          }
+        }
+      },
+      {
+        "name": "Granero",
+        "position": "Delantero",
+        "id": "granero",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/32.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 72,
+            "physique": 62,
+            "shooting": 70,
+            "passing": 65,
+            "talent": 56,
+            "defense": 72,
+            "score": 66
+          }
+        }
+      },
+      {
+        "name": "Goran",
+        "position": "Medio",
+        "id": "goran",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/11.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 92,
+            "physique": 61,
+            "shooting": 72,
+            "passing": 51,
+            "talent": 71,
+            "defense": 60,
+            "score": 68
+          }
+        }
+      },
+      {
+        "name": "Bañuls",
+        "position": "Defensa",
+        "id": "bañuls",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/3.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 1,
+            "assists": 0,
+            "yellowCards": 1,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 71,
+            "physique": 58,
+            "shooting": 81,
+            "passing": 76,
+            "talent": 76,
+            "defense": 80,
+            "score": 74
+          }
+        }
+      },
+      {
+        "name": "Franc",
+        "position": "Medio",
+        "id": "franc",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/7.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 64,
+            "physique": 46,
+            "shooting": 77,
+            "passing": 87,
+            "talent": 81,
+            "defense": 74,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "B. Sierra",
+        "position": "Delantero",
+        "id": "sierra",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/21.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 4,
+            "goals": 0,
+            "assists": 1,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0
+          },
+          "performanceStats": {
+            "speed": 73,
+            "physique": 66,
+            "shooting": 66,
+            "passing": 77,
+            "talent": 77,
+            "defense": 75,
+            "score": 72
+          }
+        }
+      },
+      {
+        "name": "Sep",
+        "position": "Portero",
+        "id": "sep",
+        "teamId": "xbuyer-team",
+        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/1.png",
+        "playerStats": {
+          "matchStats": {
+            "matchs": 0,
+            "concededGoals": 0,
+            "stopPenalties": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "mvp": 0,
+            "goals": 0,
+            "assists": 0
+          },
+          "performanceStats": {
+            "reflexes": 60,
+            "saves": 74,
+            "kickoff": 60,
+            "stretch": 60,
+            "score": 64
           }
         }
       }
@@ -2837,7 +3231,8 @@
             "reflexes": 85,
             "saves": 92,
             "kickoff": 86,
-            "stretch": 86
+            "stretch": 86,
+            "score": 87
           }
         }
       },
@@ -2862,7 +3257,8 @@
             "shooting": 66,
             "passing": 75,
             "talent": 76,
-            "defense": 74
+            "defense": 74,
+            "score": 69
           }
         }
       },
@@ -2887,7 +3283,8 @@
             "shooting": 80,
             "passing": 62,
             "talent": 81,
-            "defense": 75
+            "defense": 75,
+            "score": 69
           }
         }
       },
@@ -2912,7 +3309,8 @@
             "shooting": 80,
             "passing": 69,
             "talent": 78,
-            "defense": 73
+            "defense": 73,
+            "score": 72
           }
         }
       },
@@ -2937,7 +3335,8 @@
             "shooting": 76,
             "passing": 75,
             "talent": 71,
-            "defense": 69
+            "defense": 69,
+            "score": 69
           }
         }
       },
@@ -2962,7 +3361,8 @@
             "shooting": 87,
             "passing": 69,
             "talent": 78,
-            "defense": 73
+            "defense": 73,
+            "score": 75
           }
         }
       },
@@ -2987,7 +3387,8 @@
             "shooting": 65,
             "passing": 66,
             "talent": 71,
-            "defense": 65
+            "defense": 65,
+            "score": 66
           }
         }
       },
@@ -3012,7 +3413,8 @@
             "shooting": 0,
             "passing": 0,
             "talent": 0,
-            "defense": 0
+            "defense": 0,
+            "score": 0
           }
         }
       },
@@ -3037,7 +3439,8 @@
             "shooting": 89,
             "passing": 65,
             "talent": 74,
-            "defense": 77
+            "defense": 77,
+            "score": 75
           }
         }
       },
@@ -3062,291 +3465,8 @@
             "reflexes": 70,
             "saves": 73,
             "kickoff": 81,
-            "stretch": 71
-          }
-        }
-      }
-    ]
-  },
-  "1K FC": {
-    "name": "1K FC",
-    "teamId": "1k",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k.svg",
-    "coachId": "entrenador-1k",
-    "presidentId": "iker-casillas",
-    "socialMedias": {
-      "instagram": {
-        "href": "https://www.instagram.com/1kfutbolclub/?hl=es"
-      },
-      "twitter": {
-        "href": "https://twitter.com/1kfutbolclub"
-      },
-      "youtube": {
-        "href": "https://www.youtube.com/c/IkerCasillas"
-      },
-      "tiktok": {
-        "href": "https://www.tiktok.com/@1kfutbolclub"
-      }
-    },
-    "players": [
-      {
-        "name": "Ricardo",
-        "position": "jugador 11",
-        "id": "ricardo",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/1.png",
-        "playerStats": {
-          "matchStats": {},
-          "performanceStats": {}
-        }
-      },
-      {
-        "name": "Román",
-        "position": "Defensa",
-        "id": "román",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/0.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 71,
-            "shooting": 68,
-            "passing": 76,
-            "talent": 86,
-            "defense": 66
-          }
-        }
-      },
-      {
-        "name": "Sorroche",
-        "position": "Delantero",
-        "id": "sorroche",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/7.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 2,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 1
-          },
-          "performanceStats": {
-            "speed": 93,
-            "physique": 74,
-            "shooting": 87,
-            "passing": 58,
-            "talent": 78,
-            "defense": 73
-          }
-        }
-      },
-      {
-        "name": "Marino",
-        "position": "Delantero",
-        "id": "marino",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/97.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 59,
-            "shooting": 81,
-            "passing": 83,
-            "talent": 68,
-            "defense": 69
-          }
-        }
-      },
-      {
-        "name": "Ledo",
-        "position": "Defensa",
-        "id": "ledo",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/3.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 67,
-            "physique": 51,
-            "shooting": 70,
-            "passing": 72,
-            "talent": 81,
-            "defense": 70
-          }
-        }
-      },
-      {
-        "name": "Sauras",
-        "position": "Defensa",
-        "id": "sauras",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/8.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 1,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 69,
-            "shooting": 69,
-            "passing": 62,
-            "talent": 65,
-            "defense": 82
-          }
-        }
-      },
-      {
-        "name": "Bruno",
-        "position": "Defensa",
-        "id": "bruno",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/14.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 66,
-            "physique": 51,
-            "shooting": 77,
-            "passing": 76,
-            "talent": 78,
-            "defense": 84
-          }
-        }
-      },
-      {
-        "name": "Pluvins",
-        "position": "Medio",
-        "id": "pluvins",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/80.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 1,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 72,
-            "physique": 58,
-            "shooting": 78,
-            "passing": 70,
-            "talent": 87,
-            "defense": 71
-          }
-        }
-      },
-      {
-        "name": "Rivero",
-        "position": "Medio",
-        "id": "rivero",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/10.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 3,
-            "assists": 0,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 73,
-            "physique": 64,
-            "shooting": 82,
-            "passing": 60,
-            "talent": 87,
-            "defense": 75
-          }
-        }
-      },
-      {
-        "name": "Lautaro",
-        "position": "Delantero",
-        "id": "lautaro",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/9.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 2,
-            "yellowCards": 0,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 79,
-            "physique": 59,
-            "shooting": 75,
-            "passing": 70,
-            "talent": 69,
-            "defense": 70
-          }
-        }
-      },
-      {
-        "name": "Günter",
-        "position": "Delantero",
-        "id": "günter",
-        "teamId": "1k",
-        "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/11.png",
-        "playerStats": {
-          "matchStats": {
-            "matchs": 4,
-            "goals": 0,
-            "assists": 0,
-            "yellowCards": 1,
-            "redCards": 0,
-            "mvp": 0
-          },
-          "performanceStats": {
-            "speed": 71,
-            "physique": 76,
-            "shooting": 83,
-            "passing": 55,
-            "talent": 78,
-            "defense": 71
+            "stretch": 71,
+            "score": 74
           }
         }
       }
