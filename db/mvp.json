@@ -1,6 +1,7 @@
 [
   {
     "ranking": 1,
+    "teamId": "aniquiladores-fc",
     "team": "Aniquiladores FC",
     "player": "F. Hernández",
     "gamesPlayed": 3,
@@ -8,6 +9,7 @@
   },
   {
     "ranking": 2,
+    "teamId": "el-barrio",
     "team": "El Barrio",
     "player": "Ubón",
     "gamesPlayed": 4,
@@ -15,6 +17,7 @@
   },
   {
     "ranking": 3,
+    "teamId": "kunisports",
     "team": "Kunisports",
     "player": "Torrentbó",
     "gamesPlayed": 4,
@@ -22,6 +25,7 @@
   },
   {
     "ranking": 4,
+    "teamId": "1k",
     "team": "1K FC",
     "player": "Ricardo",
     "gamesPlayed": 4,
@@ -29,6 +33,7 @@
   },
   {
     "ranking": 5,
+    "teamId": "1k",
     "team": "1K FC",
     "player": "Sorroche",
     "gamesPlayed": 4,
@@ -36,6 +41,7 @@
   },
   {
     "ranking": 6,
+    "teamId": "1k",
     "team": "1K FC",
     "player": "A. Bueno",
     "gamesPlayed": 4,
@@ -43,6 +49,7 @@
   },
   {
     "ranking": 7,
+    "teamId": "el-barrio",
     "team": "El Barrio",
     "player": "Jacobo",
     "gamesPlayed": 4,
@@ -50,6 +57,7 @@
   },
   {
     "ranking": 8,
+    "teamId": "jijantes-fc",
     "team": "Jijantes FC",
     "player": "Soriano",
     "gamesPlayed": 4,
@@ -57,6 +65,7 @@
   },
   {
     "ranking": 9,
+    "teamId": "jijantes-fc",
     "team": "Jijantes FC",
     "player": "Ibai",
     "gamesPlayed": 1,
@@ -64,6 +73,7 @@
   },
   {
     "ranking": 10,
+    "teamId": "kunisports",
     "team": "Kunisports",
     "player": "Víctor",
     "gamesPlayed": 4,
@@ -71,6 +81,7 @@
   },
   {
     "ranking": 11,
+    "teamId": "kunisports",
     "team": "Kunisports",
     "player": "Kun Agüero",
     "gamesPlayed": 2,
@@ -78,6 +89,7 @@
   },
   {
     "ranking": 12,
+    "teamId": "los-troncos-fc",
     "team": "Los Troncos FC",
     "player": "E. Álvaro «Roble»",
     "gamesPlayed": 4,
@@ -85,6 +97,7 @@
   },
   {
     "ranking": 13,
+    "teamId": "los-troncos-fc",
     "team": "Los Troncos FC",
     "player": "J. Verdú «Gingko»",
     "gamesPlayed": 3,
@@ -92,6 +105,7 @@
   },
   {
     "ranking": 14,
+    "teamId": "porcinos-fc",
     "team": "Porcinos FC",
     "player": "G. Cichero",
     "gamesPlayed": 4,
@@ -99,6 +113,7 @@
   },
   {
     "ranking": 15,
+    "teamId": "porcinos-fc",
     "team": "Porcinos FC",
     "player": "Lao",
     "gamesPlayed": 4,
@@ -106,6 +121,7 @@
   },
   {
     "ranking": 16,
+    "teamId": "saiyans-fc",
     "team": "Saiyans FC",
     "player": "Briones",
     "gamesPlayed": 4,
@@ -113,6 +129,7 @@
   },
   {
     "ranking": 17,
+    "teamId": "saiyans-fc",
     "team": "Saiyans FC",
     "player": "Feliu",
     "gamesPlayed": 4,
@@ -120,6 +137,7 @@
   },
   {
     "ranking": 18,
+    "teamId": "saiyans-fc",
     "team": "Saiyans FC",
     "player": "R. Carbó",
     "gamesPlayed": 4,
@@ -127,6 +145,7 @@
   },
   {
     "ranking": 19,
+    "teamId": "ultimate-mostoles",
     "team": "Ultimate Móstoles",
     "player": "Arché",
     "gamesPlayed": 4,
@@ -134,6 +153,7 @@
   },
   {
     "ranking": 20,
+    "teamId": "ultimate-mostoles",
     "team": "Ultimate Móstoles",
     "player": "Juanma Glez",
     "gamesPlayed": 4,
@@ -141,6 +161,7 @@
   },
   {
     "ranking": 21,
+    "teamId": "xbuyer-team",
     "team": "XBUYER TEAM",
     "player": "Fouad",
     "gamesPlayed": 2,

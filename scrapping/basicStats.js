@@ -1,3 +1,18 @@
+const IDs = {
+  'Ultimate Móstoles': 'ultimate-mostoles',
+  '1K FC': '1k',
+  'Saiyans FC': 'saiyans-fc',
+  'Rayo de Barcelona': 'rayo-barcelona',
+  'Jijantes FC': 'jijantes-fc',
+  'XBUYER TEAM': 'xbuyer-team',
+  'Aniquiladores FC': 'aniquiladores-fc',
+  'El Barrio': 'el-barrio',
+  'Los Troncos FC': 'los-troncos-fc',
+  Kunisports: 'kunisports',
+  'PIO FC': 'pio-fc',
+  'Porcinos FC': 'porcinos-fc'
+}
+
 export async function getStats($, specialSelectors) {
   const $rows = $('tbody tr')
   const stats = []
@@ -38,7 +53,8 @@ export async function getStats($, specialSelectors) {
     })
 
     const currentStat = Object.fromEntries(statsEntries)
-    stats.push({ ranking: index, ...currentStat })
+    const { team } = currentStat
+    stats.push({ ranking: index, teamId: IDs[team], ...currentStat })
   })
 
   return stats
