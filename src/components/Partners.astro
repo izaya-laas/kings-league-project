@@ -12,7 +12,7 @@ const { partnerLevel: mediaPartnerLevel, partners: mediaPartners } = partners[4]
 
 ---
 
-<section class="bg-black py-6">
+<section class="bg-black relative py-6">
 	<div class="w-11/12 mx-auto flex flex-col xl:flex-row xl:gap-x-12 xl:justify-between gap-y-6">
 		<div class="flex gap-x-12 ">
 			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={principalPartnerLevel} partners={principalPartners}/>
@@ -23,5 +23,6 @@ const { partnerLevel: mediaPartnerLevel, partners: mediaPartners } = partners[4]
 			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={hostingPartnerLevel} partners={hostingPartners}/>
 			<PartnerLogos classContainer="w-1/2 xl:w-auto mr-4 xl:mr-0" partnerLevel={mediaPartnerLevel} partners={mediaPartners}/>
 		</div>
-	</>
+	</div>
 </section>
+<div class="py-1 bg-gradient-to-b bg-[#fab60a]"></div>
