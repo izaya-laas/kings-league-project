@@ -5,9 +5,10 @@ import presidents from '../db/presidents.json'
 import teams from '../db/teams.json'
 import coaches from '../db/coaches.json'
 import players from '../db/players.json'
-import topScorer from '../db/top_scorers'
-import topAssists from '../db/top_assists'
-import partners from '../db/partners'
+import mvp from '../db/mvp.json'
+import topScorer from '../db/top_scorers.json'
+import topAssists from '../db/top_assists.json'
+import partners from '../db/partners.json'
 
 const app = new Hono()
 
@@ -32,6 +33,10 @@ app.get('/', (ctx) =>
     {
       endpoint: '/coaches',
       description: 'Returns the coaches of kings league'
+    },
+    {
+      endpoint: '/mvp',
+      description: 'Returns top mvp players of kings league'
     },
     {
       endpoint: '/top-scorers',
@@ -114,6 +119,10 @@ app.get('/players/:teamId/:playerId', (ctx) => {
   if (!foundPlayer) return ctx.json({ message: "Player don't found" }, 404)
 
   return ctx.json(foundPlayer)
+})
+
+app.get('/mvp', (ctx) => {
+  return ctx.json(mvp)
 })
 
 app.get('/top-scorer', (ctx) => {
