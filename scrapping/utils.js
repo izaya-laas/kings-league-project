@@ -19,7 +19,7 @@ export const SCRAPINGS = {
     specialSelector: null
   },
   mvp: {
-    url: 'https://kingsleague.pro/estadisticas/goles/',
+    url: 'https://kingsleague.pro/estadisticas/mvp/',
     scraper: getStats,
     specialSelector: {
       MVP: {

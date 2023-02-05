@@ -2,7 +2,11 @@ export async function getStats($, specialSelectors) {
   const $rows = $('tbody tr')
   const stats = []
   const basicSelectors = {
-    name: {
+    ranking: {
+      selector: '.el-text-1',
+      type: 'number'
+    },
+    team: {
       selector: '.el-text-3',
       type: 'string'
     },
