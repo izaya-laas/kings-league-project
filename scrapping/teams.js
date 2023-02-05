@@ -134,6 +134,7 @@ async function donwloadDataTeam(page) {
     name: teamName,
     teamId,
     image: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}.svg`,
+    inverse: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}-inverse.svg`,
     coachId,
     presidentId,
     socialMedias,
