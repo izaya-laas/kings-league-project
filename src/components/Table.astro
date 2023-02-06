@@ -10,7 +10,7 @@ const leaderboard = await res.json()
 const CLASSIFIED_STYLES = 'before:content-center before:w-2 before:h-4/5 before:top-1 before:left-1 before:block before:absolute before:bg-gradient-to-b before:from-[#2bc7ff] before:via-[#09f] before:to-[#2bc7ff]'
 const MAX_CLASSIFIED_TEAMS = 8
 ---
-<div class={`relative overflow-x-auto rounded-xl shadow-sm shadow-gray-300 ${styles}`}>
+<div class={`scroll relative overflow-x-auto rounded-xl shadow-sm shadow-gray-300 ${styles}`}>
     <table class="w-full text-sm text-left text-gray-500 border border-gray-300">
         <thead class="text-xs text-white uppercase bg-black">
             <tr class="font-bold">
@@ -62,3 +62,30 @@ const MAX_CLASSIFIED_TEAMS = 8
         </tbody>
     </table>
 </div>
+
+<style>
+	.scroll::-webkit-scrollbar {
+  width: 2px;     /* Tamaño del scroll en vertical */
+  height: 2px;    /* Tamaño del scroll en horizontal */
+	display: none;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+
+.scroll::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+</style>

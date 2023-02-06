@@ -1,6 +1,7 @@
 ---
-import { getTeam } from '../../../services'
+import { getTeam } from '../../../services/teams.js'
 import Main from '../../components/Main.astro'
+import TeamsCards from '../../components/TeamsCards.astro'
 import Layout from '../../layouts/Layout.astro'
 
 export const getStaticPaths = async () => {
@@ -15,7 +16,6 @@ export const getStaticPaths = async () => {
 }
 
 const teamId = Astro.params.id
-console.log(teamId)
 const team = await getTeam(teamId)
 const { name, image, color, inverse: imageInverse } = team
 console.log(team)
@@ -25,14 +25,17 @@ const styleImage = { backgroundImage: `url(${imageInverse})` }
 ---
 
 <Layout>
-	<Main style={`--tw-gradient-stops:${color},${color}, #f1f1f1; width: 100% `} class='h-full relative overflow-hidden bg-gradient-to-tr pl-16 py-20'>
-		<section class="relative z-10 flex items-center">
-			<img class="w-40" src={image} alt={name}>
-			<h1 class="text-white text-6xl font-bold ml-8">{name}</h1>
+	<Main style={'width: 100%'} >
+		<section style={`--tw-gradient-stops:${color},${color}, #f1f1f1;`} class='h-full relative overflow-hidden bg-gradient-to-tr pl-16 py-20'>
+			<article class="relative z-10 flex items-center">
+				<img class="w-40" src={image} alt={name}>
+				<h1 class="text-white text-6xl font-bold ml-8">{name}</h1>
+			</article>
+			<div class="z-0 absolute inset-0 opacity-25 bg-center bg-[length:150%_150%] transition-all" style={styleImage}></div>
 		</section>
-		<section>
-
-		</section>
-		<div class="z-0 absolute inset-0 opacity-25 bg-center bg-[length:150%_150%] transition-all" style={styleImage}></div>
+		<section></section>
+		<div class="w-11/12 mx-auto">
+			<TeamsCards/>
+		</div>
 	</Main>
 </Layout>

@@ -1,9 +1,10 @@
 ---
-import { getAllTeams } from '../../services/index.js'
+import { getAllTeams } from '../../services/teams.js'
+
 const teams = await getAllTeams()
 ---
 
-<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 mx-auto">
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 mx-auto mb-10">
 	{
 		teams.map(team => {
 			const { name, inverse: imageInverse, color, teamId } = team
