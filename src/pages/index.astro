@@ -3,7 +3,7 @@ import { getTopAssistsPlayer } from '../../services/top-assists'
 import { getTopScorerPlayer } from '../../services/top-scorer'
 import Main from '../components/Main.astro'
 import Partners from '../components/Partners.astro'
-import PlayerMvp from '../components/TopPlayer.astro'
+import TopPlayer from '../components/TopPlayer.astro'
 import Table from '../components/Table.astro'
 import Layout from '../layouts/Layout.astro'
 
@@ -12,19 +12,21 @@ const { assists } = await getTopAssistsPlayer()
 ---
 
 <Layout title="">
-	<Main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-[150px_max(150px)_150px_150px_150px] pb-32 mt-14 gap-6">
-		<Table class="col-span-1 row-start-1 row-end-4"/>
-		<PlayerMvp class="col-span-2 col-start-2 row-start-1 row-end-3" from="mvp">
+	<Main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-[repeat(14,150px)] sm:grid-rows-[repeat(8,150px)] lg:grid-rows-[repeat(6,150px)] pb-32 mt-14 gap-6">
+		<Table class="row-span-3 col-start-1"/>
+		<div class="row-span-3 col-start-1 bg-gray-500"></div>
+		<TopPlayer class="row-span-2 sm:row-start-1 sm:col-start-2 lg:col-end-4" from="mvp">
 				<h2 class="font-bold text-[120px]">MVP</h2>
-		</PlayerMvp>
-		<PlayerMvp class="col-start-2 row-start-3 row-end-5" from="top-scorer">
+		</TopPlayer>
+		<TopPlayer class="row-span-2 sm:row-start-3 sm:col-start-2" from="top-scorer">
 			<h2 class="font-bold text-[120px]">{goals}</h2>
 			<h3 class="font-bold text-4xl">Goles</h3>
-		</PlayerMvp>
-		<PlayerMvp class="col-start-3 row-start-3 row-end-5" from="top-assists">
+		</TopPlayer>
+		<TopPlayer class="row-span-2 sm:row-start-5 sm:col-start-2 lg:row-start-3 lg:col-start-3" from="top-assists">
 				<h2 class="font-bold text-[120px]">{assists}</h2>
 			<h3 class="font-bold text-4xl">Asistencias</h3>
-		</PlayerMvp>
+		</TopPlayer >
+		<div class="row-span-2 sm:col-span-2 bg-gray-500 "></div>
 	</Main>
 	<Partners/>
 </Layout>
