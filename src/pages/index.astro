@@ -1,13 +1,30 @@
 ---
+import { getTopAssistsPlayer } from '../../services/top-assists'
+import { getTopScorerPlayer } from '../../services/top-scorer'
 import Main from '../components/Main.astro'
 import Partners from '../components/Partners.astro'
+import PlayerMvp from '../components/TopPlayer.astro'
 import Table from '../components/Table.astro'
 import Layout from '../layouts/Layout.astro'
+
+const { goals } = await getTopScorerPlayer()
+const { assists } = await getTopAssistsPlayer()
 ---
 
 <Layout title="">
-	<Main class="grid grid-cols-3 pb-32 mt-14">
-		<Table class="col-span-1"/>
+	<Main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-[150px_max(150px)_150px_150px_150px] pb-32 mt-14 gap-6">
+		<Table class="col-span-1 row-start-1 row-end-4"/>
+		<PlayerMvp class="col-span-2 col-start-2 row-start-1 row-end-3" from="mvp">
+				<h2 class="font-bold text-[120px]">MVP</h2>
+		</PlayerMvp>
+		<PlayerMvp class="col-start-2 row-start-3 row-end-5" from="top-scorer">
+			<h2 class="font-bold text-[120px]">{goals}</h2>
+			<h3 class="font-bold text-4xl">Goles</h3>
+		</PlayerMvp>
+		<PlayerMvp class="col-start-3 row-start-3 row-end-5" from="top-assists">
+				<h2 class="font-bold text-[120px]">{assists}</h2>
+			<h3 class="font-bold text-4xl">Asistencias</h3>
+		</PlayerMvp>
 	</Main>
 	<Partners/>
 </Layout>
