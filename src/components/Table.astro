@@ -38,21 +38,21 @@ const MAX_CLASSIFIED_TEAMS = 8
 
 							return (
 								<tr class="border-b border-gray-300 text-gray-900 relative">
-									<th scope="row" class={`px-2 py-4 text-center font-bold 
+									<th scope="row" class={`px-2 py-3 text-center font-bold 
 										${index < MAX_CLASSIFIED_TEAMS ? CLASSIFIED_STYLES : ''}
 									`}>
 											{position}
 									</th>
-									<td class="px-2 py-4 text-center">
+									<td class="px-2 py-3 text-center">
 										<LogoTeam image={image} class="w-8 mx-auto" name={name}/>
 									</td>
 									<td class="text-left">
 										<strong class="font-semibold">{name}</strong>
 									</td>
-									<td class="px-2 py-4 text-center">
+									<td class="px-2 py-3 text-center">
 											{wins}
 									</td>
-									<td class="px-2 py-4 text-center">
+									<td class="px-2 py-3 text-center">
 											{loses}
 									</td>
 							</tr>
