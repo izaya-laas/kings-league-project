@@ -74,3 +74,18 @@ export async function scrapeAndSave(name) {
     console.log('')
   }
 }
+
+export const IDS = {
+  'Ultimate Móstoles': 'ultimate-mostoles',
+  '1K FC': '1k',
+  'Saiyans FC': 'saiyans-fc',
+  'Rayo de Barcelona': 'rayo-barcelona',
+  'Jijantes FC': 'jijantes-fc',
+  'XBUYER TEAM': 'xbuyer-team',
+  'Aniquiladores FC': 'aniquiladores-fc',
+  'El Barrio': 'el-barrio',
+  'Los Troncos FC': 'los-troncos-fc',
+  Kunisports: 'kunisports',
+  'PIO FC': 'pio-fc',
+  'Porcinos FC': 'porcinos-fc'
+}
