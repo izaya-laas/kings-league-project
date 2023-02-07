@@ -24,11 +24,11 @@ $container.each((index, element) => {
     const currentPlay = {}
 
     const teams = $currentRow.find('td')
-    const [teamOne, , , resultsData, , , teamTwo] = teams
+    const [teamOne, , , , , , teamTwo, values] = teams
 
     const teamOneName = $(teamOne).text().trim()
     const teamTwoName = $(teamTwo).text().trim()
-    const results = $(resultsData).text().trim() ?? 'vs'
+    const results = $(values).text().trim()
 
     currentPlay.result = results
     currentPlay.teamOne = {
