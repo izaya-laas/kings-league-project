@@ -3,7 +3,7 @@
     "playingDay": "Jornada 1 – 01/01/2023",
     "plays": [
       {
-        "result": "16:00",
+        "result": "2 – 4",
         "teamOne": {
           "name": "Rayo de Barcelona",
           "teamId": "rayo-barcelona"
@@ -14,7 +14,7 @@
         }
       },
       {
-        "result": "17:00",
+        "result": "2 – 1",
         "teamOne": {
           "name": "Kunisports",
           "teamId": "kunisports"
@@ -25,7 +25,7 @@
         }
       },
       {
-        "result": "18:00",
+        "result": "5 – 0",
         "teamOne": {
           "name": "El Barrio",
           "teamId": "el-barrio"
@@ -36,7 +36,7 @@
         }
       },
       {
-        "result": "19:00",
+        "result": "5 – 3",
         "teamOne": {
           "name": "Los Troncos FC",
           "teamId": "los-troncos-fc"
@@ -47,7 +47,7 @@
         }
       },
       {
-        "result": "20:00",
+        "result": "1 – 5",
         "teamOne": {
           "name": "Aniquiladores FC",
           "teamId": "aniquiladores-fc"
@@ -58,7 +58,7 @@
         }
       },
       {
-        "result": "21:00",
+        "result": "4 – 2",
         "teamOne": {
           "name": "Saiyans FC",
           "teamId": "saiyans-fc"
@@ -74,7 +74,7 @@
     "playingDay": "Jornada 2 – 08/01/2023",
     "plays": [
       {
-        "result": "16:00",
+        "result": "3 – 5",
         "teamOne": {
           "name": "Jijantes FC",
           "teamId": "jijantes-fc"
@@ -85,7 +85,7 @@
         }
       },
       {
-        "result": "17:00",
+        "result": "3 – 2",
         "teamOne": {
           "name": "Ultimate Móstoles",
           "teamId": "ultimate-mostoles"
@@ -96,7 +96,7 @@
         }
       },
       {
-        "result": "18:00",
+        "result": "3- 2",
         "teamOne": {
           "name": "1K FC",
           "teamId": "1k"
@@ -107,7 +107,7 @@
         }
       },
       {
-        "result": "19:00",
+        "result": "5 – 3",
         "teamOne": {
           "name": "Porcinos FC",
           "teamId": "porcinos-fc"
@@ -118,7 +118,7 @@
         }
       },
       {
-        "result": "20:00",
+        "result": "0 – 1",
         "teamOne": {
           "name": "XBUYER TEAM",
           "teamId": "xbuyer-team"
@@ -129,7 +129,7 @@
         }
       },
       {
-        "result": "21:00",
+        "result": "(2) 1 – 1 (3)",
         "teamOne": {
           "name": "PIO FC",
           "teamId": "pio-fc"
@@ -145,7 +145,7 @@
     "playingDay": "Jornada 3 – 15/01/2023",
     "plays": [
       {
-        "result": "16:00",
+        "result": "3 – 5",
         "teamOne": {
           "name": "Jijantes FC",
           "teamId": "jijantes-fc"
@@ -156,7 +156,7 @@
         }
       },
       {
-        "result": "17:00",
+        "result": "(0) 2 – 2 (3)",
         "teamOne": {
           "name": "Rayo de Barcelona",
           "teamId": "rayo-barcelona"
@@ -167,7 +167,7 @@
         }
       },
       {
-        "result": "18:00",
+        "result": "5 – 1",
         "teamOne": {
           "name": "Saiyans FC",
           "teamId": "saiyans-fc"
@@ -178,7 +178,7 @@
         }
       },
       {
-        "result": "19:00",
+        "result": "(2) 2 – 2 (3)",
         "teamOne": {
           "name": "Kunisports",
           "teamId": "kunisports"
@@ -189,7 +189,7 @@
         }
       },
       {
-        "result": "20:00",
+        "result": "3 – 2",
         "teamOne": {
           "name": "Los Troncos FC",
           "teamId": "los-troncos-fc"
@@ -200,7 +200,7 @@
         }
       },
       {
-        "result": "21:00",
+        "result": "1 – 4",
         "teamOne": {
           "name": "El Barrio",
           "teamId": "el-barrio"
@@ -216,7 +216,7 @@
     "playingDay": "Jornada 4 – 22/01/2023",
     "plays": [
       {
-        "result": "16:00",
+        "result": "3 – 2",
         "teamOne": {
           "name": "XBUYER TEAM",
           "teamId": "xbuyer-team"
@@ -227,7 +227,7 @@
         }
       },
       {
-        "result": "17:00",
+        "result": "(1) 2 – 2 (2)",
         "teamOne": {
           "name": "PIO FC",
           "teamId": "pio-fc"
@@ -238,7 +238,7 @@
         }
       },
       {
-        "result": "18:00",
+        "result": "2 – 5",
         "teamOne": {
           "name": "1K FC",
           "teamId": "1k"
@@ -249,7 +249,7 @@
         }
       },
       {
-        "result": "19:00",
+        "result": "5 – 1",
         "teamOne": {
           "name": "Porcinos FC",
           "teamId": "porcinos-fc"
@@ -260,7 +260,7 @@
         }
       },
       {
-        "result": "20:00",
+        "result": "(3) 1 – 1 (2)",
         "teamOne": {
           "name": "Aniquiladores FC",
           "teamId": "aniquiladores-fc"
@@ -271,7 +271,7 @@
         }
       },
       {
-        "result": "21:00",
+        "result": "5 – 1",
         "teamOne": {
           "name": "Ultimate Móstoles",
           "teamId": "ultimate-mostoles"
@@ -287,7 +287,7 @@
     "playingDay": "Jornada 5 – 05/02/2023",
     "plays": [
       {
-        "result": "16:00",
+        "result": "3 – 2",
         "teamOne": {
           "name": "XBUYER TEAM",
           "teamId": "xbuyer-team"
@@ -298,7 +298,7 @@
         }
       },
       {
-        "result": "17:00",
+        "result": "1 – 0",
         "teamOne": {
           "name": "Saiyans FC",
           "teamId": "saiyans-fc"
@@ -309,7 +309,7 @@
         }
       },
       {
-        "result": "18:00",
+        "result": "3 – 1",
         "teamOne": {
           "name": "Kunisports",
           "teamId": "kunisports"
@@ -320,7 +320,7 @@
         }
       },
       {
-        "result": "19:00",
+        "result": "2 – 4",
         "teamOne": {
           "name": "Jijantes FC",
           "teamId": "jijantes-fc"
@@ -331,7 +331,7 @@
         }
       },
       {
-        "result": "20:00",
+        "result": "5 – 4",
         "teamOne": {
           "name": "Rayo de Barcelona",
           "teamId": "rayo-barcelona"
@@ -342,7 +342,7 @@
         }
       },
       {
-        "result": "21:00",
+        "result": "5 – 7",
         "teamOne": {
           "name": "Los Troncos FC",
           "teamId": "los-troncos-fc"
@@ -358,7 +358,7 @@
     "playingDay": "Jornada 6 – 12/02/2023",
     "plays": [
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "1K FC",
           "teamId": "1k"
@@ -369,7 +369,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Aniquiladores FC",
           "teamId": "aniquiladores-fc"
@@ -380,7 +380,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "El Barrio",
           "teamId": "el-barrio"
@@ -391,7 +391,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Porcinos FC",
           "teamId": "porcinos-fc"
@@ -402,7 +402,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "PIO FC",
           "teamId": "pio-fc"
@@ -413,7 +413,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Ultimate Móstoles",
           "teamId": "ultimate-mostoles"
@@ -429,7 +429,7 @@
     "playingDay": "Jornada 7 – 19/02/2023",
     "plays": [
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "XBUYER TEAM",
           "teamId": "xbuyer-team"
@@ -440,7 +440,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Kunisports",
           "teamId": "kunisports"
@@ -451,7 +451,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Porcinos FC",
           "teamId": "porcinos-fc"
@@ -462,7 +462,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Rayo de Barcelona",
           "teamId": "rayo-barcelona"
@@ -473,7 +473,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Los Troncos FC",
           "teamId": "los-troncos-fc"
@@ -484,7 +484,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Jijantes FC",
           "teamId": "jijantes-fc"
@@ -500,7 +500,7 @@
     "playingDay": "Jornada 8 – 26/02/2023",
     "plays": [
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "1K FC",
           "teamId": "1k"
@@ -511,7 +511,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Aniquiladores FC",
           "teamId": "aniquiladores-fc"
@@ -522,7 +522,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "El Barrio",
           "teamId": "el-barrio"
@@ -533,7 +533,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "PIO FC",
           "teamId": "pio-fc"
@@ -544,7 +544,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Saiyans FC",
           "teamId": "saiyans-fc"
@@ -555,7 +555,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Ultimate Móstoles",
           "teamId": "ultimate-mostoles"
@@ -571,7 +571,7 @@
     "playingDay": "Jornada 9 – 05/03/2023",
     "plays": [
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "XBUYER TEAM",
           "teamId": "xbuyer-team"
@@ -582,7 +582,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Kunisports",
           "teamId": "kunisports"
@@ -593,7 +593,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Porcinos FC",
           "teamId": "porcinos-fc"
@@ -604,7 +604,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "PIO FC",
           "teamId": "pio-fc"
@@ -615,7 +615,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Rayo de Barcelona",
           "teamId": "rayo-barcelona"
@@ -626,7 +626,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Jijantes FC",
           "teamId": "jijantes-fc"
@@ -642,7 +642,7 @@
     "playingDay": "Jornada 10 – 12/03/2023",
     "plays": [
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Aniquiladores FC",
           "teamId": "aniquiladores-fc"
@@ -653,7 +653,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "El Barrio",
           "teamId": "el-barrio"
@@ -664,7 +664,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Kunisports",
           "teamId": "kunisports"
@@ -675,7 +675,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Saiyans FC",
           "teamId": "saiyans-fc"
@@ -686,7 +686,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Ultimate Móstoles",
           "teamId": "ultimate-mostoles"
@@ -697,7 +697,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Los Troncos FC",
           "teamId": "los-troncos-fc"
@@ -713,7 +713,7 @@
     "playingDay": "Jornada 11 – 19/03/2023",
     "plays": [
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "1K FC",
           "teamId": "1k"
@@ -724,7 +724,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "XBUYER TEAM",
           "teamId": "xbuyer-team"
@@ -735,7 +735,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Porcinos FC",
           "teamId": "porcinos-fc"
@@ -746,7 +746,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "PIO FC",
           "teamId": "pio-fc"
@@ -757,7 +757,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Rayo de Barcelona",
           "teamId": "rayo-barcelona"
@@ -768,7 +768,7 @@
         }
       },
       {
-        "result": "vs",
+        "result": "0 – 0",
         "teamOne": {
           "name": "Jijantes FC",
           "teamId": "jijantes-fc"
