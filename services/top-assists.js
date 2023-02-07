@@ -1,5 +1,3 @@
-
-
 export async function getTopAssistsPlayer() {
   const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/top-assists'
 
