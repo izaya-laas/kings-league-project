@@ -1,8 +1,37 @@
 ---
+import Main from '../../components/Main.astro'
+import Title from '../../components/Title.astro'
 import Layout from '../../layouts/Layout.astro'
 
 ---
 
 <Layout>
-	<h1>Si haces esto esta mal<h1/>
-<Layout/>
+	<Title title="Reglamento"/>
+	<Main>
+		<p class="text-lg sm:text-xl text-center mb-10">
+			La <strong>Kings League InfoJobs</strong> la creamos entre todos. Y eso incluye la forma de jugar y el reglamento. Estas son las normas que los aficionados han decidido por votación popular a través de redes sociales:
+		</p>
+		<ol class="ms:text-lg list-decimal px-4 flex flex-col gap-y-3 mb-10">
+			<li>
+				En caso de empate, el ganador de cada partido se decide con una tanda de penaltis desde medio campo (shootouts).
+			</li>
+			<li>En la Kings League jugamos con fuera de juego.</li>
+			<li>Los saques de banda se realizan con la mano.</li>
+			<li>Las sustituciones de jugadores durante el partido son ilimitadas.</li>
+			<li>La tarjeta amarilla supone 2’ de exclusión. Las rojas, 5’ hasta que entre un sustituto.</li>
+			<li>Para el saque inicial, el balón se sitúa en el centro del campo y los jugadores arrancan desde la línea de fondo.</li>
+			<li>Los dorsales van del 0 al 99.</li>
+			<li>Los partidos son de dos partes de 20’.</li>
+			<li>Armas secretas: cada equipo dispone de una carta, escogida al azar, que le otorga una ventaja una sola vez por partido:
+				<ol class="list-disc pl-4 text-base font-bold">
+					<li>Penalti a favor</li>
+					<li>Shootout a favor</li>
+					<li>Exclusión de un rival durante 2’</li>
+					<li>Gol doble durante 2’</li>
+					<li>Comodín</li>
+					<li>Robo de carta</li>
+				</ol>
+			</li>
+		</ol>
+	</Main>
+</Layout>
