@@ -30,7 +30,15 @@ $container.each((index, element) => {
     const teamTwoName = $(teamTwo).text().trim()
     const results = $(values).text().trim()
 
-    currentPlay.result = results
+    const numbers = results.split('').filter((n) => Number.isInteger(parseInt(n)))
+
+    if (numbers.length === 2 && numbers[0] === '0' && numbers[1] === '0') {
+      currentPlay.result = 'vs'
+    } else {
+      currentPlay.result = results
+    }
+
+    // console.log(currentPlay.result)
     currentPlay.teamOne = {
       name: teamOneName,
       teamId: IDS[teamOneName]
