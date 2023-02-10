@@ -2,7 +2,7 @@
   {
     "wins": 4,
     "loses": 1,
-    "goalsScored": 1,
+    "goalsScored": 12,
     "goalsConceded": 5,
     "yellowCards": 6,
     "redCards": 1,
@@ -302,7 +302,7 @@
   {
     "wins": 4,
     "loses": 1,
-    "goalsScored": 1,
+    "goalsScored": 18,
     "goalsConceded": 12,
     "yellowCards": 1,
     "redCards": 0,
@@ -605,7 +605,7 @@
   {
     "wins": 4,
     "loses": 1,
-    "goalsScored": 1,
+    "goalsScored": 10,
     "goalsConceded": 6,
     "yellowCards": 6,
     "redCards": 0,
@@ -905,7 +905,7 @@
   {
     "wins": 3,
     "loses": 2,
-    "goalsScored": 2,
+    "goalsScored": 15,
     "goalsConceded": 12,
     "yellowCards": 1,
     "redCards": 0,
@@ -1205,7 +1205,7 @@
   {
     "wins": 3,
     "loses": 2,
-    "goalsScored": 2,
+    "goalsScored": 16,
     "goalsConceded": 15,
     "yellowCards": 1,
     "redCards": 0,
@@ -1514,7 +1514,7 @@
   {
     "wins": 3,
     "loses": 2,
-    "goalsScored": 2,
+    "goalsScored": 15,
     "goalsConceded": 15,
     "yellowCards": 1,
     "redCards": 0,
@@ -1814,7 +1814,7 @@
   {
     "wins": 3,
     "loses": 2,
-    "goalsScored": 2,
+    "goalsScored": 11,
     "goalsConceded": 12,
     "yellowCards": 3,
     "redCards": 0,
@@ -2114,7 +2114,7 @@
   {
     "wins": 2,
     "loses": 3,
-    "goalsScored": 3,
+    "goalsScored": 13,
     "goalsConceded": 10,
     "yellowCards": 2,
     "redCards": 0,
@@ -2425,7 +2425,7 @@
   {
     "wins": 2,
     "loses": 3,
-    "goalsScored": 3,
+    "goalsScored": 15,
     "goalsConceded": 18,
     "yellowCards": 1,
     "redCards": 0,
@@ -2734,7 +2734,7 @@
   {
     "wins": 2,
     "loses": 3,
-    "goalsScored": 3,
+    "goalsScored": 17,
     "goalsConceded": 22,
     "yellowCards": 2,
     "redCards": 1,
@@ -3043,7 +3043,7 @@
   {
     "wins": 0,
     "loses": 5,
-    "goalsScored": 5,
+    "goalsScored": 9,
     "goalsConceded": 16,
     "yellowCards": 5,
     "redCards": 0,
@@ -3346,7 +3346,7 @@
   {
     "wins": 0,
     "loses": 5,
-    "goalsScored": 5,
+    "goalsScored": 11,
     "goalsConceded": 19,
     "yellowCards": 3,
     "redCards": 0,

@@ -17,7 +17,7 @@ export async function getLeaderBoard($) {
       type: 'number'
     },
     goalsScored: {
-      selector: '.fs-table-text_5',
+      selector: '.fs-table-text_6',
       type: 'number'
     },
     goalsConceded: {
