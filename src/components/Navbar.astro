@@ -1,0 +1,35 @@
+---
+import NavbarItem from './NavbarItem.astro'
+
+const navbarItems = [
+	{
+		name: 'Equipos',
+		href: '/equipos'
+	},
+	{
+		name: 'Calendario',
+		href: '/calendario'
+	},
+	{
+		name: 'Estadisticas',
+		href: '/estadisticas'
+	},
+	{
+		name: 'Contacto',
+		href: '/contacto'
+	},
+	{
+		name: 'Reglamento',
+		href: '/reglamento'
+	}
+]
+---
+<nav class="flex items-center">
+	<ul class="flex gap-x-2 text-sm font-bold text-white">
+		{
+			navbarItems.map(({ name, href }) => (
+				<NavbarItem href={href}>{name}</NavbarItem>
+			))
+		}
+	</ul>
+</nav>

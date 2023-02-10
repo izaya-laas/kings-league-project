@@ -1,60 +1,11 @@
 ---
-import ListSocialNetworks from './ListSocialNetworks.astro'
-import LogoKingsLeague from './Logo.astro'
-import Logo from './LogoTeam.astro'
+import NavDesktop from './NavDesktop.astro'
+import NavMobile from './NavMobile.astro'
 
-const response = await fetch('https://kings-league-api.lautaronorielasat.workers.dev/teams')
-const teams = await response.json()
-const teamsValues = Object.values(teams)
-
-const logos = teamsValues.map(({ image, name }) => ({ name, image }))
-
-const logosPartOne = []
-const logosPartTwo = []
-
-logos.forEach((logo, index) => {
-	index % 2 === 0
-	? logosPartOne.push(logo)
-	: logosPartTwo.push(logo)
-})
+const beforeStyles = "before:content-[' '] before:w-1/2 before:h-8 before:rounded-full before:bg-white before:block before:-bottom-4 before:left-1/4 before:absolute before:border-t-4 before:border-[#000] before:z-20"
 
 ---
-<div class="bg-gradient-to-b from-[#2bc7ff] via-[#09f] to-[#2bc7ff] pt-8 pb-12 before:content-[' '] before:w-1/2 before:h-8 before:rounded-full before:bg-white before:block before:-bottom-4 before:left-1/4 before:absolute before:border-t-4 before:border-[#000] before:z-20 border-b-4 border-[#000] relative">
-	<header class="w-3/5 mx-auto">
-			<nav class="flex justify-center items-center gap-x-2 w-full bg-black outline-black outline-4 outline border-4 border-[#fab60a] py-2 px-6 rounded-3xl">
-				{logosPartOne.map(({ image, name }) =>
-					<li class="block w-full aspect-square">
-						<Logo image={image} name={name}/>
-					</li>
-				)}
-				<LogoKingsLeague class="scale-150 relative mx-6 aspect-square" />
-				{logosPartTwo.map(({ image, name }) =>
-					<li class="block w-full aspect-square">
-						<Logo image={image} name={name}/>
-					</li>
-				)}
-			</nav>
-			<div class="flex justify-between pt-4">
-				<nav class="relative -translate-x-10 flex items-center">
-					<ul class="flex gap-x-2 text-sm font-bold text-white">
-						<li >
-							<a href="/equipos">Equipos</a>
-						</li>
-						<li>
-							<a href="/calendario">Calendario</a>
-						</li>
-						<li>
-							<a href="/estadisticas">Estadisticas</a>
-						</li>
-						<li>
-							<a href="/contacto">Contacto</a>
-						</li>
-						<li>
-							<a href="/reglamento">Reglamento</a>
-						</li>
-					</ul>
-				</nav>
-				<ListSocialNetworks/>
-			</div>
-	</header>
-</div>
+<header class={`bg-gradient-to-b from-[#2bc7ff] via-[#09f] to-[#2bc7ff] px-4 pt-4 lg:pt-8 pb-6 lg:pb-12 border-b-4 border-[#000] relative ${beforeStyles}`}>
+	<NavDesktop/>
+	<NavMobile/>
+</header>
