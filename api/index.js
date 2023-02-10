@@ -58,12 +58,25 @@ app.get('/', (ctx) =>
   ])
 )
 
-app.get('/leaderboard', (ctx) => {
-  return ctx.json(leaderboard)
-})
+app.get('/leaderboard', (ctx) => ctx.json(leaderboard))
+app.get('/mvp', (ctx) => ctx.json(mvp))
+app.get('/top-scorer', (ctx) => ctx.json(topScorer))
+app.get('/top-assists', (ctx) => ctx.json(topAssists))
+app.get('/partners', (ctx) => ctx.json(partners))
+app.get('/schedule', (ctx) => ctx.json(schedule))
+app.get('/presidents', (ctx) => ctx.json(presidents))
+app.get('/coaches', (ctx) => ctx.json(coaches))
+app.get('/players', (ctx) => ctx.json(players))
 
-app.get('/presidents', (ctx) => {
-  return ctx.json(presidents)
+app.get('/leaderboard/:id', (ctx) => {
+  const id = ctx.req.param('id')
+  const foundLeaderboardTeam = leaderboard.find(
+    (leaderboardTeam) => leaderboardTeam.team.teamId === id
+  )
+
+  if (!foundLeaderboardTeam) return ctx.json({ message: 'President Dont found' }, 404)
+
+  return ctx.json(foundLeaderboardTeam)
 })
 
 app.get('/presidents/:id', (ctx) => {
@@ -75,9 +88,7 @@ app.get('/presidents/:id', (ctx) => {
   return ctx.json(foundPresident)
 })
 
-app.get('/teams', (ctx) => {
-  return ctx.json(teams)
-})
+app.get('/teams', (ctx) => ctx.json(teams))
 
 app.get('/teams/:id', (ctx) => {
   const id = ctx.req.param('id')
@@ -89,10 +100,6 @@ app.get('/teams/:id', (ctx) => {
   return ctx.json(foundTeam)
 })
 
-app.get('/coaches', (ctx) => {
-  return ctx.json(coaches)
-})
-
 app.get('/coaches/:id', (ctx) => {
   const id = ctx.req.param('id')
   const foundCoach = coaches.find((coach) => coach.id === id)
@@ -100,10 +107,6 @@ app.get('/coaches/:id', (ctx) => {
   if (!foundCoach) return ctx.json({ message: "Coach don't found" }, 404)
 
   return ctx.json(foundCoach)
-})
-
-app.get('/players', (ctx) => {
-  return ctx.json(players)
 })
 
 app.get('/players/:teamId', (ctx) => {
@@ -124,26 +127,6 @@ app.get('/players/:teamId/:playerId', (ctx) => {
   if (!foundPlayer) return ctx.json({ message: "Player don't found" }, 404)
 
   return ctx.json(foundPlayer)
-})
-
-app.get('/mvp', (ctx) => {
-  return ctx.json(mvp)
-})
-
-app.get('/top-scorer', (ctx) => {
-  return ctx.json(topScorer)
-})
-
-app.get('/top-assists', (ctx) => {
-  return ctx.json(topAssists)
-})
-
-app.get('/partners', (ctx) => {
-  return ctx.json(partners)
-})
-
-app.get('/schedule', (ctx) => {
-  return ctx.json(schedule)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
