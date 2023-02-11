@@ -877,7 +877,7 @@
   "Los Troncos FC": {
     "name": "Los Troncos FC",
     "teamId": "los-troncos-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.svg",
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.webp",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc-inverse.svg",
     "coachId": "entrenador-los-troncos-fc",
     "color": "#29b392",
