@@ -5,7 +5,7 @@
       "position": "jugador 11",
       "id": "lopo",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/4.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -16,11 +16,11 @@
       "position": "Portero",
       "id": "jorge",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/1.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 11,
+          "matchs": 5,
+          "concededGoals": 14,
           "stopPenalties": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -42,11 +42,11 @@
       "position": "Defensa",
       "id": "carlitos",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/2.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/2.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
+          "matchs": 5,
+          "goals": 2,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -68,11 +68,11 @@
       "position": "Medio",
       "id": "pau",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/6.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
+          "matchs": 5,
+          "goals": 2,
           "assists": 1,
           "yellowCards": 1,
           "redCards": 0,
@@ -94,10 +94,10 @@
       "position": "Delantero",
       "id": "cabello",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/Pio_9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/Pio_9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 1,
+          "matchs": 2,
           "goals": 0,
           "assists": 0,
           "yellowCards": 1,
@@ -120,10 +120,10 @@
       "position": "Medio",
       "id": "juárez",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/21.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/21.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
           "assists": 0,
           "yellowCards": 2,
@@ -146,7 +146,7 @@
       "position": "Defensa",
       "id": "turner",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/42.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/42.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 2,
@@ -172,7 +172,7 @@
       "position": "Delantero",
       "id": "adri",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/11.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 2,
@@ -198,11 +198,11 @@
       "position": "Medio",
       "id": "cokita",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
+          "matchs": 5,
+          "goals": 2,
           "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -224,12 +224,12 @@
       "position": "Medio",
       "id": "ropero",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/22.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/22.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0
@@ -250,7 +250,7 @@
       "position": "Defensa",
       "id": "santiago",
       "teamId": "pio-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/14.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/14.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 2,
@@ -278,7 +278,7 @@
       "position": "jugador 11",
       "id": "ricardo",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/1.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -289,10 +289,10 @@
       "position": "Defensa",
       "id": "román",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/0.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/0.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 1,
           "yellowCards": 0,
@@ -315,10 +315,10 @@
       "position": "Delantero",
       "id": "sorroche",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 2,
           "assists": 1,
           "yellowCards": 0,
@@ -341,10 +341,10 @@
       "position": "Delantero",
       "id": "marino",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/97.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/97.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -367,10 +367,10 @@
       "position": "Defensa",
       "id": "ledo",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/3.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/3.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -393,13 +393,13 @@
       "position": "Defensa",
       "id": "sauras",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
-          "yellowCards": 0,
+          "yellowCards": 1,
           "redCards": 0,
           "mvp": 0
         },
@@ -419,10 +419,10 @@
       "position": "Defensa",
       "id": "bruno",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/14.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/14.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -445,11 +445,11 @@
       "position": "Medio",
       "id": "pluvins",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/80.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/80.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -471,10 +471,10 @@
       "position": "Medio",
       "id": "rivero",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 3,
           "assists": 0,
           "yellowCards": 0,
@@ -497,7 +497,7 @@
       "position": "Delantero",
       "id": "lautaro",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/9.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 4,
@@ -523,10 +523,10 @@
       "position": "Delantero",
       "id": "günter",
       "teamId": "1k",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 1,
@@ -551,7 +551,7 @@
       "position": "jugador 11",
       "id": "hernández",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/14.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/14.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -562,16 +562,16 @@
       "position": "Portero",
       "id": "daniel",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/25.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/25.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 10,
+          "matchs": 5,
+          "concededGoals": 13,
           "stopPenalties": 0,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0,
-          "goals": 0,
+          "goals": 1,
           "assists": 0
         },
         "performanceStats": {
@@ -588,12 +588,12 @@
       "position": "Medio",
       "id": "galvany",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
-          "assists": 1,
+          "assists": 2,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0
@@ -614,10 +614,10 @@
       "position": "Defensa",
       "id": "andrés",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/5.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/5.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
           "assists": 0,
           "yellowCards": 1,
@@ -640,12 +640,12 @@
       "position": "Medio",
       "id": "bernat",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/31.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/31.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
-          "assists": 0,
+          "matchs": 5,
+          "goals": 2,
+          "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0
@@ -666,12 +666,12 @@
       "position": "Delantero",
       "id": "pau",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/24.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/24.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
-          "assists": 0,
+          "assists": 2,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0
@@ -692,10 +692,10 @@
       "position": "Defensa",
       "id": "jorquera",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/22.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/22.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -718,11 +718,11 @@
       "position": "Medio",
       "id": "gilles",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
+          "matchs": 5,
+          "goals": 3,
           "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -744,10 +744,10 @@
       "position": "Defensa",
       "id": "jadir",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/21.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/21.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -770,10 +770,10 @@
       "position": "Medio",
       "id": "roger",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -796,11 +796,11 @@
       "position": "Portero",
       "id": "morales",
       "teamId": "aniquiladores-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 1,
-          "concededGoals": 0,
+          "matchs": 2,
+          "concededGoals": 2,
           "stopPenalties": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -824,7 +824,7 @@
       "position": "jugador 11",
       "id": "soriano",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/26.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/26.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -835,10 +835,10 @@
       "position": "Medio",
       "id": "alsina",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 2,
           "assists": 1,
           "yellowCards": 2,
@@ -861,11 +861,11 @@
       "position": "Portero",
       "id": "pol",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/1.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
-          "concededGoals": 10,
+          "matchs": 4,
+          "concededGoals": 14,
           "stopPenalties": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -887,10 +887,10 @@
       "position": "Defensa",
       "id": "jay",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/4.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -913,10 +913,10 @@
       "position": "Medio",
       "id": "quero",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -939,10 +939,10 @@
       "position": "Defensa",
       "id": "arnau",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/5.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/5.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -965,10 +965,10 @@
       "position": "Delantero",
       "id": "de",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -991,10 +991,10 @@
       "position": "Medio",
       "id": "maca",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/30.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/30.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 1,
           "yellowCards": 0,
@@ -1017,7 +1017,7 @@
       "position": "Defensa",
       "id": "noel",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/6.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 2,
@@ -1043,11 +1043,11 @@
       "position": "Delantero",
       "id": "dorado",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/31.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/31.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 2,
           "yellowCards": 1,
           "redCards": 0,
@@ -1069,7 +1069,7 @@
       "position": "Portero",
       "id": "mario",
       "teamId": "jijantes-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/25.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/25.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 1,
@@ -1097,7 +1097,7 @@
       "position": "jugador 11",
       "id": "coro",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/Kunisports_23.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/Kunisports_23.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -1108,10 +1108,10 @@
       "position": "Delantero",
       "id": "torrentbó",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 2,
           "assists": 0,
           "yellowCards": 0,
@@ -1134,11 +1134,11 @@
       "position": "Portero",
       "id": "víctor",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/1.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 5,
+          "matchs": 5,
+          "concededGoals": 6,
           "stopPenalties": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -1160,10 +1160,10 @@
       "position": "Defensa",
       "id": "guerrero",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/4.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -1186,10 +1186,10 @@
       "position": "Medio",
       "id": "joan",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 1,
           "yellowCards": 1,
@@ -1212,7 +1212,7 @@
       "position": "Portero",
       "id": "rode",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/13.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/13.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 0,
@@ -1238,11 +1238,11 @@
       "position": "Defensa",
       "id": "ruggeri",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/5.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/5.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 2,
           "yellowCards": 1,
           "redCards": 0,
@@ -1264,7 +1264,7 @@
       "position": "Defensa",
       "id": "nacho",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/6.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 0,
@@ -1290,10 +1290,10 @@
       "position": "Delantero",
       "id": "hidalgo",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -1316,11 +1316,11 @@
       "position": "Delantero",
       "id": "lluc",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 2,
-          "goals": 0,
+          "matchs": 3,
+          "goals": 1,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -1342,10 +1342,10 @@
       "position": "Defensa",
       "id": "miki",
       "teamId": "kunisports",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/3.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/3.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 1,
@@ -1370,7 +1370,7 @@
       "position": "jugador 11",
       "id": "álvarez",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/Troncos_11b.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/Troncos_11b.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -1381,11 +1381,11 @@
       "position": "Delantero",
       "id": "álvaro",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 3,
+          "matchs": 5,
+          "goals": 4,
           "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -1407,11 +1407,11 @@
       "position": "Portero",
       "id": "lechuga",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/13.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/13.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 10,
+          "matchs": 5,
+          "concededGoals": 15,
           "stopPenalties": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -1433,10 +1433,10 @@
       "position": "Defensa",
       "id": "soriano",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/4.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 1,
@@ -1459,7 +1459,7 @@
       "position": "Medio",
       "id": "sánchez",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/8.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 2,
@@ -1485,7 +1485,7 @@
       "position": "Medio",
       "id": "noel",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/5.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/5.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 4,
@@ -1511,12 +1511,12 @@
       "position": "Medio",
       "id": "molas",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
-          "assists": 0,
+          "matchs": 5,
+          "goals": 3,
+          "assists": 2,
           "yellowCards": 1,
           "redCards": 0,
           "mvp": 0
@@ -1537,11 +1537,11 @@
       "position": "Delantero",
       "id": "martínez",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -1563,10 +1563,10 @@
       "position": "Delantero",
       "id": "dorkis",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -1589,11 +1589,11 @@
       "position": "Medio",
       "id": "nuevo",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/6.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -1615,7 +1615,7 @@
       "position": "Portero",
       "id": "arús",
       "teamId": "los-troncos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/1.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 3,
@@ -1643,7 +1643,7 @@
       "position": "jugador 11",
       "id": "poloteli",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/45.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/45.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -1654,11 +1654,11 @@
       "position": "Medio",
       "id": "pelaz",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 5,
+          "matchs": 5,
+          "goals": 6,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -1680,17 +1680,17 @@
       "position": "Portero",
       "id": "canet",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/41.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/41.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 14,
+          "matchs": 5,
+          "concededGoals": 18,
           "stopPenalties": 1,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0,
           "goals": 0,
-          "assists": 0
+          "assists": 1
         },
         "performanceStats": {
           "reflexes": 84,
@@ -1706,10 +1706,10 @@
       "position": "Delantero",
       "id": "guillem",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/19.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/19.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 3,
           "assists": 1,
           "yellowCards": 0,
@@ -1732,12 +1732,12 @@
       "position": "Defensa",
       "id": "reyes",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/22.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/22.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
-          "assists": 0,
+          "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0
@@ -1758,11 +1758,11 @@
       "position": "Medio",
       "id": "franky",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/30.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/30.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 2,
           "yellowCards": 0,
           "redCards": 0,
@@ -1784,13 +1784,13 @@
       "position": "Medio",
       "id": "dani",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
-          "assists": 2,
-          "yellowCards": 0,
+          "assists": 3,
+          "yellowCards": 1,
           "redCards": 0,
           "mvp": 0
         },
@@ -1810,10 +1810,10 @@
       "position": "Defensa",
       "id": "alejandro",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -1836,11 +1836,11 @@
       "position": "Delantero",
       "id": "biboum",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 0,
+          "matchs": 5,
+          "goals": 1,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -1862,7 +1862,7 @@
       "position": "Medio",
       "id": "jonathan",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/63.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/63.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 3,
@@ -1888,10 +1888,10 @@
       "position": "Delantero",
       "id": "alex",
       "teamId": "rayo-barcelona",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/77.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/77.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -1916,7 +1916,7 @@
       "position": "jugador 11",
       "id": "espinosa",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/8.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -1927,11 +1927,11 @@
       "position": "Portero",
       "id": "segovia",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/13.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/13.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 10,
+          "matchs": 5,
+          "concededGoals": 12,
           "stopPenalties": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -1953,10 +1953,10 @@
       "position": "Defensa",
       "id": "cichero",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/6.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 3,
           "assists": 1,
           "yellowCards": 1,
@@ -1979,10 +1979,10 @@
       "position": "Defensa",
       "id": "david",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/23.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/23.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2005,10 +2005,10 @@
       "position": "Medio",
       "id": "toti",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/21.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/21.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -2031,7 +2031,7 @@
       "position": "Medio",
       "id": "ripol",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/10.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 4,
@@ -2057,11 +2057,11 @@
       "position": "Delantero",
       "id": "kilian",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
+          "matchs": 5,
+          "goals": 2,
           "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -2083,11 +2083,11 @@
       "position": "Delantero",
       "id": "blanco",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 2,
+          "matchs": 5,
+          "goals": 4,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -2109,7 +2109,7 @@
       "position": "Delantero",
       "id": "uri",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/Porcinos_17.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/Porcinos_17.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 1,
@@ -2135,12 +2135,12 @@
       "position": "Medio",
       "id": "lao",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/4.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
-          "assists": 0,
+          "assists": 1,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 1
@@ -2161,7 +2161,7 @@
       "position": "Portero",
       "id": "sergi",
       "teamId": "porcinos-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/1.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 1,
@@ -2189,22 +2189,22 @@
       "position": "jugador 11",
       "id": "juanma",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/22.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/22.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
       }
-    }, 
+    },
     {
       "name": "Arché",
       "position": "Medio",
       "id": "arché",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 4,
+          "matchs": 5,
+          "goals": 5,
           "assists": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -2226,11 +2226,11 @@
       "position": "Portero",
       "id": "iu",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/1.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
-          "concededGoals": 2,
+          "matchs": 4,
+          "concededGoals": 5,
           "stopPenalties": 0,
           "yellowCards": 0,
           "redCards": 0,
@@ -2252,12 +2252,12 @@
       "position": "Defensa",
       "id": "guti",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
-          "assists": 1,
+          "assists": 2,
           "yellowCards": 0,
           "redCards": 0,
           "mvp": 0
@@ -2278,10 +2278,10 @@
       "position": "Medio",
       "id": "aleix",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/6.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 2,
           "assists": 1,
           "yellowCards": 0,
@@ -2304,10 +2304,10 @@
       "position": "Delantero",
       "id": "llur",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/19.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/19.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2330,10 +2330,10 @@
       "position": "Defensa",
       "id": "iker",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/4.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -2356,10 +2356,10 @@
       "position": "Defensa",
       "id": "ian",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/3.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/3.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2382,7 +2382,7 @@
       "position": "Delantero",
       "id": "zea",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/7.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 4,
@@ -2408,7 +2408,7 @@
       "position": "Portero",
       "id": "nacho",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/13.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/13.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 3,
@@ -2434,10 +2434,10 @@
       "position": "Medio",
       "id": "lucca",
       "teamId": "ultimate-mostoles",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/20.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/20.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -2462,7 +2462,7 @@
       "position": "jugador 11",
       "id": "castro",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/10.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -2473,11 +2473,11 @@
       "position": "Portero",
       "id": "capi",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/13.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/13.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "concededGoals": 10,
+          "matchs": 5,
+          "concededGoals": 11,
           "stopPenalties": 1,
           "yellowCards": 0,
           "redCards": 0,
@@ -2499,11 +2499,11 @@
       "position": "Delantero",
       "id": "poch",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
-          "goals": 1,
+          "matchs": 5,
+          "goals": 4,
           "assists": 2,
           "yellowCards": 1,
           "redCards": 0,
@@ -2525,10 +2525,10 @@
       "position": "Medio",
       "id": "iñaki",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/20.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/20.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2551,10 +2551,10 @@
       "position": "Defensa",
       "id": "dani",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/5.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/5.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2577,10 +2577,10 @@
       "position": "Delantero",
       "id": "granero",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/32.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/32.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 1,
@@ -2603,10 +2603,10 @@
       "position": "Medio",
       "id": "goran",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2629,10 +2629,10 @@
       "position": "Defensa",
       "id": "bañuls",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/3.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/3.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 1,
@@ -2655,7 +2655,7 @@
       "position": "Medio",
       "id": "franc",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/7.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 4,
@@ -2681,10 +2681,10 @@
       "position": "Delantero",
       "id": "sierra",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/21.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/21.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -2707,7 +2707,7 @@
       "position": "Portero",
       "id": "sep",
       "teamId": "xbuyer-team",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/1.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 0,
@@ -2735,7 +2735,7 @@
       "position": "jugador 11",
       "id": "josé",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/1.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -2746,10 +2746,10 @@
       "position": "Delantero",
       "id": "jacobo",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 4,
           "assists": 1,
           "yellowCards": 1,
@@ -2772,7 +2772,7 @@
       "position": "Defensa",
       "id": "mase",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/6.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/6.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 2,
@@ -2798,10 +2798,10 @@
       "position": "Delantero",
       "id": "beguer",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/9.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -2824,10 +2824,10 @@
       "position": "Medio",
       "id": "ros",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/14.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/14.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 2,
           "yellowCards": 0,
@@ -2850,10 +2850,10 @@
       "position": "Medio",
       "id": "ubón",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/8.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 5,
           "assists": 0,
           "yellowCards": 0,
@@ -2876,10 +2876,10 @@
       "position": "Defensa",
       "id": "pau",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/19.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/19.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 3,
           "yellowCards": 0,
@@ -2902,10 +2902,10 @@
       "position": "Delantero",
       "id": "olae",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/23.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/23.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2928,7 +2928,7 @@
       "position": "Delantero",
       "id": "boada",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/11.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 4,
@@ -2954,10 +2954,10 @@
       "position": "Medio",
       "id": "baranera",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -2980,10 +2980,10 @@
       "position": "Medio",
       "id": "capilla",
       "teamId": "el-barrio",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/12.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/12.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 3,
+          "matchs": 4,
           "goals": 0,
           "assists": 0,
           "yellowCards": 0,
@@ -3008,7 +3008,7 @@
       "position": "jugador 11",
       "id": "pol",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/Saiyans_8.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/Saiyans_8.webp",
       "playerStats": {
         "matchStats": {},
         "performanceStats": {}
@@ -3019,10 +3019,10 @@
       "position": "Portero",
       "id": "briones",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/1.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/1.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "concededGoals": 5,
           "stopPenalties": 0,
           "yellowCards": 0,
@@ -3045,7 +3045,7 @@
       "position": "Delantero",
       "id": "gio",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/9.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/9.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 3,
@@ -3071,10 +3071,10 @@
       "position": "Defensa",
       "id": "campu",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/4.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/4.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 2,
           "yellowCards": 1,
@@ -3097,10 +3097,10 @@
       "position": "Medio",
       "id": "temo",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/7.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/7.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 1,
           "assists": 0,
           "yellowCards": 0,
@@ -3123,10 +3123,10 @@
       "position": "Medio",
       "id": "valle",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/14.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/14.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 0,
           "yellowCards": 1,
@@ -3149,10 +3149,10 @@
       "position": "Defensa",
       "id": "torres",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/5.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/5.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -3175,10 +3175,10 @@
       "position": "Medio",
       "id": "feliu",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/20.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/20.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 2,
           "assists": 1,
           "yellowCards": 1,
@@ -3201,10 +3201,10 @@
       "position": "Delantero",
       "id": "david",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/10.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/10.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 0,
           "assists": 1,
           "yellowCards": 0,
@@ -3227,13 +3227,13 @@
       "position": "Medio",
       "id": "carbó",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/11.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/11.webp",
       "playerStats": {
         "matchStats": {
-          "matchs": 4,
+          "matchs": 5,
           "goals": 3,
           "assists": 0,
-          "yellowCards": 0,
+          "yellowCards": 1,
           "redCards": 0,
           "mvp": 1
         },
@@ -3253,7 +3253,7 @@
       "position": "Portero",
       "id": "fajardo",
       "teamId": "saiyans-fc",
-      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/22.png",
+      "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/22.webp",
       "playerStats": {
         "matchStats": {
           "matchs": 0,

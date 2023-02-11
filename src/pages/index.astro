@@ -6,12 +6,14 @@ import Partners from '../components/Partners.astro'
 import TopPlayer from '../components/TopPlayer.astro'
 import Table from '../components/Table.astro'
 import Layout from '../layouts/Layout.astro'
+import Title from '../components/Title.astro'
 
 const { goals } = await getTopScorerPlayer()
 const { assists } = await getTopAssistsPlayer()
 ---
 
 <Layout title="">
+	<Title/>
 	<Main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-[repeat(14,150px)] sm:grid-rows-[repeat(8,150px)] lg:grid-rows-[repeat(6,150px)] pb-32 mt-14 gap-6">
 		<Table class="row-span-3 col-start-1"/>
 		<div class="row-span-3 col-start-1 bg-gray-500"></div>

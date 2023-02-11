@@ -93,7 +93,7 @@ async function donwloadDataTeam(page) {
     const position = $player.find('.el-content').text().trim()
 
     imageURL = $player.find('.el-image').attr('src')
-    imageExtension = imageURL.split('.').at(-1)
+    imageExtension = 'webp'
     const filenameImage = imageURL.split('.').at(-2).split('/').at(-1)
     coachId = `${filenameImage}-${teamId}`
 

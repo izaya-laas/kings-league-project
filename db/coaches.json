@@ -3,72 +3,72 @@
     "name": "Gerardo Torrado",
     "id": "entrenador-pio-fc",
     "teamId": "pio-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/pio-fc/entrenador.webp"
   },
   "1k": {
     "name": "Julio García Mera",
     "id": "entrenador-1k",
     "teamId": "1k",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/1k/entrenador.webp"
   },
   "aniquiladores-fc": {
     "name": "Sergio Verdirame",
     "id": "entrenador-aniquiladores-fc",
     "teamId": "aniquiladores-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/aniquiladores-fc/entrenador.webp"
   },
   "jijantes-fc": {
     "name": "Marc Carmona",
     "id": "entrenador-jijantes-fc",
     "teamId": "jijantes-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/jijantes-fc/entrenador.webp"
   },
   "kunisports": {
     "name": "Martín Posse",
     "id": "entrenador-kunisports",
     "teamId": "kunisports",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/kunisports/entrenador.webp"
   },
   "los-troncos-fc": {
     "name": "Pol Font",
     "id": "entrenador-los-troncos-fc",
     "teamId": "los-troncos-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/los-troncos-fc/entrenador.webp"
   },
   "rayo-barcelona": {
     "name": "JuanluDBZ",
     "id": "entrenador-rayo-barcelona",
     "teamId": "rayo-barcelona",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/rayo-barcelona/entrenador.webp"
   },
   "porcinos-fc": {
     "name": "Juvenal Edjogo-Owono",
     "id": "entrenador-porcinos-fc",
     "teamId": "porcinos-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/porcinos-fc/entrenador.webp"
   },
   "ultimate-mostoles": {
     "name": "Nacho Castro",
     "id": "entrenador-ultimate-mostoles",
     "teamId": "ultimate-mostoles",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/ultimate-mostoles/entrenador.webp"
   },
   "xbuyer-team": {
     "name": "Victor González",
     "id": "entrenador-xbuyer-team",
     "teamId": "xbuyer-team",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/xbuyer-team/entrenador.webp"
   },
   "el-barrio": {
     "name": "Juan Arroita",
     "id": "entrenador-el-barrio",
     "teamId": "el-barrio",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/el-barrio/entrenador.webp"
   },
   "saiyans-fc": {
     "name": "Daniel Romo",
     "id": "entrenador-saiyans-fc",
     "teamId": "saiyans-fc",
-    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/entrenador.png"
+    "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/teams/saiyans-fc/entrenador.webp"
   }
 }
