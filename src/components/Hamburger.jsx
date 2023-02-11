@@ -32,7 +32,7 @@ export const Hamburger = ({ children }) => {
         />
       </div>
       <div
-        class={`fixed top-32 pt-6 transition-transfor duration-700 left-0 h-screen w-screen bg-black z-20 opacity-95 ${
+        class={`fixed top-32 sm:top-36  pt-6 transition-transfor duration-700 left-0 h-screen w-screen bg-black z-20 opacity-95 ${
           isActive ? 'translate-y-0 ' : '-translate-y-[70rem]'
         }`}
       >
