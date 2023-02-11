@@ -26,10 +26,12 @@ const socialMedias = [
 		href: 'https://www.youtube.com/@KingsLeagueOfficial'
 	}
 ]
+
+const { class: styles } = Astro.props
 ---
 
 <nav>
-			<ul class="flex gap-6">
+			<ul class={`flex gap-6 ${styles}`}>
 				{
 					socialMedias.map(({ name, path, href }) => (
 						<li>

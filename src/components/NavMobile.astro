@@ -1,11 +1,17 @@
 ---
 import ButtonTV from './ButtonTV.astro'
+import { Hamburger } from './Hamburger.jsx'
+import ListSocialNetworks from './ListSocialNetworks.astro'
 import Logo from './Logo.astro'
+import Navbar from './Navbar.astro';
 
 ---
 
 <nav class="flex justify-between items-center lg:hidden">
 	<Logo class="w-14 sm:w-16 aspect-square block"/>
 	<ButtonTV/>
-	<img class="w-12 sm:w-14  aspect-square block" src="/public/menu.svg"/>
+	<Hamburger client:load>
+		<Navbar class="flex-col text-center text-base mx-auto gap-y-6"/>
+		<ListSocialNetworks class="mt-12 justify-center"/>
+	</Hamburger>
 </nav>
