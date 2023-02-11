@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'preact/hooks'
+import { useState } from 'preact/hooks'
 
 function disableScroll() {
-  const x = window.scrollX
-  const y = window.scrollY
+  const x = 0
+  const y = 0
   window.onscroll = function () {
     window.scrollTo(x, y)
   }
@@ -11,17 +11,22 @@ function enableScroll() {
   window.onscroll = null
 }
 
-export const Hamburger = ({ children }) => {
-  const [isActive, setIsActive] = useState(false)
+function scrollController(isActive) {
+  if (!isActive) enableScroll()
+  else disableScroll()
+}
 
-  useEffect(() => {
-    if (!isActive) enableScroll()
-    else disableScroll()
-  }, [isActive])
+export default function Hamburger({ children }) {
+  const [isActive, setIsActive] = useState(false)
 
   return (
     <>
-      <div onClick={() => setIsActive(!isActive)}>
+      <div
+        onClick={() => {
+          setIsActive(!isActive)
+          scrollController(!isActive)
+        }}
+      >
         <img
           class={`w-12 sm:w-14 aspect-square block relative z-30 ${isActive ? 'hidden' : ''}`}
           src='/public/menu.svg'
