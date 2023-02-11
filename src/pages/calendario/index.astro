@@ -42,7 +42,7 @@ const keywords = {
 							{playingDay}
 						</h3>
 					</header>
-					<table class="w-full text-sm text-left text-gray-500 border-t border-gray-300" >
+					<table class="w-full text-sm text-gray-500 border-t border-gray-300" >
 						<tbody>
 							{
 								plays.map(async ({ teamOne, teamTwo, result }) => {
@@ -50,7 +50,7 @@ const keywords = {
 								const { teamId: teamIdTwo, name: teamNameTwo } = teamTwo
 								return (
 								<tr class="border-b-gray-300 border-b items-center px-1 py-2 flex justify-between">
-									<td class="min-w-[3rem] sm:pl-4 sm:min-w-[9rem]">
+									<td class="min-w-[3rem] text-left sm:pl-4 sm:min-w-[9rem]">
 										<div class="sm:hidden">{keywords[teamNameOne]}</div>
 										<div class="hidden sm:block">{teamNameOne}</div>
 									</td>
@@ -63,7 +63,7 @@ const keywords = {
 									<td class="w-1/5 flex justify-center">
 										<img class="w-10 block" src={teamsImages[teamIdTwo]}/>
 									</td>
-									<td class="min-w-[3rem] sm:pr-4  sm:min-w-[9rem]">
+									<td class="min-w-[3rem] text-right sm:pr-4  sm:min-w-[9rem]">
 										<div class="sm:hidden">{keywords[teamNameTwo]}</div>
 										<div class="hidden sm:block">{teamNameTwo}</div>
 									</td>
@@ -76,7 +76,7 @@ const keywords = {
 				</article>))
 		}
 		<div class="border-t border-black mb-10"></div>
-		<h2 class="text-2xl font-bold">Playoff - 25 y 26 de Marzo del 2023</h2>
-		<img class="block mx-auto mb-10" src="/public/final-fixture.png" alt="Final fixture">
+		<h2 class="text-2xl font-bold">Playoff – 25 y 26/03/2023*</h2>
+		<img class="block mx-auto mb-10 mt-4 object-contain" src="/public/final-fixture.png" alt="Final fixture">
 	</Main>
 </Layout>
