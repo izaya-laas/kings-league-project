@@ -102,7 +102,8 @@ app.get('/teams/:id', (ctx) => {
 
 app.get('/coaches/:id', (ctx) => {
   const id = ctx.req.param('id')
-  const foundCoach = coaches.find((coach) => coach.id === id)
+  const coachesEntries = Object.values(coaches)
+  const foundCoach = coachesEntries.find((coach) => coach.id === id)
 
   if (!foundCoach) return ctx.json({ message: "Coach don't found" }, 404)
 
