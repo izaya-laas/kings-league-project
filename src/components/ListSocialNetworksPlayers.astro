@@ -1,4 +1,6 @@
 ---
+import ListItem from './ListItem.astro'
+
 const { socialNetworks, class: styles } = Astro.props
 ---
 
@@ -9,25 +11,17 @@ const { socialNetworks, class: styles } = Astro.props
 			if (links.length) {
 				const [linkOne, linkTwo] = links
 				return (
-					<a href={linkOne.href}>
-						<li>
-							<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
-						</li>
-					</a>
-					<a href={linkTwo.href}>
-						<li>
-							<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
-						</li>
-					</a>
+					<>
+						<ListItem href={linkOne} src={`/public/social/${social}.svg`} alt={`Logo ${social}`}/>
+						<ListItem href={linkTwo} src={`/public/social/${social}.svg`} alt={`Logo ${social}`}/>
+					</>
 				)
 			} else {
-				return (<a href={links.href}>
-						<li>
-							<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
-						</li>
-					</a>)
-			}
-		})
+				return (
+					<ListItem href={links.href} src={`/public/social/${social}.svg`} alt={`Logo ${social}`}/>
+				)
+				}
+			})
 		}
 	</ul>
 </nav>

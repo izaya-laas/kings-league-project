@@ -1,0 +1,45 @@
+---
+const navLinks = [
+	{
+		name: 'Equipos',
+		href: '/equipos'
+	},
+		{
+		name: 'Estadisticas',
+		href: '/estadisticas'
+	},
+		{
+		name: 'Faqs',
+		href: '/faqs'
+	},
+		{
+		name: 'Jugador 12',
+		href: '/jugador-12'
+	},
+		{
+		name: 'Reglamento',
+		href: '/reglamento'
+	},
+		{
+		name: 'Draft',
+		href: '/draft'
+	},
+		{
+		name: 'Calendario',
+		href: '/calendario'
+	}
+]
+
+---
+
+<nav>
+	<ul class="flex flex-wrap justify-center gap-4 sm:grid sm:grid-cols-3 sm:gap-2 sm:place-items-center">
+		{
+			navLinks.map(({ name, href }) => (
+				<li class="justify-self-center self-center">
+					<a href={href}>{name}</a>
+				</li>
+			))
+		}
+	</ul>
+</nav>

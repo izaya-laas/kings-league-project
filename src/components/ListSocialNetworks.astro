@@ -1,4 +1,6 @@
 ---
+import ListItem from './ListItem.astro'
+
 const socialMedias = [
 	{
 		name: 'Logo Instagram',
@@ -34,11 +36,7 @@ const { class: styles } = Astro.props
 			<ul class={`flex gap-6 ${styles}`}>
 				{
 					socialMedias.map(({ name, path, href }) => (
-						<li>
-							<a href={href}>
-								<img class="w-6" src={path} alt={name}>
-							</a>
-						</li>
+							<ListItem href={href} src={path} alt={name}/>
 							))
 						}
 			</ul>

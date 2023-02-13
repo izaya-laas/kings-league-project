@@ -1,0 +1,9 @@
+---
+const { href, src, alt, styleContainer, styleImage } = Astro.props
+---
+
+<li class={styleContainer}>
+	<a href={href}>
+		<img class={`w-5 ${styleImage}`} src={src} alt={alt}>
+	</a>
+</li>

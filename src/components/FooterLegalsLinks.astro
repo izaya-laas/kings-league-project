@@ -1,0 +1,29 @@
+---
+const legals = [
+	{
+		name: 'Contacto',
+		href: '/contacto'
+	},	{
+		name: 'Politica de privacidad',
+		href: '/politica-privacidad'
+	},	{
+		name: 'Contacto',
+		href: '/aviso-legal'
+	},	{
+		name: 'Politica Cookies',
+		href: '/politica-cookies'
+	}
+]
+---
+
+<nav class="mt-8 text-xs">
+	<ul class="flex justify-center flex-wrap sm:flex-nowrap sm:justify-start whitespace-nowrap gap-4 sm:gap-y-0 sm:gap-x-2">
+		{
+			legals.map(({ name, href }) => (
+					<li>
+						<a href={href}>{name}</a>
+					</li>
+					))
+				}
+	</ul>
+</nav>

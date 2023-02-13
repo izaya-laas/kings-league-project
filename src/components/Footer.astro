@@ -1,52 +1,8 @@
 ---
+import FooterLegalsLinks from './FooterLegalsLinks.astro'
+import FooterNavLinks from './FooterNavLinks.astro'
 import ListSocialNetworks from './ListSocialNetworks.astro'
 
-const navLinks = [
-	{
-		name: 'Equipos',
-		href: '/equipos'
-	},
-		{
-		name: 'Estadisticas',
-		href: '/estadisticas'
-	},
-		{
-		name: 'Faqs',
-		href: '/faqs'
-	},
-		{
-		name: 'Jugador 12',
-		href: '/jugador-12'
-	},
-		{
-		name: 'Reglamento',
-		href: '/reglamento'
-	},
-		{
-		name: 'Draft',
-		href: '/draft'
-	},
-		{
-		name: 'Calendario',
-		href: '/calendario'
-	}
-]
-
-const legals = [
-	{
-		name: 'Contacto',
-		href: '/contacto'
-	},	{
-		name: 'Politica de privacidad',
-		href: '/politica-privacidad'
-	},	{
-		name: 'Contacto',
-		href: '/aviso-legal'
-	},	{
-		name: 'Politica Cookies',
-		href: '/politica-cookies'
-	}
-]
 ---
 
 <footer class="py-10 bg-black">
@@ -56,30 +12,8 @@ const legals = [
 		<ListSocialNetworks/>
 	</section>
 	<section class="text-white">
-		<div>
-			<nav>
-				<ul class="flex flex-wrap justify-center gap-4 sm:grid sm:grid-cols-3 sm:gap-2 sm:place-items-center">
-					{
-						navLinks.map(({ name, href }) => (
-							<li class="justify-self-center self-center">
-								<a href={href}>{name}</a>
-							</li>
-						))
-					}
-				</ul>
-			</nav>
-		</div>
-		<nav class="mt-8 text-xs">
-			<ul class="flex justify-center flex-wrap sm:flex-nowrap sm:justify-start whitespace-nowrap gap-4 sm:gap-y-0 sm:gap-x-2">
-				{
-					legals.map(({ name, href }) => (
-						<li>
-							<a href={href}>{name}</a>
-							</li>
-							))
-						}
-			</ul>
-		</nav>
+		<FooterNavLinks/>
+		<FooterLegalsLinks/>
 	</section>
 </div>
 </footer>
