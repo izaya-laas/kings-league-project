@@ -1,0 +1,13 @@
+---
+const { src, alt, teamImage, teamName } = Astro.props
+---
+
+<figure class="sm:w-52 sm:h-72 lg:w-60 lg:h-80  relative overflow-hidden object-contain object-right px-2 py-1 rounded-lg border-4 border-transparent shadow-xl shadow-black p-2 pb-4 bg-gradient-to-r from-[#066e9f] via-[#6ce9ff] to-[#066e9f]">
+		<img class="relative z-10" src={src} alt={alt}>
+		<div class="absolute z-20 w-full h-1/3 sm:h-1/4 bg-black top-2/3 sm:top-3/4 left-0 pt-2">
+			<h3 class="mx-auto w-4/5 text-center sm:text-2xl leading-5 text-white border-b border-b-white font-bold">{alt}</h3>
+			<p class="text-sm sm:text-base text-center text-white">{teamName}</p>
+		</div>
+		<p class="absolute top-0 left-0 text-2xl sm:text-5xl font-bold text-white ">ENTRENADOR</p>
+		<img class="w-20 sm:w-36 absolute top-8 -right-4 sm:-right-12" src={teamImage} alt="Team Image">
+</figure>

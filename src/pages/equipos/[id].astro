@@ -1,9 +1,14 @@
 ---
+import { getCoach } from '../../../services/coaches.js'
 import { getLeaderboardTeam } from '../../../services/leaderboard.js'
 import { getPresident } from '../../../services/presidents.js'
 import { getTeam } from '../../../services/teams.js'
-import ListSocialNetworks from '../../components/ListSocialNetworks.astro'
+import CardCoach from '../../components/CardCoach.astro'
+import CardPlayer from '../../components/CardPlayer.astro'
+import CardPresident from '../../components/CardPresident.astro'
+import ListSocialNetworksPlayers from '../../components/ListSocialNetworksPlayers.astro'
 import Main from '../../components/Main.astro'
+import TeamLeaderboard from '../../components/TeamLeaderboard.astro'
 import TeamsCards from '../../components/TeamsCards.astro'
 import Layout from '../../layouts/Layout.astro'
 
@@ -20,93 +25,48 @@ export const getStaticPaths = async () => {
 
 const teamId = Astro.params.id
 const team = await getTeam(teamId)
-const { name, image, color, inverse: imageInverse, socialMedias, presidentId } = team
+const { name, image, color, inverse: imageInverse, socialMedias, presidentId, coachId, players } = team
 const { image: presidentImage, name: presidentName } = await getPresident(presidentId)
+const { image: coachImage, name: coachName } = await getCoach(coachId)
 
 const teamLeaderboard = await getLeaderboardTeam(teamId)
-
 const socialNetworks = Object.entries(socialMedias)
-const styleImage = { backgroundImage: `url(${imageInverse})` }
 
+const styleImage = { backgroundImage: `url(${imageInverse})` }
 ---
 
 <Layout>
 	<Main style={'width: 100%'} >
-		<section style={`--tw-gradient-stops:${color},${color}, #f1f1f1;`} class='h-full relative overflow-hidden bg-gradient-to-tr px-16 pt-10 pb-20'>
-			<article class="relative z-10 flex justify-between">
-				<section>
-					<div class="flex items-center">
-						<img class="w-40" src={image} alt={name}>
-						<div class="flex flex-col items-end gap-y-2">
-							<h1 class="text-white text-6xl font-bold ml-8">{name}</h1>
-							<nav >
-								<ul class="flex gap-x-4 justify-end">
-									{
-										socialNetworks.map(([social, links]) => {
-										if (links.length) {
-											const [linkOne, linkTwo] = links
-											return (
-												<a href={linkOne.href}>
-													<li>
-														<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
-													</li>
-												</a>
-												<a href={linkTwo.href}>
-													<li>
-														<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
-													</li>
-												</a>
-											)
-										} else {
-											return (<a href={links.href}>
-													<li>
-														<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
-													</li>
-												</a>)
-										}
-									})
-									}
-								</ul>
-							</nav>
-						</div>
+		<section style={`--tw-gradient-stops:${color},${color}, #f1f1f1;`} class='h-full relative overflow-hidden bg-gradient-to-tr px-4 pt-10 pb-20'>
+			<div class="md:flex md:justify-around relative z-10">
+				<article>
+					<div class="flex justify-center sm:justify-start items-center w-full">
+					<img class="w-32 sm:w-44" src={image} alt={name}>
+					<div>
+						<h1 class="text-white text-3xl sm:text-4xl font-bold ">{name}</h1>
+						<ListSocialNetworksPlayers class="justify-start" socialNetworks={socialNetworks}/>
 					</div>
-					<div class="bg-black text-white grid grid-cols-3 p-4 mt-4 gap-y-4">
-							<div class="text-center">
-								<h3 class='text-xl text-[#fab60a]'>Victorias</h3>
-								<p class="text-3xl">{teamLeaderboard.wins}</p>
-							</div>
-							<div class="text-center">
-								<h3 class='text-xl text-[#fab60a]'>Derrotas</h3>
-								<p class="text-3xl">{teamLeaderboard.wins}</p>
-							</div>
-							<div class="text-center">
-								<h3 class='text-xl text-[#fab60a]'>GF</h3>
-								<p class="text-3xl">{teamLeaderboard.goalsScored}</p>
-							</div>
-							<div class="text-center">
-								<h3 class='text-xl text-[#fab60a]'>GC</h3>
-								<p class="text-3xl">{teamLeaderboard.goalsConceded}</p>
-							</div>
-							<div class="text-center">
-								<h3 class='text-xl text-[#fab60a]'>T.Amarillas</h3>
-								<p class="text-3xl">{teamLeaderboard.yellowCards}</p>
-							</div>
-							<div class="text-center">
-								<h3 class='text-xl text-[#fab60a]'>T.Rojas</h3>
-								<p class="text-3xl">{teamLeaderboard.redCards}</p>
-							</div>
-					</div>
-				</section>
-				<section class="w-52">
-					<img src={presidentImage} alt="">
-				</section>
+				</div>
+				<TeamLeaderboard teamLeaderboard={teamLeaderboard}/>
 			</article>
-			<div class="z-0 absolute inset-0 opacity-25 bg-center bg-[length:150%_150%] transition-all" style={styleImage}></div>
-			<article>
+			<article class="flex justify-center gap-x-4 mt-6">
+				<CardPresident src={presidentImage} alt={presidentName} teamName={name} teamImage={imageInverse}/>
+				<CardCoach src={coachImage} alt={coachName} teamName={name} teamImage={imageInverse}/>
 			</article>
-		</section>
-		<div class="w-11/12 mx-auto">
-			<TeamsCards/>
 		</div>
+		<div class="my-16 border-t-4 border-white"></div>
+		<div class="flex flex-wrap gap-2 justify-center">
+			{
+				players.map(({ name: playerName, image: playerImage, playerStats, position }) => (
+					<CardPlayer src={playerImage} name={playerName} position={position} playerStats={playerStats}/>
+				))
+			}
+		</div>
+			<div class="z-0 absolute inset-0 opacity-25 bg-center bg-[length:150%_150%] transition-all" style={styleImage}></div>
+		</section>
+		<div class="py-20 bg-gradient-to-b mb-20" style={`--tw-gradient-stops:${color},${color}, #fff; `} ></div>
+		<section class="w-11/12 mx-auto">
+			<TeamsCards/>
+		</section>
 	</Main>
 </Layout>

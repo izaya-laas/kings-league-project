@@ -1,0 +1,26 @@
+---
+const { performances } = Astro.props
+
+const keywords = {
+	speed: 'SP',
+	physique: 'PHY',
+	shooting: 'SH',
+	passing: 'PAS',
+	defense: 'DEF',
+	talent: 'TAL',
+	reflexes: 'REF',
+	kickoff: 'KIC',
+	saves: 'SAV',
+	stretch: 'STR'
+}
+---
+
+<div class="inline-grid grid-cols-2 place-items-center text-xs sm:text-sm text-white gap-x-2 mx-auto">
+		{
+			performances.map(([key, value]) => (
+				<div class="whitespace-nowrap place-self-start">
+					<strong>{value} </strong><span>{keywords[key]}</span>
+				</div>
+			))
+		}
+</div>

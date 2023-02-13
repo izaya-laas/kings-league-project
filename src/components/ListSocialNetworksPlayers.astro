@@ -1,0 +1,33 @@
+---
+const { socialNetworks, class: styles } = Astro.props
+---
+
+<nav>
+	<ul class={`flex gap-x-4 mt-2 ${styles}`}>
+		{
+			socialNetworks.map(([social, links]) => {
+			if (links.length) {
+				const [linkOne, linkTwo] = links
+				return (
+					<a href={linkOne.href}>
+						<li>
+							<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
+						</li>
+					</a>
+					<a href={linkTwo.href}>
+						<li>
+							<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
+						</li>
+					</a>
+				)
+			} else {
+				return (<a href={links.href}>
+						<li>
+							<img class="w-5" src={`/public/social/${social}.svg`} alt={`Logo ${social}`}>
+						</li>
+					</a>)
+			}
+		})
+		}
+	</ul>
+</nav>

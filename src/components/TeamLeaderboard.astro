@@ -1,0 +1,26 @@
+---
+const { teamLeaderboard } = Astro.props
+
+const leaderboardEntries = Object.entries(teamLeaderboard)
+const keywords = {
+	wins: 'Victorias',
+	loses: 'Derrotas',
+	goalsScored: 'GF',
+	goalsConceded: 'GC',
+	redCards: 'Rojas',
+	yellowCards: 'Amarillas'
+}
+
+---
+<div class="grid grid-cols-3 gap-x-4 gap-y-2 mt-6 text-white">
+
+	{
+		leaderboardEntries.map(([key, value]) => (
+			<div class="text-center">
+				<h3 class='text-xl text-[#fab60a] bg-black rounded-t-md'>{keywords[key]}</h3>
+				<p class="text-3xl bg-black/80 rounded-b-md">{value}</p>
+			</div>
+		))
+	}
+
+</div>
