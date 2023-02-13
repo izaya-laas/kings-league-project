@@ -11,7 +11,7 @@ const scorePlayer = score ? score[1] : null
 let gradientStyles:string
 
 if (!scorePlayer) gradientStyles = 'from-[#10685a] via-[#cef6f2] to-[#10685a]'
-else if (scorePlayer < 65) gradientStyles = 'from-[#573b35] via-[#a97163] to-[#573b35]'
+else if (scorePlayer < 70) gradientStyles = 'from-[#573b35] via-[#a97163] to-[#573b35]'
 else if (scorePlayer < 85) gradientStyles = 'from-[#e4ecf8] via-[#babfe5] to-[#e4ecf8]'
 else gradientStyles = 'from-[#f8c587] via-[#ffdb89] to-[#f8c587]'
 ---
