@@ -21,7 +21,7 @@
   "dependencies": {
     "@astrojs/preact": "^2.0.2",
     "@astrojs/tailwind": "3.0.1",
-    "astro": "2.0.8",
+    "astro": "2.0.10",
     "cheerio": "1.0.0-rc.12",
     "hono": "2.7.1",
     "node-fetch": "3.3.0",
