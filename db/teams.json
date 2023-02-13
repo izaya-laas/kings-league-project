@@ -523,13 +523,13 @@
             "mvp": 0
           },
           "performanceStats": {
-            "speed": 0,
-            "physique": 0,
-            "shooting": 0,
-            "passing": 0,
-            "talent": 0,
-            "defense": 0,
-            "score": 0
+            "speed": 71,
+            "physique": 65,
+            "shooting": 72,
+            "passing": 77,
+            "talent": 71,
+            "defense": 77,
+            "score": 72
           }
         }
       },
@@ -2745,13 +2745,13 @@
             "mvp": 0
           },
           "performanceStats": {
-            "speed": 0,
-            "physique": 0,
-            "shooting": 0,
-            "passing": 0,
-            "talent": 0,
-            "defense": 0,
-            "score": 0
+            "speed": 71,
+            "physique": 65,
+            "shooting": 72,
+            "passing": 77,
+            "talent": 71,
+            "defense": 77,
+            "score": 72
           }
         }
       },
