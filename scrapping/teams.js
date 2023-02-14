@@ -52,18 +52,18 @@ const players = {
 }
 const teams = {}
 const colors = {
-  kunisports: '#000',
-  'los-troncos-fc': '#29b392',
-  '1k': '#5c4de8',
-  'pio-fc': '#f1f582',
-  'saiyans-fc': '#4f46fa',
-  'el-barrio': '#237864',
-  'jijantes-fc': '#eb4d5d',
-  'aniquiladores-fc': '#f73448',
-  'xbuyer-team': '#525557',
-  'ultimate-mostoles': '#525557',
-  'porcinos-fc': '#fa66f3',
-  'rayo-barcelona': '#faa843'
+  kunisports: '#101920',
+  'los-troncos-fc': '#31585a',
+  '1k': '#6f68f4',
+  'pio-fc': '#fff68d',
+  'saiyans-fc': '#d4293d',
+  'el-barrio': '#49b2ad',
+  'jijantes-fc': '#d4293d',
+  'aniquiladores-fc': '#ea4163',
+  'xbuyer-team': '#979797',
+  'ultimate-mostoles': '#7b7b7b',
+  'porcinos-fc': '#d91f5d',
+  'rayo-barcelona': '#f6ab34'
 }
 
 async function donwloadDataTeam(page) {

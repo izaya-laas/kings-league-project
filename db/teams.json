@@ -5,7 +5,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio-inverse.svg",
     "coachId": "entrenador-el-barrio",
-    "color": "#237864",
+    "color": "#49b2ad",
     "presidentId": "adri-contreras",
     "socialMedias": {
       "instagram": {
@@ -303,7 +303,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc-inverse.svg",
     "coachId": "entrenador-porcinos-fc",
-    "color": "#fa66f3",
+    "color": "#d91f5d",
     "presidentId": "ibai-llanos",
     "socialMedias": {
       "twitch": {
@@ -593,7 +593,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports-inverse.svg",
     "coachId": "entrenador-kunisports",
-    "color": "#000",
+    "color": "#101920",
     "presidentId": "kun-aguero",
     "socialMedias": {
       "twitch": {
@@ -880,7 +880,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.webp",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc-inverse.svg",
     "coachId": "entrenador-los-troncos-fc",
-    "color": "#29b392",
+    "color": "#31585a",
     "presidentId": "perxitaa",
     "socialMedias": {
       "twitch": {
@@ -1176,7 +1176,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc-inverse.svg",
     "coachId": "entrenador-aniquiladores-fc",
-    "color": "#f73448",
+    "color": "#ea4163",
     "presidentId": "juan-guarnizo",
     "socialMedias": {
       "twitch": {
@@ -1463,7 +1463,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team-inverse.svg",
     "coachId": "entrenador-xbuyer-team",
-    "color": "#525557",
+    "color": "#979797",
     "presidentId": "hnos-buyer",
     "socialMedias": {
       "youtube": {
@@ -1750,7 +1750,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
     "coachId": "entrenador-ultimate-mostoles",
-    "color": "#525557",
+    "color": "#7b7b7b",
     "presidentId": "djmariio",
     "socialMedias": {
       "youtube": {
@@ -2037,7 +2037,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc-inverse.svg",
     "coachId": "entrenador-jijantes-fc",
-    "color": "#eb4d5d",
+    "color": "#d4293d",
     "presidentId": "gerard-romero",
     "socialMedias": {
       "twitch": {
@@ -2333,7 +2333,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona-inverse.svg",
     "coachId": "entrenador-rayo-barcelona",
-    "color": "#faa843",
+    "color": "#f6ab34",
     "presidentId": "spursito",
     "socialMedias": {
       "twitch": {
@@ -2629,7 +2629,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc-inverse.svg",
     "coachId": "entrenador-pio-fc",
-    "color": "#f1f582",
+    "color": "#fff68d",
     "presidentId": "rivers",
     "socialMedias": {
       "twitch": {
@@ -2919,7 +2919,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k-inverse.svg",
     "coachId": "entrenador-1k",
-    "color": "#5c4de8",
+    "color": "#6f68f4",
     "presidentId": "iker-casillas",
     "socialMedias": {
       "instagram": {
@@ -3215,7 +3215,7 @@
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc-inverse.svg",
     "coachId": "entrenador-saiyans-fc",
-    "color": "#4f46fa",
+    "color": "#d4293d",
     "presidentId": "thegrefg",
     "socialMedias": {
       "twitch": {
