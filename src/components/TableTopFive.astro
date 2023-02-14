@@ -1,0 +1,44 @@
+---
+import { getTeam } from '../../services/teams.js'
+const { from, extract: getPlayers } = Astro.props
+
+const players = await getPlayers()
+const TopFivePlayers = players.slice(0, 5)
+
+const keys = {
+	MVPs: 'MVP',
+	Goles: 'goals',
+	Asistencias: 'assists'
+}
+
+const currentKey = keys[from]
+---
+<table class="w-full">
+		<thead class="border-b border-gray-300" >
+			<tr>
+				<th class="px-2 py-3">Rank</th>
+				<th class="px-2 py-3">Equipo</th>
+				<th class="px-2 py-3">Nombre</th>
+				<th class="px-2 py-3">{from}</th>
+			</tr>
+		</thead>
+		<tbody>
+			{
+				TopFivePlayers.map(async (player) => {
+				const { teamId: currentTeamId, name: currentTeamName } = player
+				const { image: teamImage } = await getTeam(currentTeamId)
+
+				return (
+					<tr class="text-sm text-center border-b border-gray-300 text-gray-900">
+						<td class="px-2 py-3">{player.ranking}</td>
+						<td class="px-2 py-3 flex justify-center">
+							<img class="w-8" src={teamImage} alt={`Logo de ${currentTeamName}`}>
+						</td>
+						<td class="px-2 py-3">{player.player}</td>
+						<td class="px-2 py-3">{player[currentKey]}</td>
+					</tr>
+				)
+			})
+			}
+		</tbody>
+</table>
