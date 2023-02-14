@@ -16,7 +16,7 @@ else if (scorePlayer < 85) gradientStyles = 'from-[#e4ecf8] via-[#babfe5] to-[#e
 else gradientStyles = 'from-[#f8c587] via-[#ffdb89] to-[#f8c587]'
 ---
 
-<figure class={`w-40 h-[15rem] sm:w-52 sm:h-72 lg:w-60 lg:h-80 relative overflow-hidden object-contain object-right px-2 py-1 rounded-lg border-4 border-transparent shadow-xl shadow-black p-2 bg-gradient-to-r ${gradientStyles}`}>
+<figure class={`w-40 h-[15rem] sm:w-52 sm:h-72 lg:w-60 lg:h-80 relative overflow-hidden object-contain object-right px-2 py-1 rounded-lg border-4 border-transparent outline outline-black p-2 bg-gradient-to-r ${gradientStyles}`}>
 		<img class="relative z-10" src={src} alt={name}>
 		<div class={`absolute z-20 w-full bg-black left-0 pt-2 ${!scorePlayer ? 'h-1/4 top-3/4' : 'h-[45%] top-[55%]'}`}>
 			<h3 class="mx-auto w-4/5 text-center sm:text-2xl leading-5 text-white border-b border-b-white font-bold">{name}</h3>
