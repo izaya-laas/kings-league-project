@@ -1,0 +1,88 @@
+---
+import { getMVPPlayer, getMVPPlayers } from '../../../services/mvp'
+import { getTopAssistsPlayer, getTopAssistsPlayers } from '../../../services/top-assists'
+import { getTopScorerPlayer, getTopScorerPlayers } from '../../../services/top-scorer'
+import Main from '../../components/Main.astro'
+import NavbarItem from '../../components/NavbarItem.astro'
+import TableTopFive from '../../components/TableTopFive.astro'
+import Title from '../../components/Title.astro'
+import TopPlayer from '../../components/TopPlayer.astro'
+import Layout from '../../layouts/Layout.astro'
+
+const { goals } = await getTopScorerPlayer()
+const { assists } = await getTopAssistsPlayer()
+const { MVP } = await getMVPPlayer()
+
+const navLinks = [
+	{
+		href: '/estadisticas/mvp',
+		text: 'MVP'
+	},
+	{
+		href: '/estadisticas/asistencias',
+		text: 'Asistencias'
+	},
+	{
+		href: '/estadisticas/goles',
+		text: 'Goles'
+	}
+]
+
+const cards = [
+	{
+		fromFigure: 'mvp',
+		valueFigure: MVP,
+		TextfromTable: 'MVPs',
+		extract: getMVPPlayers
+	},
+	{
+		fromFigure: 'top-scorer',
+		valueFigure: goals,
+		TextfromTable: 'Goles',
+		extract: getTopScorerPlayers
+	},
+	{
+		fromFigure: 'top-assists',
+		valueFigure: assists,
+		TextfromTable: 'Asistencias',
+		extract: getTopAssistsPlayers
+	}
+
+]
+---
+
+<Layout>
+	<Title/>
+	<Main class="mb-6">
+		<section class="mb-6">
+			<nav>
+				<ul class="flex justify-center gap-x-6 text-xl font-bold">
+					{
+						navLinks.map(({ href, text }) => (
+							<NavbarItem class="border-b-2 border-b-[#2ac6ff]" href={href} >{text}</NavbarItem>
+						))
+					}
+				</ul>
+			</nav>
+		</section>
+		<div class="mb-8 pb-2 border-b border-black">
+			<h3 class="text-center font-bold text-lg">TOP 5</h3>
+		</div>
+		<section class="grid gap-y-6">
+			{
+				cards.map(({ fromFigure, valueFigure, TextfromTable, extract }) => (
+					<article class="shadow-[1px_1px_5px_1px] rounded-lg shadow-gray-300">
+						<p class="px-4 py-2 font-bold text-lg">
+							{TextfromTable}
+						</p>
+						<TopPlayer class="h-60 rounded-none" from={fromFigure}>
+							<h2 class="font-bold text-[80px]">{valueFigure}</h2>
+							<h3 class="font-bold text-4xl">{TextfromTable}</h3>
+						</TopPlayer>
+						<TableTopFive from={TextfromTable} extract={extract}/>
+					</article>
+				))
+			}
+		</section>
+	</Main>
+</Layout>
