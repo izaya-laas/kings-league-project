@@ -1,15 +1,20 @@
 ---
 import { getTopScorerPlayers } from '../../../../services/top-scorer'
+import BackLeaderboard from '../../../components/BackLeaderboard.astro'
 import Main from '../../../components/Main.astro'
 import TableTopRank from '../../../components/TableTopRank.astro'
 import Title from '../../../components/Title.astro'
 import Layout from '../../../layouts/Layout.astro'
 
+const textValue = 'Goles'
 ---
 
 <Layout>
 	<Title/>
+	<BackLeaderboard/>
 	<Main>
-		<TableTopRank textValue="Goles" extract={getTopScorerPlayers}/>
+		<section class="md:w-1/2 mb-6 mx-auto">
+			<TableTopRank textValue={textValue} extract={getTopScorerPlayers}/>
+		</section>
 	</Main>
 </Layout>

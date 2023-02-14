@@ -1,0 +1,28 @@
+---
+import NavbarItem from './NavbarItem.astro'
+
+const navLinks = [
+	{
+		href: '/estadisticas/mvp',
+		text: 'MVPs'
+	},
+	{
+		href: '/estadisticas/asistencias',
+		text: 'Asistencias'
+	},
+	{
+		href: '/estadisticas/goles',
+		text: 'Goles'
+	}
+]
+---
+
+<nav>
+	<ul class="flex justify-center gap-x-6 text-xl font-bold">
+		{
+			navLinks.map(({ href, text }) => (
+				<NavbarItem class="border-b-2 border-b-[#2ac6ff]" href={href} >{text}</NavbarItem>
+			))
+		}
+	</ul>
+</nav>

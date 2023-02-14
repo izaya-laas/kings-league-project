@@ -1,0 +1,24 @@
+---
+import { getTopAssistsPlayers } from '../../../../services/top-assists.js'
+import BackLeaderboard from '../../../components/BackLeaderboard.astro'
+import Main from '../../../components/Main.astro'
+import NavBarLeaderboard from '../../../components/NavBarLeaderboard.astro'
+import TableTopRank from '../../../components/TableTopRank.astro'
+import Title from '../../../components/Title.astro'
+import Layout from '../../../layouts/Layout.astro'
+
+const textValue = 'Asistencias'
+---
+
+<Layout>
+	<Title/>
+	<BackLeaderboard/>
+	<Main>
+		<section class="mb-6">
+			<NavBarLeaderboard/>
+		</section>
+		<section class="md:w-1/2 mb-12 mx-auto">
+			<TableTopRank textValue={textValue} extract={getTopAssistsPlayers}/>
+		</section>
+	</Main>
+</Layout>

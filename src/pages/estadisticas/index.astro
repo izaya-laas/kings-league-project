@@ -3,7 +3,7 @@ import { getMVPPlayer, getMVPPlayers } from '../../../services/mvp'
 import { getTopAssistsPlayer, getTopAssistsPlayers } from '../../../services/top-assists'
 import { getTopScorerPlayer, getTopScorerPlayers } from '../../../services/top-scorer'
 import Main from '../../components/Main.astro'
-import NavbarItem from '../../components/NavbarItem.astro'
+import NavBarLeaderboard from '../../components/NavBarLeaderboard.astro'
 import TableTopRank from '../../components/TableTopRank.astro'
 import Title from '../../components/Title.astro'
 import TopPlayer from '../../components/TopPlayer.astro'
@@ -12,21 +12,6 @@ import Layout from '../../layouts/Layout.astro'
 const { goals } = await getTopScorerPlayer()
 const { assists } = await getTopAssistsPlayer()
 const { MVP } = await getMVPPlayer()
-
-const navLinks = [
-	{
-		href: '/estadisticas/mvp',
-		text: 'MVP'
-	},
-	{
-		href: '/estadisticas/asistencias',
-		text: 'Asistencias'
-	},
-	{
-		href: '/estadisticas/goles',
-		text: 'Goles'
-	}
-]
 
 const cards = [
 	{
@@ -55,15 +40,7 @@ const cards = [
 	<Title/>
 	<Main class="mb-6">
 		<section class="mb-6">
-			<nav>
-				<ul class="flex justify-center gap-x-6 text-xl font-bold">
-					{
-						navLinks.map(({ href, text }) => (
-							<NavbarItem class="border-b-2 border-b-[#2ac6ff]" href={href} >{text}</NavbarItem>
-						))
-					}
-				</ul>
-			</nav>
+			<NavBarLeaderboard/>
 		</section>
 		<div class="mb-8 pb-2 border-b border-black">
 			<h3 class="text-center font-bold text-lg">TOP 5</h3>

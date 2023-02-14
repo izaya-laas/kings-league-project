@@ -1,0 +1,20 @@
+---
+import { getMVPPlayers } from '../../../../services/mvp.js'
+import BackLeaderboard from '../../../components/BackLeaderboard.astro'
+import Main from '../../../components/Main.astro'
+import TableTopRank from '../../../components/TableTopRank.astro'
+import Title from '../../../components/Title.astro'
+import Layout from '../../../layouts/Layout.astro'
+
+const textValue = 'MVPs'
+---
+
+<Layout>
+	<Title/>
+	<BackLeaderboard/>
+	<Main>
+		<section class="md:w-1/2 mb-6 mx-auto">
+			<TableTopRank textValue={textValue} extract={getMVPPlayers}/>
+		</section>
+	</Main>
+</Layout>
