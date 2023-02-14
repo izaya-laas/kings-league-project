@@ -1,7 +1,7 @@
 ---
-const { title } = Astro.props
+const { title, class: styles } = Astro.props
 ---
-<section class="bg-[#000] pt-6 pb-4 mb-12 shadow-sm shadow-black ">
+<section class={`bg-[#000] pt-6 pb-4 mb-10 shadow-sm shadow-black ${styles}`}>
 	{title && <h1 class="text-3xl sm:text-5xl text-center font-black text-[#fcfcfc] ">{title}</h1>
 	}
 </section>
