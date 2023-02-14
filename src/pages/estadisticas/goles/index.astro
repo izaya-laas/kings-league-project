@@ -1,0 +1,15 @@
+---
+import { getTopScorerPlayers } from '../../../../services/top-scorer'
+import Main from '../../../components/Main.astro'
+import TableTopRank from '../../../components/TableTopRank.astro'
+import Title from '../../../components/Title.astro'
+import Layout from '../../../layouts/Layout.astro'
+
+---
+
+<Layout>
+	<Title/>
+	<Main>
+		<TableTopRank textValue="Goles" extract={getTopScorerPlayers}/>
+	</Main>
+</Layout>

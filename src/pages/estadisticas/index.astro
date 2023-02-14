@@ -4,7 +4,7 @@ import { getTopAssistsPlayer, getTopAssistsPlayers } from '../../../services/top
 import { getTopScorerPlayer, getTopScorerPlayers } from '../../../services/top-scorer'
 import Main from '../../components/Main.astro'
 import NavbarItem from '../../components/NavbarItem.astro'
-import TableTopFive from '../../components/TableTopFive.astro'
+import TableTopRank from '../../components/TableTopRank.astro'
 import Title from '../../components/Title.astro'
 import TopPlayer from '../../components/TopPlayer.astro'
 import Layout from '../../layouts/Layout.astro'
@@ -79,7 +79,7 @@ const cards = [
 							<h2 class="font-bold text-[80px]">{valueFigure}</h2>
 							<h3 class="font-bold text-4xl">{TextfromTable}</h3>
 						</TopPlayer>
-						<TableTopFive from={TextfromTable} extract={extract}/>
+						<TableTopRank limit={5} textValue={TextfromTable} extract={extract}/>
 					</article>
 				))
 			}

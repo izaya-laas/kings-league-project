@@ -1,9 +1,11 @@
 ---
 import { getTeam } from '../../services/teams.js'
-const { from, extract: getPlayers } = Astro.props
+const { textValue, extract: getPlayers, limit } = Astro.props
+
+const limitNumber = Number.parseInt(limit)
 
 const players = await getPlayers()
-const TopFivePlayers = players.slice(0, 5)
+const topPlayers = !limitNumber ? players : players.slice(0, limit)
 
 const keys = {
 	MVPs: 'MVP',
@@ -11,7 +13,7 @@ const keys = {
 	Asistencias: 'assists'
 }
 
-const currentKey = keys[from]
+const currentKey = keys[textValue]
 ---
 <table class="w-full">
 		<thead class="border-b border-gray-300" >
@@ -19,12 +21,12 @@ const currentKey = keys[from]
 				<th class="px-2 py-3">Rank</th>
 				<th class="px-2 py-3">Equipo</th>
 				<th class="px-2 py-3">Nombre</th>
-				<th class="px-2 py-3">{from}</th>
+				<th class="px-2 py-3">{textValue}</th>
 			</tr>
 		</thead>
 		<tbody>
 			{
-				TopFivePlayers.map(async (player) => {
+				topPlayers.map(async (player) => {
 				const { teamId: currentTeamId, name: currentTeamName } = player
 				const { image: teamImage } = await getTeam(currentTeamId)
 
