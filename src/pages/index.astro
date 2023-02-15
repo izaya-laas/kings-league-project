@@ -7,6 +7,8 @@ import TopPlayer from '../components/TopPlayer.astro'
 import TableLeaderboardIndex from '../components/TableLeaderboardIndex.astro'
 import Layout from '../layouts/Layout.astro'
 import Title from '../components/Title.astro'
+import { CarrouselSchedule } from '../components/CarrouselSchedule.jsx'
+import TableSchedule from '../components/TableSchedule.jsx'
 
 const { goals } = await getTopScorerPlayer()
 const { assists } = await getTopAssistsPlayer()
@@ -16,7 +18,7 @@ const { assists } = await getTopAssistsPlayer()
 	<Title/>
 	<Main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-[repeat(14,150px)] sm:grid-rows-[repeat(8,150px)] lg:grid-rows-[repeat(6,150px)] pb-32 mt-14 gap-6">
 		<TableLeaderboardIndex class="row-span-3 col-start-1"/>
-		<div class="row-span-3 col-start-1 bg-gray-500"></div>
+		<CarrouselSchedule class="row-span-3 col-start-1" client:load/>
 		<TopPlayer class="row-span-2 sm:row-start-1 sm:col-start-2 lg:col-end-4" from="mvp">
 				<h2 class="font-bold text-[120px]">MVP</h2>
 		</TopPlayer>
