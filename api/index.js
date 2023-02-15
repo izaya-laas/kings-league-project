@@ -1,4 +1,6 @@
 import { Hono } from 'hono'
+import { cors } from 'hono/cors'
+// import { prettyJSON } from 'hono/pretty-json'
 import { serveStatic } from 'hono/serve-static.module'
 import leaderboard from '../db/leaderboard.json'
 import presidents from '../db/presidents.json'
@@ -12,6 +14,19 @@ import partners from '../db/partners.json'
 import schedule from '../db/schedule.json'
 
 const app = new Hono()
+
+// app.use('*', prettyJSON())
+
+app.use('/leaderboard', cors())
+app.use('/mvp', cors())
+app.use('/top-scorer', cors())
+app.use('/top-assists', cors())
+app.use('/partners', cors())
+app.use('/schedule', cors())
+app.use('/presidents', cors())
+app.use('/coaches', cors())
+app.use('/players', cors())
+app.use('/teams', cors())
 
 app.get('/', (ctx) =>
   ctx.json([
@@ -130,7 +145,7 @@ app.get('/players/:teamId/:playerId', (ctx) => {
   return ctx.json(foundPlayer)
 })
 
-app.get('/static/*', serveStatic({ root: './' }))
+app.use('/static/*', serveStatic({ root: './' }))
 
 app.notFound((ctx) => {
   const { pathname } = new URL(ctx.req.url)
