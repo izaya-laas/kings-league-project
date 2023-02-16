@@ -1,29 +1,18 @@
+import { useFetch } from './utils'
+
 export async function getAllCoaches() {
   const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/coaches'
 
-  try {
-    const res = await fetch(URL)
-    const teams = await res.json()
+  const coaches = await useFetch(URL)
+  const teamsValuesCoaches = Object.values(coaches)
 
-    const teamsValues = Object.values(teams)
-
-    return teamsValues
-  } catch (e) {
-    console.log(e)
-    return []
-  }
+  return teamsValuesCoaches
 }
 
 export async function getCoach(coachId) {
   const URL = `https://kings-league-api.lautaronorielasat.workers.dev/coaches/${coachId}`
 
-  try {
-    const res = await fetch(URL)
-    const team = await res.json()
+  const coach = await useFetch(URL)
 
-    return team
-  } catch (e) {
-    console.log(e)
-    return []
-  }
+  return coach
 }

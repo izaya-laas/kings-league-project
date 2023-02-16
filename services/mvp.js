@@ -1,27 +1,15 @@
+import { useFetch } from './utils'
+
 export async function getMVPPlayer() {
   const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/mvp'
 
-  try {
-    const res = await fetch(URL)
-    const players = await res.json()
-
-    return players[0]
-  } catch (e) {
-    console.log(e)
-    return {}
-  }
+  const mvpPlayers = await useFetch(URL)
+  return mvpPlayers[0]
 }
 
 export async function getMVPPlayers() {
   const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/mvp'
 
-  try {
-    const res = await fetch(URL)
-    const players = await res.json()
-
-    return players
-  } catch (e) {
-    console.log(e)
-    return []
-  }
+  const players = await useFetch(URL)
+  return players
 }

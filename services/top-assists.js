@@ -1,27 +1,15 @@
+import { useFetch } from './utils'
+
 export async function getTopAssistsPlayer() {
   const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/top-assists'
 
-  try {
-    const res = await fetch(URL)
-    const players = await res.json()
-
-    return players[0]
-  } catch (e) {
-    console.log(e)
-    return {}
-  }
+  const topPlayerAssists = await useFetch(URL)
+  return topPlayerAssists[0]
 }
 
 export async function getTopAssistsPlayers() {
   const URL = 'https://kings-league-api.lautaronorielasat.workers.dev/top-assists'
 
-  try {
-    const res = await fetch(URL)
-    const players = await res.json()
-
-    return players
-  } catch (e) {
-    console.log(e)
-    return []
-  }
+  const topPlayersAssists = await useFetch(URL)
+  return topPlayersAssists
 }
