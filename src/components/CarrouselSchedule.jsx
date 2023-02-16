@@ -1,6 +1,6 @@
 import { getSchedule } from '../../services/schedule'
 import { useEffect, useState } from 'preact/hooks'
-import TableSchedule from './TableSchedule'
+import TableSchedule from './TableSchedule.jsx'
 
 export function CarrouselSchedule({ class: styles }) {
   const [schedule, setShedule] = useState([])
