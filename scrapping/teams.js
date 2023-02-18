@@ -4,6 +4,21 @@ import { extractSocialMedia } from './extract_socialmedia.js'
 import { extractPlayerStats } from './extract_player_stats.js'
 import presidents from '../db/presidents.json' assert { type: 'json' }
 
+const MINIFIED_NAMES = {
+  'Ultimate Móstoles': 'ULT',
+  '1K FC': '1K',
+  'Saiyans FC': 'SAI',
+  'Rayo de Barcelona': 'RDB',
+  'Jijantes FC': 'JFC',
+  'XBUYER TEAM': 'XBU',
+  'Aniquiladores FC': 'ANI',
+  'El Barrio': 'ELB',
+  'Los Troncos FC': 'TFC',
+  Kunisports: 'KNS',
+  'PIO FC': 'PIO',
+  'Porcinos FC': 'POR'
+}
+
 const pages = [
   {
     url: 'https://kingsleague.pro/team/el-barrio/',
@@ -142,6 +157,7 @@ async function donwloadDataTeam(page) {
 
   teams[teamName] = {
     name: teamName,
+    minifiedName: MINIFIED_NAMES[teamName],
     teamId,
     image: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}.svg`,
     inverse: `https://kings-league-api.lautaronorielasat.workers.dev/static/logos/${teamId}-inverse.svg`,
