@@ -9,3 +9,10 @@ export async function getLeaderboardTeam(teamId) {
 
   return { wins, loses, goalsScored, goalsConceded, yellowCards, redCards }
 }
+
+export async function getLeaderboardTeams() {
+  const url = 'https://kings-league-api.lautaronorielasat.workers.dev/leaderboard'
+  const leaderboardTeam = await useFetch(url)
+
+  return leaderboardTeam
+}
