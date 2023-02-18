@@ -1,6 +1,7 @@
 {
   "El Barrio": {
     "name": "El Barrio",
+    "minifiedName": "ELB",
     "teamId": "el-barrio",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/el-barrio-inverse.svg",
@@ -299,6 +300,7 @@
   },
   "Porcinos FC": {
     "name": "Porcinos FC",
+    "minifiedName": "POR",
     "teamId": "porcinos-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/porcinos-fc-inverse.svg",
@@ -589,6 +591,7 @@
   },
   "Kunisports": {
     "name": "Kunisports",
+    "minifiedName": "KNS",
     "teamId": "kunisports",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/kunisports-inverse.svg",
@@ -877,6 +880,7 @@
   "Los Troncos FC": {
     "name": "Los Troncos FC",
     "teamId": "los-troncos-fc",
+    "minifiedName": "TFC",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc.webp",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/los-troncos-fc-inverse.svg",
     "coachId": "entrenador-los-troncos-fc",
@@ -1172,6 +1176,7 @@
   },
   "Aniquiladores FC": {
     "name": "Aniquiladores FC",
+    "minifiedName": "ANI",
     "teamId": "aniquiladores-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/aniquiladores-fc-inverse.svg",
@@ -1459,6 +1464,7 @@
   },
   "XBUYER TEAM": {
     "name": "XBUYER TEAM",
+    "minifiedName": "XBU",
     "teamId": "xbuyer-team",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/xbuyer-team-inverse.svg",
@@ -1746,6 +1752,7 @@
   },
   "Ultimate Móstoles": {
     "name": "Ultimate Móstoles",
+    "minifiedName": "ULT",
     "teamId": "ultimate-mostoles",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
@@ -2033,6 +2040,7 @@
   },
   "Jijantes FC": {
     "name": "Jijantes FC",
+    "minifiedName": "JFC",
     "teamId": "jijantes-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/jijantes-fc-inverse.svg",
@@ -2329,6 +2337,7 @@
   },
   "Rayo de Barcelona": {
     "name": "Rayo de Barcelona",
+    "minifiedName": "RDB",
     "teamId": "rayo-barcelona",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/rayo-barcelona-inverse.svg",
@@ -2625,6 +2634,7 @@
   },
   "PIO FC": {
     "name": "PIO FC",
+    "minifiedName": "PIO",
     "teamId": "pio-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/pio-fc-inverse.svg",
@@ -2915,6 +2925,7 @@
   },
   "1K FC": {
     "name": "1K FC",
+    "minifiedName": "1K",
     "teamId": "1k",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/1k-inverse.svg",
@@ -3211,6 +3222,7 @@
   },
   "Saiyans FC": {
     "name": "Saiyans FC",
+    "minifiedName": "SAI",
     "teamId": "saiyans-fc",
     "image": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc.svg",
     "inverse": "https://kings-league-api.lautaronorielasat.workers.dev/static/logos/saiyans-fc-inverse.svg",
