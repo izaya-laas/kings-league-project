@@ -1,9 +1,9 @@
 ---
-const { href, class: styles } = Astro.props
+const { href, class: styles, cursor } = Astro.props
 ---
 
 <li class={styles}>
-	<a href={href}>
+	<a href={href} class={cursor}>
 		<slot/>
 	</a>
 </li>

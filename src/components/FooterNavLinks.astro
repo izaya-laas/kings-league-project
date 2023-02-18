@@ -1,32 +1,42 @@
 ---
+import NavbarItem from './NavbarItem.astro'
+
 const navLinks = [
 	{
 		name: 'Equipos',
-		href: '/equipos'
+		href: '/equipos',
+		disable: false
 	},
 		{
 		name: 'Estadisticas',
-		href: '/estadisticas'
+		href: '/estadisticas',
+		disable: false
+
 	},
 		{
 		name: 'Faqs',
-		href: '/faqs'
+		href: '/faqs',
+		disable: true
 	},
 		{
 		name: 'Jugador 12',
-		href: '/jugador-12'
+		href: '/jugador-12',
+		disable: true
 	},
 		{
 		name: 'Reglamento',
-		href: '/reglamento'
+		href: '/reglamento',
+		disable: false
 	},
 		{
 		name: 'Draft',
-		href: '/draft'
+		href: '/draft',
+		disable: true
 	},
 		{
 		name: 'Calendario',
-		href: '/calendario'
+		href: '/calendario',
+		disable: false
 	}
 ]
 
@@ -35,10 +45,10 @@ const navLinks = [
 <nav>
 	<ul class="flex flex-wrap justify-center gap-4 sm:grid sm:grid-cols-3 sm:gap-2 sm:place-items-center">
 		{
-			navLinks.map(({ name, href }) => (
-				<li class="justify-self-center self-center">
-					<a href={href}>{name}</a>
-				</li>
+			navLinks.map(({ name, href, disable }) => (
+				<NavbarItem class={'justify-self-center self-center'} cursor={`${disable ? 'text-gray-500 cursor-default' : ''}`} href={disable ? '/' : href}>
+					{name}
+				</NavbarItem>
 			))
 		}
 	</ul>
