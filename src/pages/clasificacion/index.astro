@@ -1,0 +1,56 @@
+---
+import { getLeaderboardTeams } from '../../../services/leaderboard'
+import Main from '../../components/Main.astro'
+import Title from '../../components/Title.astro'
+import Layout from '../../layouts/Layout.astro'
+import { CLASSIFIED_STYLES, MAX_CLASSIFIED_TEAMS } from '../../utils/classified-teams'
+
+const leaderboardTeams = await getLeaderboardTeams()
+
+---
+
+<Layout>
+	<Title title="Clasificación" />
+	<Main>
+		<table class="lg:w-2/3 mx-auto mb-20">
+			<thead>
+				<tr>
+					<th class="px-1 py-2 lg:p-3 text-center">Pos</th>
+					<th class="px-1 py-2 lg:p-3 text-center">Equipo</th>
+					<th class="px-1.5 py-2 w-full"></th>
+					<th class="px-1.5 py-2 lg:p-3 text-center">V</th>
+					<th class="px-1.5 py-2 lg:p-3 text-center">D</th>
+					<th class="px-1.5 py-2 lg:p-3 text-center">GF</th>
+					<th class="px-1.5 py-2 lg:p-3 text-center">GC</th>
+					<th class="px-1.5 py-2 lg:p-3 text-center">TA</th>
+					<th class="px-1.5 py-2 lg:p-3 text-center">TR</th>
+				</tr>
+			</thead>
+			<tbody>
+				{leaderboardTeams.map((team, index) => {
+						const { wins, loses, goalsScored, goalsConceded, yellowCards, redCards, team: teamData } = team
+						const { name: teamName, image: teamImage, minifiedName: teamMinifiedName } = teamData
+
+						return (
+							<tr class="text-sm font-normal border-b-gray-300 border-b items-center px-1 py-2 relative" >
+								<td class={`px-1 font-bold py-2 lg:p-3 text-center ${index < MAX_CLASSIFIED_TEAMS ? CLASSIFIED_STYLES : ''}`}>{index + 1}</td>
+								<td class="py-2 lg:p-3 text-center">
+									<img class="w-8" src={teamImage} alt={`team image from ${teamName}`}>
+								</td>
+								<td class="px-1 py-2 lg:p-3 text-left">
+									<div class="hidden lg:block">{teamName}</div>
+									<div class="lg:hidden">{teamMinifiedName}</div>
+								</td>
+								<td class="px-1.5 py-2 lg:p-3 text-center">{wins}</td>
+								<td class="px-1.5 py-2 lg:p-3 text-center">{loses}</td>
+								<td class="px-1.5 py-2 lg:p-3 text-center">{goalsScored}</td>
+								<td class="px-1.5 py-2 lg:p-3 text-center">{goalsConceded}</td>
+								<td class="px-1.5 py-2 lg:p-3 text-center">{redCards}</td>
+								<td class="px-1.5 py-2 lg:p-3 text-center">{yellowCards}</td>
+							</tr>)
+					})
+				}
+			</tbody>
+		</table>
+	</Main>
+</Layout>
