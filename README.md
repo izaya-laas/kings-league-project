@@ -8,7 +8,7 @@ En este proyecto fullstack, realizo una replica de la API y la pagina web de [Ki
 
 - [Hono](https://hono.dev/): Utilizo hono para la creación de la API, utilizando su modulo de cloudflare workers.
 - [Cloudflare](https://www.cloudflare.com/es-es/): Utilizo cloudflare para que los tiempos de respuestas de la API sean casi instantaneos.
-- [Cheerio](): Utilizo la libreria de cheerio para realizar el scrapping a la web de la kings league. Porque es ligero, sencillo y la web es SSR, por lo que utilizar Cheerio es mucho mejor en rendimiento que Puppeteer o algun otro.
+- [Cheerio](https://cheerio.js.org/): Utilizo la libreria de cheerio para realizar el scrapping a la web de la kings league. Porque es ligero, sencillo y la web es SSR, por lo que utilizar Cheerio es mucho mejor en rendimiento que Puppeteer o algun otro.
 - [Astro](https://astro.build/): Utilizo Astro para obtener un mejor rendimiento y SEO de la pagina, ya que en mayor parte su contenido es estatico.
 - [Preact](https://preactjs.com/): Utilizo Preact como una alternativa ligera a React, buscando el mayor performance, para algunos componentes que requerian estados.
 - [Tailwind](https://tailwindcss.com/): Utilizo Tailwind para un estilado rapido y comodo.
