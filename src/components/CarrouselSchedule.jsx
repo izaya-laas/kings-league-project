@@ -55,11 +55,11 @@ export function CarrouselSchedule({ class: styles }) {
       </header>
       <aside className='flex items-center justify-between py-4 px-4'>
         <button onClick={updatePreviousDay}>
-          <img className='w-8' src='/public/arrow-left.svg' alt='icon left page' />
+          <img className='w-8' src='/public/icons/arrow-left.svg' alt='icon left page' />
         </button>
         <h3 className='text-center'>{playingDay}</h3>
         <button onClick={updateNextDay}>
-          <img className='w-8' src='/public/arrow-right.svg' alt='icon right page' />
+          <img className='w-8' src='/public/icons/arrow-right.svg' alt='icon right page' />
         </button>
       </aside>
       <TableSchedule plays={plays} mdClass='2xl' />
