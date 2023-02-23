@@ -30,11 +30,11 @@ export default function Hamburger({ children }) {
       >
         <img
           class={`w-12 sm:w-14 aspect-square block relative z-30 ${isActive ? 'hidden' : ''}`}
-          src='/public/icons/menu.svg'
+          src='/icons/menu.svg'
         />
         <img
           class={`w-12 sm:w-14 aspect-square block relative z-30 ${isActive ? '' : 'hidden'}`}
-          src='/public/icons/cross.svg'
+          src='/icons/cross.svg'
         />
       </div>
       <div

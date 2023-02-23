@@ -17,7 +17,7 @@ export default function ScrollUp() {
         isActive ? 'translate-x-0' : 'translate-x-52'
       }`}
     >
-      <img src='/public/icons/up.svg' class='w-4 sm:w-6' />
+      <img src='/icons/up.svg' class='w-4 sm:w-6' />
     </a>
   )
 }
